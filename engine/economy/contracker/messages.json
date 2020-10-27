@@ -1,0 +1,10 @@
+{
+    "1": {
+        "sender": "noreply@combine.hl",
+        "content": "Greetings, Mr. Freeman.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis nulla vel enim facilisis tempor. Aenean at ipsum mattis ipsum posuere lobortis non id nisl. Sed interdum facilisis sem ut semper. Vestibulum viverra ante cursus nulla pretium, at venenatis felis scelerisque. Morbi iaculis ultricies aliquam. In pharetra ante sed nisl lacinia commodo. Vivamus scelerisque mattis tristique. Proin auctor lacus volutpat, iaculis tortor et, feugiat ligula.\n\n- Your employer",
+        "attachments": [{
+            "type": "quest",
+            "quest_title": "quest-test-1"
+        }]
+    }
+}

@@ -1,0 +1,90 @@
+image: php:latest
+
+stages:
+    - deploy
+    - fastdl
+
+deploy-webserver:
+    stage: deploy
+    script:
+      # Initializing the pipeline, loging current user name for debug.
+    - whoami
+
+      # Defining the directory name of a branch.
+    - echo "$CI_COMMIT_BRANCH" > ./00
+    - if [[ "$CI_COMMIT_BRANCH" =~ ^[a-zA-Z0-9\-]+$ ]]; then echo "Branch name is valid. Continuing..."; else sed -i s@\/@-@g ./00; sed -i s/[.]/-/g ./00; fi
+    - CE_DIR=$(< ./00)
+    - rm ./00
+
+      # Authorizing, in case if we're not authorized (to perform git stash)
+    - git config --global user.email "support@creators.tf"
+    - git config --global user.name "Creators.TF Production"
+
+      # Remote directory creation.
+    - cd /var/www/creators.tf/branches
+    - mkdir -p $CE_DIR
+    - cd $CE_DIR
+
+      # Clone the repo if it's not cloned yet.
+    - if [[ ! -d .git ]]; then git clone https://$CE_DEPLOY_WEB1_USERNAME:$CE_DEPLOY_WEB1_TOKEN@gitlab.com/$CI_PROJECT_PATH.git .; fi
+
+    # Clean all the changes, so we don't get any errors.
+    - git clean -d  -f .
+    - git stash
+
+      # Checkout current branch.
+    - git checkout $CI_COMMIT_BRANCH
+
+      # Disabling Website access.
+    - echo "0" > ./WEB_DISABLED
+
+      # Saving old git commit
+    - COMMIT_OLD=`git rev-parse HEAD`
+    - echo "$COMMIT_OLD" > ./02
+    - cat ./02
+
+      # Pulling new changes from a remote branch.
+    - git pull origin $CI_COMMIT_BRANCH
+
+      # Starting building process.
+    - chmod 744 build.sh
+    - ./build.sh $CI_COMMIT_BRANCH $COMMIT_OLD
+
+      # Enabling site access again.
+    - rm -f ./WEB_DISABLED
+    - exit
+    tags:
+    - webhost1
+    only:
+    - master
+    - beta
+    - staging
+
+deploy-fastdl:
+    stage: fastdl
+    script:
+    - echo "$CI_COMMIT_BRANCH" > ./00
+    - if [[ "$CI_COMMIT_BRANCH" =~ ^[a-zA-Z0-9\-]+$ ]]; then echo "Branch name is valid. Continuing..."; else sed -i s@\/@-@g ./00; sed -i s/[.]/-/g ./00; fi
+    - CE_DIR=$(< ./00)
+    - rm ./00
+
+      # Authorizing, in case if we're not authorized (to perform git stash)
+    - git config --global user.email "support@creators.tf"
+    - git config --global user.name "Creators.TF Production"
+
+      # Remote directory creation.
+    - cd /var/www/creators.tf/branches
+    - mkdir -p $CE_DIR
+    - cd $CE_DIR
+
+    - COMMIT_OLD=$(cat ./02)
+    - rm ./02
+    - echo $COMMIT_OLD
+
+    - chmod 744 fastdl.sh
+    - ./fastdl.sh $COMMIT_OLD
+    tags:
+    - webhost1
+    only:
+    - master
+    - staging

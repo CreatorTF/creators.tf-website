@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "DIN Black";
+    src: url("din/DINBk.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "DIN Bold";
+    src: url("din/DINBd.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "DIN Regular";
+    src: url("din/DINRg.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "DIN Medium";
+    src: url("din/DINMd.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "DIN Light";
+    src: url("din/DINLi.ttf") format('truetype');
+}
+
+/* ================ All free Team Fortress 2 Fonts ====================== */
+/* =========== https://wiki.teamfortress.com/wiki/Fonts ================= */
+
+@font-face {
+    font-family: "TF2";
+    src: url("/cdn/assets/fonts/TF2.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TF2 Build";
+    src: url("/cdn/assets/fonts/TF2_Build.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TF2 Secondary";
+    src: url("/cdn/assets/fonts/TF2_Secondary.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TF2 Professor";
+    src: url("/cdn/assets/fonts/TF2_Professor.ttf") format("truetype");
+}
+
+.tf2-font {
+  font-family: "TF2", sans-serif;
+}
+
+.tf2-build {
+  font-family: "TF2 Build", sans-serif;
+}
+
+.tf2-secondary {
+  font-family: "TF2 Secondary", sans-serif;
+}
+
+.tf2-professor {
+  font-family: "TF2 Professor", sans-serif;
+}
+
+@font-face {
+    font-family: "Ocra";
+    src: url("/cdn/assets/fonts/Ocra_Font.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Big Noodle Titling";
+    src: url("/cdn/assets/fonts/Big_Noodle_Titling.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Agathodaimon";
+    src: url("/cdn/assets/fonts/Agathodaimon.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Amarillo USAF";
+    src: url("/cdn/assets/fonts/Amarillo_USAF.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("/cdn/assets/fonts/Bebas.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ghoulish Fright AOE";
+    src: url("/cdn/assets/fonts/Ghoulish_Fright_AOE.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Boris Black Bloxx";
+    src: url("/cdn/assets/fonts/Boris_Black_Bloxx.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Flux Architect";
+    src: url("/cdn/assets/fonts/Flux_Architect.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Joe Hand 3";
+    src: url("/cdn/assets/fonts/Joe_Hand_3.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lietz Lindau Hamburg";
+    src: url("/cdn/assets/fonts/Lietz_Lindau_Hamburg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Postcrypt";
+    src: url("/cdn/assets/fonts/Postcrypt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Samdan";
+    src: url("/cdn/assets/fonts/Samdan.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Postcrypt";
+    src: url("/cdn/assets/fonts/Postcrypt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Postcrypt";
+    src: url("/cdn/assets/fonts/Postcrypt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Postcrypt";
+    src: url("/cdn/assets/fonts/Postcrypt.ttf") format("truetype");
+}

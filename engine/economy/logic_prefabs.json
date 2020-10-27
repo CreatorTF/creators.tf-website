@@ -1,0 +1,1115 @@
+{
+    "kill or assist enemy": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "attacker",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid",
+                        "invert": true
+                    },
+                    "type": "AND"
+                },
+                "1": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "assister",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid",
+                        "invert": true
+                    },
+                    "type": "AND"
+                },
+                "type": "OR"
+            }
+        }]
+    },
+    "kill enemy": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "kill class": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "type": "player_class",
+                    "player_key": "userid",
+                    "get_by": "by_id",
+                    "class": "$var1"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "assist enemy": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "assister",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "dominate enemy": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "attacker",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid",
+                        "invert": true
+                    },
+                    "2": {
+                        "type": "bitwise_contains",
+                        "bit_key": "death_flags",
+                        "value": 1
+                    },
+                    "type": "AND"
+                },
+                "1": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "assister",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid",
+                        "invert": true
+                    },
+                    "2": {
+                        "type": "bitwise_contains",
+                        "bit_key": "death_flags",
+                        "value": 2
+                    },
+                    "type": "AND"
+                },
+                "type": "OR"
+            }
+        }]
+    },
+    "round mvp": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "teamplay_win_panel",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player_1",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "player_2",
+                    "get_by": "by_id"
+                },
+                "2": {
+                    "type": "player_is_owner",
+                    "player_key": "player_3",
+                    "get_by": "by_id"
+                },
+                "type": "OR"
+            }
+        }]
+    },
+    "capture control point": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "teamplay_point_captured",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "cappers",
+                    "get_by": "in_array"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "push payload": {
+        "type": "counter",
+        "end": 15,
+        "hooks": [{
+            "type": "event_listener",
+            "action": "increment",
+            "event_name": "payload_pushed",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "pusher",
+                    "get_by": "by_userid"
+                },
+                "type": "AND"
+            }
+        }, {
+            "type": "event_listener",
+            "action": "reset",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "kill capping enemy": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "killed_capping_player",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "killer",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "victim",
+                    "get_by": "by_id",
+                    "invert": true
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "capture flag": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "teamplay_flag_event",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "math_compare",
+                    "value": 2,
+                    "compare_key": "eventtype",
+                    "sign": 0
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "defend flag": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "teamplay_flag_event",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "carrier",
+                    "get_by": "by_id",
+                    "invert": true
+                },
+                "2": {
+                    "type": "math_compare",
+                    "value": 3,
+                    "compare_key": "eventtype",
+                    "sign": 0
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "score points": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_score_changed",
+            "increment_key": "delta",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_id"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "defend an objective": {
+        "type": "singlefire",
+        "hooks": [{
+                "type": "event_listener",
+                "event_name": "killed_capping_player",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "killer",
+                        "get_by": "by_id"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "victim",
+                        "get_by": "by_id",
+                        "invert": true
+                    },
+                    "2": {
+                        "0": {
+                            "type": "player_team_role",
+                            "player_key": "killer",
+                            "get_by": "by_id",
+                            "role": 0
+                        },
+                        "1": {
+                            "type": "player_team_role",
+                            "player_key": "killer",
+                            "get_by": "by_id",
+                            "role": 1
+                        },
+                        "type": "OR"
+                    },
+                    "type": "AND"
+                }
+            },
+            {
+                "type": "event_listener",
+                "event_name": "teamplay_flag_event",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "player",
+                        "get_by": "by_id"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "carrier",
+                        "get_by": "by_id",
+                        "invert": true
+                    },
+                    "2": {
+                        "type": "math_compare",
+                        "value": 3,
+                        "compare_key": "eventtype",
+                        "sign": 0
+                    },
+                    "3": {
+                        "0": {
+                            "type": "player_team_role",
+                            "player_key": "player",
+                            "get_by": "by_id",
+                            "role": 0
+                        },
+                        "1": {
+                            "type": "player_team_role",
+                            "player_key": "player",
+                            "get_by": "by_id",
+                            "role": 1
+                        },
+                        "type": "OR"
+                    },
+                    "type": "AND"
+                }
+            }
+        ]
+    },
+    "capture an objective": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "teamplay_flag_event",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "carrier",
+                    "get_by": "by_id",
+                    "invert": true
+                },
+                "2": {
+                    "0": {
+                        "type": "math_compare",
+                        "value": 2,
+                        "compare_key": "eventtype",
+                        "sign": 0
+                    },
+                    "1": {
+                        "type": "math_compare",
+                        "value": 3,
+                        "compare_key": "eventtype",
+                        "sign": 0
+                    },
+                    "type": "OR"
+                },
+                "type": "AND"
+            }
+        }, {
+            "type": "event_listener",
+            "event_name": "teamplay_point_captured",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "cappers",
+                    "get_by": "in_array"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "capture or defend objective": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "killed_capping_player",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "killer",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "victim",
+                    "get_by": "by_id",
+                    "invert": true
+                },
+                "type": "AND"
+            }
+        }, {
+            "type": "event_listener",
+            "event_name": "teamplay_flag_event",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_id"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "carrier",
+                    "get_by": "by_id",
+                    "invert": true
+                },
+                "2": {
+                    "0": {
+                        "type": "math_compare",
+                        "value": 2,
+                        "compare_key": "eventtype",
+                        "sign": 0
+                    },
+                    "1": {
+                        "type": "math_compare",
+                        "value": 3,
+                        "compare_key": "eventtype",
+                        "sign": 0
+                    },
+                    "type": "OR"
+                },
+                "type": "AND"
+            }
+        }, {
+            "type": "event_listener",
+            "event_name": "teamplay_point_captured",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "cappers",
+                    "get_by": "in_array"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "kill while ubercharged": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "0": {
+                        "type": "player_has_condition",
+                        "player_key": "attacker",
+                        "get_by": "by_userid",
+                        "condition": 5
+                    },
+                    "1": {
+                        "type": "player_has_condition",
+                        "player_key": "attacker",
+                        "get_by": "by_userid",
+                        "condition": 11
+                    },
+                    "2": {
+                        "type": "player_has_condition",
+                        "player_key": "attacker",
+                        "get_by": "by_userid",
+                        "condition": 28
+                    },
+                    "3": {
+                        "type": "player_has_condition",
+                        "player_key": "attacker",
+                        "get_by": "by_userid",
+                        "condition": 58
+                    },
+                    "4": {
+                        "type": "player_has_condition",
+                        "player_key": "attacker",
+                        "get_by": "by_userid",
+                        "condition": 59
+                    },
+                    "5": {
+                        "type": "player_has_condition",
+                        "player_key": "attacker",
+                        "get_by": "by_userid",
+                        "condition": 60
+                    },
+                    "type": "OR"
+                }
+            }
+        }]
+    },
+    "assist while ubercharged": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "assister",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "0": {
+                        "type": "player_has_condition",
+                        "player_key": "assister",
+                        "get_by": "by_userid",
+                        "condition": 5
+                    },
+                    "1": {
+                        "type": "player_has_condition",
+                        "player_key": "assister",
+                        "get_by": "by_userid",
+                        "condition": 11
+                    },
+                    "2": {
+                        "type": "player_has_condition",
+                        "player_key": "assister",
+                        "get_by": "by_userid",
+                        "condition": 28
+                    },
+                    "3": {
+                        "type": "player_has_condition",
+                        "player_key": "assister",
+                        "get_by": "by_userid",
+                        "condition": 58
+                    },
+                    "4": {
+                        "type": "player_has_condition",
+                        "player_key": "assister",
+                        "get_by": "by_userid",
+                        "condition": 59
+                    },
+                    "5": {
+                        "type": "player_has_condition",
+                        "player_key": "assister",
+                        "get_by": "by_userid",
+                        "condition": 60
+                    },
+                    "type": "OR"
+                }
+            }
+        }]
+    },
+    "headshot kill": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "0": {
+                        "type": "math_compare",
+                        "compare_key": "customkill",
+                        "value": 1,
+                        "sign": 0
+                    },
+                    "1": {
+                        "type": "math_compare",
+                        "compare_key": "customkill",
+                        "value": 51,
+                        "sign": 0
+                    },
+                    "type": "OR"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "3 kills single sentry gun": {
+        "type": "counter",
+        "end": 3,
+        "hooks": [{
+                "type": "event_listener",
+                "action": "increment",
+                "event_name": "player_death",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "attacker",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid",
+                        "invert": true
+                    },
+                    "2": {
+                        "0": {
+                            "type": "string_compare",
+                            "compare_key": "weapon",
+                            "value": "obj_sentrygun"
+                        },
+                        "1": {
+                            "type": "string_compare",
+                            "compare_key": "weapon",
+                            "value": "obj_minisentry"
+                        },
+                        "type": "OR"
+                    },
+                    "type": "AND"
+                }
+            },
+            {
+                "type": "event_listener",
+                "action": "reset",
+                "event_name": "object_destroyed",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "math_compare",
+                        "value": 2,
+                        "compare_key": "objecttype"
+                    },
+                    "type": "AND"
+                }
+            },
+            {
+                "type": "event_listener",
+                "action": "reset",
+                "event_name": "object_detonated",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "math_compare",
+                        "value": 2,
+                        "compare_key": "objecttype"
+                    },
+                    "type": "AND"
+                }
+            }
+        ]
+    },
+    "backstab kill": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "type": "math_compare",
+                    "compare_key": "customkill",
+                    "value": 2,
+                    "sign": 0
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "kill 5 times": {
+        "type": "counter",
+        "end": 5,
+        "hooks": [{
+            "type": "event_listener",
+            "action": "increment",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "type": "AND"
+            }
+        }, {
+            "type": "event_listener",
+            "action": "reset",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid"
+                }
+            }
+        }]
+    },
+    "kill reflected projectile": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "type": "string_compare",
+                    "compare_key": "weapon",
+                    "value": "deflect"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "kill enemy doing objective": {
+        "type": "singlefire",
+        "hooks": [{
+                "type": "event_listener",
+                "event_name": "killed_capping_player",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "killer",
+                        "get_by": "by_id"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "victim",
+                        "get_by": "by_id",
+                        "invert": true
+                    },
+                    "type": "AND"
+                }
+            },
+            {
+                "type": "event_listener",
+                "event_name": "teamplay_flag_event",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "player",
+                        "get_by": "by_id"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "carrier",
+                        "get_by": "by_id",
+                        "invert": true
+                    },
+                    "2": {
+                        "type": "math_compare",
+                        "value": 3,
+                        "compare_key": "eventtype",
+                        "sign": 0
+                    },
+                    "type": "AND"
+                }
+            }
+        ]
+    },
+    "take 1000 damage in life": {
+        "type": "counter",
+        "end": 1000,
+        "hooks": [{
+                "type": "event_listener",
+                "action": "increment",
+                "event_name": "player_hurt",
+                "increment_key": "damageamount",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "math_compare",
+                        "compare_key": "attacker",
+                        "value": 0,
+                        "sign": 2
+                    }
+                }
+            },
+            {
+                "type": "event_listener",
+                "event_name": "player_death",
+                "action": "reset",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid"
+                    }
+                }
+            }
+        ]
+    },
+    "deal 1000 damage in life": {
+        "type": "counter",
+        "end": 1000,
+        "hooks": [{
+                "type": "event_listener",
+                "action": "increment",
+                "event_name": "player_hurt",
+                "increment_key": "damageamount",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "attacker",
+                        "get_by": "by_userid"
+                    },
+                    "1": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid",
+                        "invert": true
+                    }
+                }
+            },
+            {
+                "type": "event_listener",
+                "event_name": "player_death",
+                "action": "reset",
+                "logic": {
+                    "0": {
+                        "type": "player_is_owner",
+                        "player_key": "userid",
+                        "get_by": "by_userid"
+                    }
+                }
+            }
+        ]
+    },
+    "object kill enemy": {
+        "type": "event_listener",
+        "event_name": "player_death",
+        "logic": {
+            "0": {
+                "type": "player_is_owner",
+                "player_key": "attacker",
+                "get_by": "by_userid"
+            },
+            "1": {
+                "type": "player_is_owner",
+                "player_key": "userid",
+                "get_by": "by_userid",
+                "invert": true
+            },
+            "2": {
+                "type": "string_compare",
+                "compare_key": "weapon",
+                "value": "obj_"
+            },
+            "type": "AND"
+        }
+    },
+    "collect souls": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "halloween_soul_collected",
+            "increment_key": "soul_count",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "collecting_player",
+                    "get_by": "by_userid"
+                }
+            }
+        }]
+    },
+    "collect duck": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "halloween_duck_collected",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "collector",
+                    "get_by": "by_userid"
+                }
+            }
+        }]
+    },
+    "kill in purgatory": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "type": "player_has_condition",
+                    "player_key": "attacker",
+                    "get_by": "by_userid",
+                    "condition": 108
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "escaped loot island": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "escaped_loot_island",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_userid"
+                }
+            }
+        }]
+    },
+    "escaped hell": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "escaped_hell",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "player",
+                    "get_by": "by_userid"
+                }
+            }
+        }]
+    },
+    "kill with crumpkin": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "2": {
+                    "type": "player_has_condition",
+                    "player_key": "attacker",
+                    "get_by": "by_userid",
+                    "condition": 33
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "collect crumpkin": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "halloween_pumpkin_grab",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "bumper cars revive": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "respawn_ghost",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "reviver",
+                    "get_by": "by_userid"
+                },
+                "type": "AND"
+            }
+        }]
+    },
+    "bumper cars kill": {
+        "type": "singlefire",
+        "hooks": [{
+            "type": "event_listener",
+            "event_name": "player_death",
+            "logic": {
+                "0": {
+                    "type": "player_is_owner",
+                    "player_key": "attacker",
+                    "get_by": "by_userid"
+                },
+                "1": {
+                    "type": "player_is_owner",
+                    "player_key": "userid",
+                    "get_by": "by_userid",
+                    "invert": true
+                },
+                "type": "AND"
+            }
+        }]
+    }
+}

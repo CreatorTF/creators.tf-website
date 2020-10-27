@@ -1,0 +1,5199 @@
+{
+    "lootbox unusual chance": {
+        "color": "1",
+        "type": "integer",
+        "value": "★ Lootbox drop has a chance to be Unusual"
+    },
+    "lootbox strange chance": {
+        "color": "1",
+        "type": "integer",
+        "value": "Lootbox drop has a chance to be Strange"
+    },
+    "lootbox no decoder": {
+        "type": "boolean",
+        "value": "You do not need a key to unbox this."
+    },
+    "credits": {
+        "type": "string",
+        "value": "This item was made by: %s",
+        "color": 2,
+        "weight": -100
+    },
+    "tags": {
+        "type": "string",
+        "value": "%s",
+        "color": "454545"
+    },
+    "weapon maxammo bonus": {
+        "type": "float",
+        "value": "+%s% max ammo",
+        "color": "1",
+        "display_as": "percentage"
+    },
+    "fixed damage against sappers": {
+        "type": "float",
+        "hidden": "1"
+    },
+    "metal for sapper removal": {
+        "type": "integer",
+        "value": "Requires %s metal per shot to destroy the sapper",
+        "color": "-1"
+    },
+    "syringe blood mode": {
+        "type": "integer",
+        "hidden": 1
+    },
+    "syringe blood mode capacity": {
+        "type": "integer",
+        "value": "Charges by healing %s HP.",
+        "color": "1",
+        "weight": 0
+    },
+    "syringe blood mode heal": {
+        "type": "integer",
+        "color": 1,
+        "value": "On Teammate Hit: Heals for %s HP",
+        "weight": 2
+    },
+    "syringe blood mode uber": {
+        "type": "float",
+        "color": 1,
+        "value": "and applies %ss of buff effect, depending on your Medigun.",
+        "weight": 1
+    },
+    "submission workshop link": {
+        "value": "Vote for this item on <a target='_blank' href='https://steamcommunity.com/workshop/filedetails/?id=%s'><i class='mdi mdi-steam'></i> Steam Workshop</a>",
+        "color": 0,
+        "weight": -99
+    },
+    "strange eater level data": {
+        "type": "integer",
+        "hidden": true
+    },
+    "strange eater": {
+        "type": "integer",
+        "include_value_from": "strange eater value",
+        "color": "756b5e",
+        "value": "Strange Item — %s: %v",
+        "display_as": "strange_part_name",
+        "weight": 99
+    },
+    "strange eater value": {
+        "type": "integer",
+        "hidden": true
+    },
+    "strange eater part 1": {
+        "type": "integer",
+        "include_value_from": "strange eater part 1 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 50
+    },
+    "strange eater part 1 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 2": {
+        "type": "integer",
+        "include_value_from": "strange eater part 2 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 49
+    },
+    "strange eater part 2 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 3": {
+        "type": "integer",
+        "include_value_from": "strange eater part 3 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 48
+    },
+    "strange eater part 3 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 4": {
+        "type": "integer",
+        "include_value_from": "strange eater part 4 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 47
+    },
+    "strange eater part 4 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 5": {
+        "type": "integer",
+        "include_value_from": "strange eater part 5 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 46
+    },
+    "strange eater part 5 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 6": {
+        "type": "integer",
+        "include_value_from": "strange eater part 6 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 45
+    },
+    "strange eater part 6 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 7": {
+        "type": "integer",
+        "include_value_from": "strange eater part 7 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 44
+    },
+    "strange eater part 7 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 8": {
+        "type": "integer",
+        "include_value_from": "strange eater part 8 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 43
+    },
+    "strange eater part 8 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 9": {
+        "type": "integer",
+        "include_value_from": "strange eater part 9 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 42
+    },
+    "strange eater part 9 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange eater part 10": {
+        "type": "integer",
+        "include_value_from": "strange eater part 10 value",
+        "color": "756b5e",
+        "value": "(%s: %v)",
+        "display_as": "strange_part_name",
+        "weight": 41
+    },
+    "strange eater part 10 value": {
+        "hidden": true,
+        "type": "integer"
+    },
+    "strange deactivate date": {
+        "type": "integer",
+        "display_as": "date",
+        "color": 0,
+        "value": "Stats are tracked through %s"
+    },
+    "item campaign name": {
+        "type": "string",
+        "hidden": true
+    },
+    "wearable voice pack": {
+        "type": "integer",
+        "hidden": true
+    },
+    "quest loaner item": {
+        "type": "boolean",
+        "color": 0,
+        "value": "Loaner. This item is borrowed for a contract.",
+        "weight": -1
+    },
+    "holiday restricted": {
+        "type": "integer",
+        "color": -1,
+        "value": "Holiday Restriction: %s",
+        "display_as": "name_string",
+        "name_string": "holidays"
+    },
+
+
+
+    "damage penalty": {
+        "value": "%s% damage penalty",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "damage bonus": {
+        "value": "+%s% damage bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "clip size penalty": {
+        "value": "%s% clip size",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "clip size bonus": {
+        "value": "+%s% clip size",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "fire rate penalty": {
+        "value": "%s% slower firing speed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "fire rate bonus": {
+        "value": "+%s% faster firing speed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "heal rate penalty": {
+        "value": "%s% heal rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "heal rate bonus": {
+        "value": "+%s% heal rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "ubercharge rate penalty": {
+        "value": "%s% ÜberCharge rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "ubercharge rate bonus": {
+        "value": "+%s% ÜberCharge rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "overheal bonus": {
+        "value": "+%s% max overheal",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "overheal decay penalty": {
+        "value": "%s% shorter overheal time",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "overheal decay bonus": {
+        "value": "+%s% longer overheal time",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "overheal decay disabled": {
+        "value": "Overheal bonus doesn't decay",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "crit mod disabled": {
+        "value": "No random critical hits",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "heal on hit for rapidfire": {
+        "value": "On Hit: Gain up to +%s health",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "add uber charge on hit": {
+        "value": "On Hit: %s% ÜberCharge added",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "medigun charge is crit boost": {
+        "value": "ÜberCharge grants 100% critical chance",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "tmp dmgbuff on hit": {
+        "value": "On Hit: +%s% damage bonus",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "crit vs burning players": {
+        "value": "100% critical hit vs burning players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "dmg penalty vs nonburning": {
+        "value": "%s% damage vs non-burning players",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "no crit vs nonburning": {
+        "value": "No critical hits vs non-burning players",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mod flamethrower push": {
+        "value": "No compression blast",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mod flamethrower back crit": {
+        "value": "100% critical hits from behind",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "hidden secondary max ammo penalty": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "max health additive bonus": {
+        "value": "+%s max health on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "alt-fire disabled": {
+        "value": "Attrib_AltFire_Disabled",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "crit mod disabled hidden": {
+        "value": "No random critical hits",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "fists have radial buff": {
+        "value": "On Kill: +50 health on nearby teammates\n\nOn Kill: +10% Crit Chance on nearby teammates",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "critboost on kill": {
+        "value": "On Kill: %s seconds of 100% critical chance",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "slow enemy on hit": {
+        "value": "On Hit: %s% chance to slow target",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "set cloak is feign death": {
+        "value": "Cloak Type: Feign Death.\n\nLeave a fake corpse on taking damage and temporarily gain invisibility, speed, and damage resistance.",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "mult cloak meter consume rate": {
+        "value": "+%s% cloak drain rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "mult cloak meter regen rate": {
+        "value": "+%s% cloak regen rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "spread penalty": {
+        "value": "%s% less accurate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "hidden primary max ammo bonus": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "mod bat launches balls": {
+        "value": "Alt-Fire: Launches a ball that slows opponents",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "dmg penalty vs nonstunned": {
+        "value": "%s% damage vs non-stunned players",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "zoom speed mod disabled": {
+        "value": "No move speed penalty from zoom",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sniper charge per sec": {
+        "value": "+%s% charge rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "sniper no headshots": {
+        "value": "No headshots",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "scattergun no reload single": {
+        "value": "Attrib_Scattergun_NoReloadSingle",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "scattergun has knockback": {
+        "value": "Knockback on the target and shooter",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "bullets per shot bonus": {
+        "value": "+%s% bullets per shot",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "bullets per shot penalty": {
+        "original": true,
+        "sub_attribute": "bullets per shot bonus",
+        "type": "float",
+        "value": "-%s% bullets per shot",
+        "color": -1,
+        "display_as": "inverted_percentage"
+    },
+    "sniper zoom penalty": {
+        "value": "%s% zoom reduction",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "sniper no charge": {
+        "value": "No zoom or damage charge",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "set cloak is movement based": {
+        "value": "Cloak Type: Motion Sensitive.\n\nAlt-fire: Turn invisible. Cannot attack while invisible. Bumping in to enemies will make you slightly visible to enemies. Cloak drain rate based on movement speed.",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "no double jump": {
+        "value": "Disables double jump",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "absorb damage while cloaked": {
+        "value": "Absorbs %s% damage while cloaked",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "revolver use hit locations": {
+        "value": "Crits on headshot",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "backstab shield": {
+        "value": "Blocks a single backstab attempt",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "fire retardant": {
+        "value": "Wearer cannot ignite",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "move speed penalty": {
+        "value": "%s% slower move speed on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "jarate description": {
+        "value": "Coated enemies take mini-crits\n\nCan be used to extinguish fire",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 0,
+        "original": true
+    },
+    "health regen": {
+        "value": "+%s health regenerated per second on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "self dmg push force increased": {
+        "value": "+%s% self damage force",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "self dmg push force decreased": {
+        "value": "%s% self damage force",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "dmg taken from fire reduced": {
+        "value": "+%s% fire damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg taken from fire increased": {
+        "value": "%s% fire damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "dmg taken from crit reduced": {
+        "value": "+%s% critical hit damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg taken from crit increased": {
+        "value": "%s% critical hit damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "dmg taken from blast reduced": {
+        "value": "+%s% explosive damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg taken from blast increased": {
+        "value": "%s% explosive damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "dmg taken from bullets reduced": {
+        "value": "+%s% bullet damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg taken from bullets increased": {
+        "value": "%s% bullet damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "increase player capture value": {
+        "value": "+%s capture rate on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "health from healers reduced": {
+        "value": "%s% health from healers on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "health from healers increased": {
+        "value": "+%s% health from healers on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "weapon burn dmg increased": {
+        "value": "+%s% afterburn damage bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "weapon burn dmg reduced": {
+        "value": "%s% afterburn damage penalty",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "weapon burn time increased": {
+        "value": "+%s% afterburn duration",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "weapon burn time reduced": {
+        "value": "%s% afterburn duration",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "aiming movespeed increased": {
+        "value": "+%s% faster move speed while deployed",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "maxammo primary increased": {
+        "value": "+%s% max primary ammo on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "maxammo primary reduced": {
+        "value": "%s% max primary ammo on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "maxammo secondary increased": {
+        "value": "+%s% max secondary ammo on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "maxammo secondary reduced": {
+        "value": "%s% max secondary ammo on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "maxammo metal increased": {
+        "value": "+%s% max metal on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "maxammo metal reduced": {
+        "value": "%s% max metal on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "cloak consume rate increased": {
+        "value": "-%s% cloak duration",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "cloak consume rate decreased": {
+        "value": "+%s% cloak duration",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "cloak regen rate increased": {
+        "value": "+%s% cloak regeneration rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "cloak regen rate decreased": {
+        "value": "%s% cloak regeneration rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "minigun spinup time increased": {
+        "value": "%s% slower spin up time",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "minigun spinup time decreased": {
+        "value": "%s% faster spin up time",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "max pipebombs increased": {
+        "value": "+%s max pipebombs out",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "max pipebombs decreased": {
+        "value": "%s max pipebombs out",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "SRifle Charge rate increased": {
+        "value": "%s% faster power charge",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "SRifle Charge rate decreased": {
+        "value": "%s% slower power charge",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "Construction rate increased": {
+        "value": "Construction hit speed boost increased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "Construction rate decreased": {
+        "value": "Construction hit speed boost decreased by %s%",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "Repair rate increased": {
+        "value": "%s% faster repair rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "Repair rate decreased": {
+        "value": "%s% slower repair rate",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "Reload time increased": {
+        "value": "%s% slower reload time",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "Reload time decreased": {
+        "value": "%s% faster reload time",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "selfdmg on hit for rapidfire": {
+        "value": "On Hit: %s health",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "Blast radius increased": {
+        "value": "+%s% explosion radius",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "Blast radius decreased": {
+        "value": "%s% explosion radius",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "Projectile range increased": {
+        "value": "+%s% projectile range",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "Projectile range decreased": {
+        "value": "%s% projectile range",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "Projectile speed increased": {
+        "value": "+%s% projectile speed",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "Projectile speed decreased": {
+        "value": "%s% projectile speed",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "overheal penalty": {
+        "value": "%s% max overheal",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "weapon spread bonus": {
+        "value": "%s% more accurate",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "move speed bonus": {
+        "value": "+%s% faster move speed on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "health from packs increased": {
+        "value": "+%s% health from packs on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "health from packs decreased": {
+        "value": "%s% health from packs on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "heal on hit for slowfire": {
+        "value": "On Hit: Gain up to +%s health",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "selfdmg on hit for slowfire": {
+        "value": "On Hit: %s health",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "ammo regen": {
+        "value": "+%s% ammo regenerated every 5 seconds on wearer",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "metal regen": {
+        "value": "+%s metal regenerated every 5 seconds on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod mini-crit airborne": {
+        "value": "Mini-crits targets launched airborne by explosions, grapple hooks or rocket packs",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod shovel damage boost": {
+        "value": "Damage increases as the user becomes injured",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod soldier buff type": {
+        "value": "Attrib_SoldierBuffType",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "dmg falloff increased": {
+        "value": "Attrib_Dmg_Falloff_Increased",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "dmg falloff decreased": {
+        "value": "%s% splash damage fall off",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "sticky detonate mode": {
+        "value": "Detonates stickybombs near the crosshair and directly under your feet",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sticky arm time penalty": {
+        "value": "%s sec slower bomb arm time",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "stickies detonate stickies": {
+        "value": "Able to destroy enemy stickybombs",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod demo buff type": {
+        "value": "Attrib_DemoBuffType",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "speed boost when active": {
+        "value": "%s% speed boost while active weapon",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod wrench builds minisentry": {
+        "value": "Replaces the Sentry with a Mini-Sentry",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "max health additive penalty": {
+        "value": "%s max health on wearer",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "sticky arm time bonus": {
+        "value": "%s sec faster bomb arm time",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sticky air burst mode": {
+        "value": "Launched bombs shatter on surfaces",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "provide on active": {
+        "value": "When weapon is active:",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "health drain": {
+        "value": "%s health drained per second on wearer",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "medic regen bonus": {
+        "value": "+%s% natural regen rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "medic regen penalty": {
+        "value": "-%s% natural regen rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "community description": {
+        "value": "Given to valuable Community Contributors",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "attach particle effect": {
+        "value": "★ Unusual Effect: %s",
+        "type": "integer",
+        "color": "ffd700",
+        "display_as": "name_string",
+        "name_string": "unusual_names",
+        "original": true
+    },
+    "rocket jump damage reduction": {
+        "value": "%s% blast damage from rocket jumps",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod sentry killed revenge": {
+        "value": "Gain 2 revenge crits for each sentry kill and\n\n1 for each sentry assist when your sentry is destroyed.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "dmg bonus vs buildings": {
+        "value": "+%s% damage vs buildings",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg penalty vs players": {
+        "value": "%s% damage vs players",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "lunchbox adds maxhealth bonus": {
+        "value": "Adds +50 max health for 30 seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "hidden maxhealth non buffed": {
+        "value": "+%s max health on wearer",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "selfmade description": {
+        "value": "I made this!",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 0,
+        "original": true
+    },
+    "set item tint RGB": {
+        "value": "Paint: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true,
+        "display_as": "name_string",
+        "name_string": "paintcan_names"
+    },
+    "custom employee number": {
+        "value": "Hire Date: %s",
+        "type": "string",
+        "display_as": "date",
+        "color": 0,
+        "original": true
+    },
+    "lunchbox adds minicrits": {
+        "value": "Sets weapon mode #%s",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt is highfive": {
+        "value": "%s% damage penalty",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "damage applies to sappers": {
+        "value": "Damage removes Sappers",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Wrench index": {
+        "value": "Wrench no. %s",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "building cost reduction": {
+        "value": "%s metal reduction in building cost",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "bleeding duration": {
+        "value": "On Hit: Bleed for %s seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "turn to gold": {
+        "value": "Imbued with an ancient power",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "custom texture lo": {
+        "value": "Custom Texture",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "cannot trade": {
+        "value": "Not Tradable or Marketable",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "disguise on backstab": {
+        "value": "Upon a successful backstab against a human target, you rapidly disguise as your victim",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "cannot disguise": {
+        "value": "Wearer cannot disguise",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "silent killer": {
+        "value": "Silent Killer: No attack noise from backstabs",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "disguise speed penalty": {
+        "value": "%s sec slower disguise speed",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "add cloak on kill": {
+        "value": "+%s% cloak on kill",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: cloak blink time penalty": {
+        "value": "%s sec longer cloak blink time",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "SET BONUS: quiet unstealth": {
+        "value": "Reduced decloak sound volume",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "flame size penalty": {
+        "value": "%s% less flame spread area",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "flame size bonus": {
+        "value": "+%s% more flame spread area",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "flame life penalty": {
+        "value": "%s% less flame distance",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "flame life bonus": {
+        "value": "+%s% more flame distance",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "charged airblast": {
+        "value": "Airblast can now be charged, which will push enemies further",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "add cloak on hit": {
+        "value": "+%s% cloak on hit",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "disguise damage reduction": {
+        "value": "Attrib_DisguiseDamageReduction",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "disguise no burn": {
+        "value": "Immune to fire damage while disguised",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: dmg from sentry reduced": {
+        "value": "+%s% sentry damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "airblast cost increased": {
+        "value": "+%s% airblast cost",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "airblast cost decreased": {
+        "value": "%s% airblast cost",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "purchased": {
+        "value": "Purchased: Not Tradable, Marketable, or Usable in Crafting",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame ammopersec increased": {
+        "value": "+%s% flamethrower ammo consumed per second",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "flame ammopersec decreased": {
+        "value": "%s% flamethrower ammo consumed per second",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "jarate duration": {
+        "value": "On Scoped Hit: Apply Jarate for 2 to %s seconds based on charge level.\n\nNature's Call: Scoped headshots always mini-crits and reduce the remaining cooldown of Jarate by 1 second.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: no death from headshots": {
+        "value": "The wearer cannot be killed by headshots",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "deploy time increased": {
+        "value": "%s% longer weapon switch",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "deploy time decreased": {
+        "value": "%s% faster weapon switch",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "minicrits become crits": {
+        "value": "Crits whenever it would normally mini-crit",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "heal on kill": {
+        "value": "+%s health restored on kill",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "no self blast dmg": {
+        "value": "No self inflicted blast damage taken",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "slow enemy on hit major": {
+        "value": "On Hit: Slow target movement by 40% for %ss",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "aiming movespeed decreased": {
+        "value": "%s% slower move speed while deployed",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "event date": {
+        "value": "Date Received: %s",
+        "type": "string",
+        "display_as": "date",
+        "original": true,
+        "hidden": true
+    },
+    "gifter account id": {
+        "value": "Gift from: %s",
+        "type": "string",
+        "display_as": "account_id",
+        "original": true,
+        "hidden": true
+    },
+    "set supply crate series": {
+        "value": "Crate Series #%s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "preserve ubercharge": {
+        "value": "On death up to %s% of your stored\n\nÜberCharge is retained",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "elevate quality": {
+        "value": "Attrib_ElevateQuality",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "active health regen": {
+        "value": "+%s health regenerated per second on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "active health degen": {
+        "value": "%s health drained per second on wearer",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "referenced item id low": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "referenced item id high": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "always tradable": {
+        "value": "Always Tradable",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "noise maker": {
+        "value": "Noise Maker",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "halloween item": {
+        "value": "This is a special Halloween %s item",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "switch from wep deploy time decreased": {
+        "value": "This weapon holsters %s% faster",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "enables aoe heal": {
+        "value": "Alt-Fire: Applies a healing effect to all nearby teammates",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "gesture speed increase": {
+        "value": "+%s% faster taunt speed on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "charge time increased": {
+        "value": "%s sec increase in charge duration",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "drop health pack on kill": {
+        "value": "On Kill: A small health pack is dropped",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "hit self on miss": {
+        "value": "On Miss: Hit yourself. Idiot.",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "dmg from ranged reduced": {
+        "value": "%s% damage from ranged sources while active",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg from melee increased": {
+        "value": "+%s% damage from melee sources while active",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "blast dmg to self increased": {
+        "value": "+%s% damage to self",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "Set DamageType Ignite": {
+        "value": "On Hit: target is engulfed in flames",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "minicrit vs burning player": {
+        "value": "100% minicrits vs burning players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "tradable after date": {
+        "value": "Tradable After: %s",
+        "type": "string",
+        "display_as": "date",
+        "original": true,
+        "hidden": true
+    },
+    "force level display": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "apply z velocity on damage": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "apply look velocity on damage": {
+        "value": "Attrib_Knockback",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "sanguisuge": {
+        "value": "On Backstab: Absorbs the health from your victim.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mark for death": {
+        "value": "On Hit: One target at a time is Marked-For-Death, causing all damage taken to be mini-crits",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "decapitate type": {
+        "value": "%s% damage penalty",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "restore health on kill": {
+        "value": "On Kill: Gain %s% of base health on kill",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mult decloak rate": {
+        "value": "Attrib_DecloakRate",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mult sniper charge after bodyshot": {
+        "value": "On Scoped Bodyshot: Rifle charge rate increased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mult sniper charge after miss": {
+        "value": "On Scoped Miss: Rifle charge rate decreased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "dmg bonus while half dead": {
+        "value": "%s% increase in damage when health <50% of max",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "dmg penalty while half alive": {
+        "value": "%s% decrease in damage when health >50% of max",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "honorbound": {
+        "value": "Honorbound: Once drawn sheathing deals 50 damage to yourself unless it kills.",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "custom texture hi": {
+        "value": "Custom Texture",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "makers mark id": {
+        "value": "Crafted by %s",
+        "type": "string",
+        "display_as": "account_id",
+        "original": true,
+        "hidden": true
+    },
+    "unique craft index": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mod medic killed revenge": {
+        "value": "When the medic healing you is killed you\n\ngain 2 revenge crits",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "medigun charge is megaheal": {
+        "value": "ÜberCharge increases healing to 300% and grants immunity to movement-impairing effects",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "mod medic killed minicrit boost": {
+        "value": "When the medic healing you is killed\n\nyou gain mini-crit boost for %s seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod medic healed damage bonus": {
+        "value": "While a medic is healing you,\n\nthis weapon's damage is increased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod medic healed deploy time penalty": {
+        "value": "While not being healed by a medic,\n\nyour weapon switch time is %s% longer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "mod shovel speed boost": {
+        "value": "Move speed increases as the user becomes injured",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod weapon blocks healing": {
+        "value": "Blocks healing while in use",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mult sniper charge after headshot": {
+        "value": "On Scoped Headshot: Rifle charge rate increased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "minigun no spin sounds": {
+        "value": "Silent Killer: No barrel spin sound",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "ubercharge rate bonus for healer": {
+        "value": "+%s% ÜberCharge rate for the medic healing you\n\nThis effect does not work in the respawn room",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "reload time decreased while healed": {
+        "value": "%s% faster reload time while being healed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "reload time increased hidden": {
+        "value": "%s% slower reload time",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "mod medic killed marked for death": {
+        "value": "When the medic healing you is killed\n\nthe killer becomes Marked-For-Death",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod rage on hit penalty": {
+        "value": "%s% rage lost on hit",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mod rage on hit bonus": {
+        "value": "%s% rage gained on hit",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod rage damage boost": {
+        "value": "Gains a damage bonus as rage increases, up to %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mult charge turn control": {
+        "value": "+%s% increase in turning control while charging",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "no charge impact range": {
+        "value": "Can deal charge impact damage at any range",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "charge impact damage increased": {
+        "value": "+%s% increase in charge impact damage",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "charge recharge rate increased": {
+        "value": "+%s% increase in charge recharge rate",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "air dash count": {
+        "value": "Grants Triple Jump while deployed.\n\nMelee attacks mini-crit while airborne.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "speed buff ally": {
+        "value": "On Hit Teammate: Boosts both players' speed for several seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "damage force reduction": {
+        "value": "%s% reduction in push force taken from damage",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mult cloak rate": {
+        "value": "%s sec increase in time to cloak",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "airblast pushback scale": {
+        "value": "+%s% airblast push force",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mult airblast refire time": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "airblast vertical pushback scale": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "ammo becomes health": {
+        "value": "Ammo collected from ammo boxes becomes health",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "boots falling stomp": {
+        "value": "Deals 3x falling damage to the player you land on",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "deflection size multiplier": {
+        "value": "Attrib_DeflectionSizeMultiplier",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "set item tint RGB 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "saxxy award category": {
+        "value": "Winner: %s %s2",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "melee bounds multiplier": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "melee range multiplier": {
+        "value": "%s% increased melee attack range",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "mod mini-crit airborne deploy": {
+        "value": "Attrib_MiniCritAirborneEnemiesDeploy",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "projectile penetration": {
+        "value": "Projectiles penetrate enemy players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod crit while airborne": {
+        "value": "Deals crits while the wielder is rocket jumping",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mult sniper charge penalty DISPLAY ONLY": {
+        "value": "Base charge rate decreased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "mod see enemy health": {
+        "value": "Allows you to see enemy health",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "powerup max charges": {
+        "value": "Holds a maximum of %s charges",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "powerup charges": {
+        "value": "Currently holds %s charges",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "powerup duration": {
+        "value": "Each charge lasts %s seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "critboost": {
+        "value": "Consumable: Become Crit Boosted for 5 seconds\n\n(and double your sentry's firing speed)",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "ubercharge": {
+        "value": "Consumable: Become Übercharged for 5 seconds\n\n(and shield your sentry from damage)",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "cancel falling damage": {
+        "value": "Wearer never takes falling damage",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "bidirectional teleport": {
+        "value": "Teleporters can be used in both directions",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "multiple sentries": {
+        "value": "Attrib_MultipleSentries",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "effect bar recharge rate increased": {
+        "value": "+%s% increase in recharge rate",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "maxammo grenades1 increased": {
+        "value": "+%s% max misc ammo on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "override projectile type": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "energy weapon no ammo": {
+        "value": "Does not require ammo",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "energy weapon charged shot": {
+        "value": "Alt-Fire: A charged shot that\n\nmini-crits players, sets them on fire, and disables buildings for 4 sec",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "energy weapon penetration": {
+        "value": "Projectile penetrates enemy targets",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "energy weapon no hurt building": {
+        "value": "Deals only 20% damage to buildings",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "energy weapon no deflect": {
+        "value": "Projectile cannot be deflected",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "engy building health bonus": {
+        "value": "+%s% max building health",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "engy sentry damage bonus": {
+        "value": "+%s% Sentry Gun damage bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "no crit boost": {
+        "value": "Cannot be crit boosted",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "centerfire projectile": {
+        "value": "Attrib_CenterFireProjectile",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater score type": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater score type 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "has pipboy build interface": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "sapper kills collect crits": {
+        "value": "Gives one guaranteed critical hit for each\n\nbuilding destroyed with your sapper attached or backstab kill",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sniper only fire zoomed": {
+        "value": "Cannot fire unless zoomed",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mod ammo per shot": {
+        "value": "Per Shot: -%s ammo",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "add onhit addammo": {
+        "value": "On Hit: damage dealt is returned as ammo",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "electrical airblast DISPLAY ONLY": {
+        "value": "Alt-Fire: Launches a projectile-consuming energy ball. Costs 65 metal.",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod use metal ammo type": {
+        "value": "Uses metal for ammo",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "expiration date": {
+        "value": "This item will expire on %s.",
+        "type": "string",
+        "display_as": "date",
+        "original": true,
+        "hidden": true
+    },
+    "mod max primary clip override": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "sniper full charge damage bonus": {
+        "value": "On Full Charge: +%s% damage per shot",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "sniper fires tracer": {
+        "value": "Fires tracer rounds",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "sniper no headshot without full charge": {
+        "value": "No headshots when not fully charged",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mod no reload DISPLAY ONLY": {
+        "value": "No reload necessary",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sniper penetrate players when charged": {
+        "value": "On Full Charge: Projectiles penetrate players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crit kill will gib": {
+        "value": "Killing an enemy with a critical hit will dismember your victim. Painfully.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "recall": {
+        "value": "Consumable: Instantly teleport to spawn",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "unlimited quantity": {
+        "value": "Unlimited use",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "disable weapon hiding for animations": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "applies snare effect": {
+        "value": "%s% movement speed on targets",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "uber duration bonus": {
+        "value": "Über duration increased %s seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "refill_ammo": {
+        "value": "Consumable: Instantly refill all weapon clips and ammo",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "faster reload rate": {
+        "value": "+%s% faster reload time",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "increase buff duration": {
+        "value": "+%s% buff duration",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "robo sapper": {
+        "value": "Increased robot Sapper radius and duration",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "build rate bonus": {
+        "value": "+%s% faster build speed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "taunt is press and hold": {
+        "value": "%s% damage penalty",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "attack projectiles": {
+        "value": "Bullets destroy rockets and grenades in-flight. Increased accuracy and frequency per-level.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "accuracy scales damage": {
+        "value": "Accuracy scales damage",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "currency bonus": {
+        "value": "+%s% bonus currency from packs",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "increased jump height": {
+        "value": "+%s% greater jump height when active",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "building instant upgrade": {
+        "value": "Consumable: Instantly upgrade all buildings to max level",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "disable fancy class select anim": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "airblast vulnerability multiplier": {
+        "value": "%s% reduction in airblast vulnerability",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "override footstep sound set": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "spawn with physics toy": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "fish damage override": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "SET BONUS: special dsp": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "bombinomicon effect on death": {
+        "value": "Explode spectacularly on death",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "clip size bonus upgrade": {
+        "value": "+%s% clip size",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "hide enemy health": {
+        "value": "Unable to see enemy health",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "subtract victim medigun charge on hit": {
+        "value": "On Hit: Victim loses up to %s% Medigun charge",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "subtract victim cloak on hit": {
+        "value": "On Hit: Victim loses up to %s% cloak",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "reveal cloaked victim on hit": {
+        "value": "On Hit Spy: Reveal cloaked Spy",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "reveal disguised victim on hit": {
+        "value": "On Hit Spy: Reveal disguised Spy",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "jarate backstabber": {
+        "value": "When backstabbed: Jarate attacker",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "engy sentry fire rate increased": {
+        "value": "+%s% sentry firing speed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "engy sentry radius increased": {
+        "value": "+%s% sentry range",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "engy dispenser radius increased": {
+        "value": "+%s% dispenser range",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod bat launches ornaments": {
+        "value": "Alt-Fire: Launches a festive ornament that shatters causing bleed",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "freeze backstab victim": {
+        "value": "Backstab turns victim to ice",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "fire rate penalty HIDDEN": {
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "original": true,
+        "hidden": true
+    },
+    "energy weapon no drain": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "ragdolls become ash": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "engy disposable sentries": {
+        "value": "Build +%s additional disposable-sentry",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "alt fire teleport to spawn": {
+        "value": "Press your reload key to choose to teleport to spawn or your exit teleporter",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "cannot pick up buildings": {
+        "value": "Cannot carry buildings",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "stun enemies wielding same weapon": {
+        "value": "Stuns enemies who are also wielding this weapon",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod ammo per shot missed DISPLAY ONLY": {
+        "value": "Per Shot Missed: -%s ammo",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "airblast disabled": {
+        "value": "No airblast",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "increase buff duration HIDDEN": {
+        "value": "+%s% buff duration",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "crit forces victim to laugh": {
+        "value": "Critical hit forces victim to laugh",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "melts in fire": {
+        "value": "Melts in fire, regenerates in %s seconds and by picking up ammo",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "damage all connected": {
+        "value": "All players connected via Medigun beams are hit",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "become fireproof on hit by fire": {
+        "value": "On Hit by Fire: Fireproof for 1 second and Afterburn immunity for %s seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crit from behind": {
+        "value": "Always critical hit from behind",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crit does no damage": {
+        "value": "Critical hits do no damage",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "add jingle to footsteps": {
+        "value": "Jingle all the way",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "set icicle knife mode": {
+        "value": "Attrib_SetIcicleKnifeMode",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mod stun waist high airborne": {
+        "value": "On Hit: If enemy's belt is at or above eye level,\n\nstun them for %s seconds",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "extinguish earns revenge crits": {
+        "value": "Alt-Fire: Extinguish teammates to gain guaranteed critical hits",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "burn damage earns rage": {
+        "value": "Build 'Mmmph' by dealing damage.\n\nAlt-Fire on full 'Mmmph': Taunt to gain crits for several seconds. Invulnerable while 'Mmmph' taunting.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "tickle enemies wielding same weapon": {
+        "value": "On Hit: Force enemies to laugh who are also wearing this item",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "attach particle effect static": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "cosmetic taunt sound": {
+        "value": "Attrib_TauntSoundSuccess",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "accepted wedding ring account id 1": {
+        "value": "A perpetual bond of commitment between %s",
+        "type": "string",
+        "display_as": "account_id",
+        "color": 1,
+        "original": true
+    },
+    "accepted wedding ring account id 2": {
+        "value": "and %s, forever and ever and ever. XoXoX",
+        "type": "string",
+        "display_as": "account_id",
+        "color": 1,
+        "original": true
+    },
+    "tool escrow until date": {
+        "value": "Usable After: %s",
+        "type": "string",
+        "display_as": "date",
+        "original": true,
+        "hidden": true
+    },
+    "generate rage on damage": {
+        "value": "Generate Rage by dealing damage. When fully charged, press the Special-Attack key to activate knockback",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "aiming no flinch": {
+        "value": "No flinching when aiming and fully charged",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "aiming knockback resistance": {
+        "value": "Knockback reduced by %s% when aiming",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "sniper aiming movespeed decreased": {
+        "value": "%s% slower move speed when aiming",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "kill eater user 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater user score type 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater user 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater user score type 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater user 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater user score type 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange part new counter ID": {
+        "type": "integer",
+        "original": true,
+        "value": "%s",
+        "display_as": "strange_part_name"
+    },
+    "mvm completed challenges bitmask": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "rage on kill": {
+        "value": "Gain Focus on kills and assists",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "kill eater kill type": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "shot penetrate all players": {
+        "value": "Shots go through multiple enemies",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "headshot damage increase": {
+        "value": "Headshots deal an extra +%s% damage",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: mystery solving time decrease": {
+        "value": "Reduces mystery solving time by up to %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "damage penalty on bodyshot": {
+        "value": "%s% damage on body shot",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "sniper rage DISPLAY ONLY": {
+        "value": "Press 'Reload' to activate focus\n\nIn Focus: +25% faster charge and no unscoping",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "fire rate bonus HIDDEN": {
+        "value": "+%s% faster firing speed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "original": true,
+        "hidden": true
+    },
+    "explosive sniper shot": {
+        "value": "Increased headshot explosion radius and damage to nearby enemies",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "melee attack rate bonus": {
+        "value": "+%s% faster melee attack speed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "projectile penetration heavy": {
+        "value": "Bullets penetrate +%s enemies",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "rage on assists": {
+        "value": "Attrib_RageGainOnAssists",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "armor piercing": {
+        "value": "Increase backstab damage against Giant Robots by %s%",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "cannot pick up intelligence": {
+        "value": "Wearer cannot carry the intelligence briefcase or PASS Time JACK",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "SET BONUS: chance of hunger decrease": {
+        "value": "Reduces chance of hunger by up to %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "cannot be backstabbed": {
+        "value": "Cannot be backstabbed",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "share consumable with patient": {
+        "value": "Using your Power Up Canteen will apply the same bonus effect to your heal target",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "airblast vertical vulnerability multiplier": {
+        "value": "Attrib_AirBlastVerticalVulnerabilityMultipier",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "vision opt in flags": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crit vs disguised players": {
+        "value": "100% critical hit vs disguised players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crit vs non burning players": {
+        "value": "100% critical hit vs non-burning players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "kill forces attacker to laugh": {
+        "value": "On Kill: Burst into joyous laughter",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "damage bonus while disguised": {
+        "value": "+%s% damage bonus while disguised",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "projectile spread angle penalty": {
+        "value": "+%s degrees random projectile deviation",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "dmg taken increased": {
+        "value": "%s% damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "auto fires full clip": {
+        "value": "Hold Fire to load up to three rockets\n\nRelease Fire to unleash the barrage",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "self mark for death": {
+        "value": "You are Marked-For-Death while active, and for short period after switching weapons",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "counts as assister is some kind of pet this update is going to be awesome": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mod flaregun fires pellets with knockback": {
+        "value": "Flare knocks back target on hit\n\nand explodes when it hits the ground. Increased knock back on burning players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "can overload": {
+        "value": "Overloading the chamber will cause a misfire",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "boost on damage": {
+        "value": "On Hit: Builds Boost\n\nRun speed increased with Boost",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "hype resets on jump": {
+        "value": "Boost reduced on air jumps",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "pyro year number": {
+        "value": "Witnessed the %s inferno",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "no primary ammo from dispensers while active": {
+        "value": "No ammo from dispensers when active",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "pyrovision only DISPLAY ONLY": {
+        "value": "Only visible in Pyroland",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "clip size penalty HIDDEN": {
+        "value": "%s% clip size",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "sapper damage bonus": {
+        "value": "+%s% sapper damage bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "sapper damage penalty": {
+        "value": "%s% sapper damage penalty",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "sapper damage leaches health": {
+        "value": "+%s health regenerated per second for each active sapper",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sapper health bonus": {
+        "value": "%s% sapper health bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "sapper health penalty": {
+        "value": "%s% sapper health penalty",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "ring of fire while aiming": {
+        "value": "Creates a ring of flames while spun up",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "uses ammo while aiming": {
+        "value": "Consumes an additional %s ammo per second while spun up",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "sapper degenerates buildings": {
+        "value": "Reverses enemy building construction",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sapper damage penalty hidden": {
+        "value": "%s% sapper damage penalty",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "cleaver description": {
+        "value": "Throw at your enemies to make them bleed!\n\nLong distance hits reduce recharge time",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "ragdolls plasma effect": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "crit vs stunned players": {
+        "value": "100% critical hit vs stunned players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crit vs wet players": {
+        "value": "100% critical hit vs wet players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "override item level desc string": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "clip size upgrade atomic": {
+        "value": "+%s clip size",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "auto fires full clip all at once": {
+        "value": "Attrib_AutoFiresFullClipAllAtOnce",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "major move speed bonus": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "major increased jump height": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "head scale": {
+        "value": "Disables double jump",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "pyrovision opt in DISPLAY ONLY": {
+        "value": "On Equip: Visit Pyroland",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "halloweenvision opt in DISPLAY ONLY": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "halloweenvision filter DISPLAY ONLY": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "player skin override": {
+        "value": "Attrib_PlayerSkinOverride",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "never craftable": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "zombiezombiezombiezombie": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "sapper voice pak": {
+        "value": "Attrib_Sapper_Voice_Pak",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sapper voice pak idle wait": {
+        "value": "Attrib_Sapper_Voice_Pak_Idle_Wait",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "merasmus hat level display ONLY": {
+        "value": "Killed Merasmus at level %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "strange restriction type 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction value 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction type 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction value 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction user type 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction user value 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction user type 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction user value 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction user type 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction user value 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "engineer sentry build rate multiplier": {
+        "value": "Sentry build speed increased by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "engineer teleporter build rate multiplier": {
+        "value": "Increases teleporter build speed by %s%.",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "grenade launcher mortar mode": {
+        "value": "Cannonballs have a fuse time of 1 second; fuses can be primed to explode earlier by holding down the fire key.",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "grenade not explode on impact": {
+        "value": "Cannonballs do not explode on impact",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "strange score selector": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "engineer building teleporting pickup": {
+        "value": "Alt-Fire: Use %s metal to pick up your targeted building from long range",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "grenade damage reduction on world contact": {
+        "value": "%s% damage on contact with surfaces",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "engineer rage on dmg": {
+        "value": "Generate building rescue energy on damage",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mark for death on building pickup": {
+        "value": "Self mark for death when hauling buildings",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "medigun charge is resists": {
+        "value": "Press your reload key to cycle through resist types.\n\nWhile healing, provides you and your target with a constant 10% resistance to the selected damage type.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "arrow heals buildings": {
+        "value": "Fires a special bolt that can repair friendly buildings",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Projectile speed increased HIDDEN": {
+        "value": "+%s% projectile speed",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "damage bonus HIDDEN": {
+        "value": "+%s% damage bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "cannonball push back": {
+        "value": "Cannonballs push players back on impact",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "rage giving scale": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "overheal fill rate reduced": {
+        "value": "%s% Overheal build rate.",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "canteen specialist": {
+        "value": "Share Canteens with your heal target.\n\n+1 duration, -10 price per point (minimum cost: 5)",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "overheal expert": {
+        "value": "+25% more overheal, +50% longer duration per point",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mad milk syringes": {
+        "value": "Syringes deliver a highly concentrated dose of Mad Milk. Duration increases per hit to a max of 4 seconds.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "rocket specialist": {
+        "value": "+15% rocket speed per point. On direct hits: rocket does maximum damage, stuns target, and blast radius increased +15% per point.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: move speed set bonus": {
+        "value": "+%s% faster move speed on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: health regen set bonus": {
+        "value": "+%s health regenerated per second on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: dmg taken from crit reduced set bonus": {
+        "value": "+%s% critical hit damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: dmg taken from fire reduced set bonus": {
+        "value": "+%s% fire damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "healing mastery": {
+        "value": "+25% heal rate for patient, +25% faster revive rate, and +25% self heal rate, per point",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "kill eater 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill eater score type 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction type 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "strange restriction value 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "bot custom jump particle": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "generate rage on heal": {
+        "value": "Build energy by healing teammates. When fully charged, press the Special-Attack key to deploy a frontal projectile shield.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "custom name attr": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "custom desc attr": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun bullet resist passive": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun blast resist passive": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun fire resist passive": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun bullet resist deployed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun blast resist deployed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun fire resist deployed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun crit bullet percent bar deplete": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun crit blast percent bar deplete": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "medigun crit fire percent bar deplete": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "throwable fire speed": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "throwable damage": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "throwable healing": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "throwable particle trail only": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "SET BONUS: dmg taken from bullets increased": {
+        "value": "%s% bullet damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "SET BONUS: max health additive bonus": {
+        "value": "+%s max health on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "scattergun knockback mult": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "particle effect vertical offset": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "particle effect use head origin": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "use large smoke explosion": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "damage causes airblast": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "increased jump height from weapon": {
+        "value": "+%s% greater jump height when active",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "damage force increase": {
+        "value": "%s% increase in push force taken from damage",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "healing received bonus": {
+        "value": "+%s% bonus healing from all sources",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "afterburn immunity": {
+        "value": "Immune to the effects of afterburn.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "decoded by itemdefindex": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "hype decays over time": {
+        "value": "Hype Decays Over Time.",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "SET BONUS: custom taunt particle attr": {
+        "value": "Extra effects when taunting.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "airblast vulnerability multiplier hidden": {
+        "value": "%s% reduction in airblast vulnerability",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "damage force increase hidden": {
+        "value": "%s% increase in push force taken from damage",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "damage force increase text": {
+        "value": "Increase in push force taken from damage and airblast",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "SET BONUS: calling card on kill": {
+        "value": "Leave a Calling Card on your victims.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "righthand pose parameter": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "set throwable type": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "add head on hit": {
+        "value": "Attrib_AddHeadOnHit",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "item style override": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "paint decal enum": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "show paint description": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "bot medic uber health threshold": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "bot medic uber deploy delay duration": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "single wep deploy time decreased": {
+        "value": "This weapon deploys %s% faster",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "halloween reload time decreased": {
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "original": true,
+        "hidden": true
+    },
+    "halloween fire rate bonus": {
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "original": true,
+        "hidden": true
+    },
+    "halloween increased jump height": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "special taunt": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "revive": {
+        "value": "Revive Teammates",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "taunt attack name": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt attack time": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt force move forward": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt mimic": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt success sound": {
+        "value": "Attrib_TauntSoundSuccess",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt success sound offset": {
+        "value": "Attrib_PhaseCloak",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt success sound loop": {
+        "value": "Attrib_TauntSoundSuccess",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt success sound loop offset": {
+        "value": "Attrib_PhaseCloak",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "increased air control": {
+        "value": "%s% increased air control.",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "rocket launch impulse": {
+        "value": "Attrib_RocketLaunchImpulse",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "minicritboost on kill": {
+        "value": "On Kill: Gain Mini-crits for %s seconds.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "no metal from dispensers while active": {
+        "value": "No metal from dispensers when active.",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "projectile entity name": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is throwable primable": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "throwable detonation time": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "throwable recharge time": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "closerange backattack minicrits": {
+        "value": "Mini-crits targets when fired at their back from close range",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "torso scale": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "rocketjump attackrate bonus": {
+        "value": "Increased attack speed and smaller blast radius while blast jumping",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "is throwable chargeable": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "back headshot": {
+        "value": "Attrib_BackHeadshot",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "rj air bombardment": {
+        "value": "Fires 3 barrages while explosive jumping",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "projectile particle name": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "air jump on attack": {
+        "value": "Attrib_AirJumpOnAttack",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "sniper crit no scope": {
+        "value": "Charge and fire shots independent of zoom",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "sniper independent zoom DISPLAY ONLY": {
+        "value": "Zoom does not affect charge",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "axtinguisher properties": {
+        "value": "100% critical hits burning players from behind.\n\nMini-crits burning players from the front.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "full charge turn control": {
+        "value": "Full turning control while charging",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "parachute attribute": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt force weapon slot": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mini rockets": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "rocket jump damage reduction HIDDEN": {
+        "value": "%s% blast damage from rocket jumps",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "clipsize increase on kill": {
+        "value": "Clip size increased on kill",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "breadgloves properties": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt turn speed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "sniper fires tracer HIDDEN": {
+        "value": "Fires tracer rounds",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "fire rate bonus with reduced health": {
+        "value": "Fire rate increases as health decreases",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "tag__summer2014": {
+        "value": "Rewarded for participating in the 2014 Summer Adventure.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "crate generation code": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "stickybomb fizzle time": {
+        "value": "Stickybombs fizzle %s seconds after landing",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "stickybomb charge rate": {
+        "value": "Max charge time decreased by %s%",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "grenade no bounce": {
+        "value": "Grenades have very little bounce and roll",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "class select override vcd": {
+        "value": "Attrib_Class_Select_Override_VCD",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "custom projectile model": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "lose demo charge on damage when charging": {
+        "value": "Taking damage while shield charging reduces remaining charging time",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "grenade no spin": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "grenade detonation damage penalty": {
+        "value": "%s% damage on grenades that explode on timer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "taunt turn acceleration time": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt move acceleration time": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt move speed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "shuffle crate item def min": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "shuffle crate item def max": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "limited quantity item": {
+        "type": "integer",
+        "value": "This is a limited use item. Uses: %s",
+        "color": "00a000"
+    },
+    "SET BONUS: alien isolation xeno bonus pos": {
+        "value": "Increased Melee damage against Isolated Merc Set",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: alien isolation xeno bonus neg": {
+        "value": "Increased Nostromo Napalmer damage taken from Isolated Merc Set",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "SET BONUS: alien isolation merc bonus pos": {
+        "value": "Increased Nostromo Napalmer damage against Isolationist Pack Set",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SET BONUS: alien isolation merc bonus neg": {
+        "value": "Increased Melee damage taken from Isolationist Pack Set",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "disable weapon switch": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "hand scale": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "display duck leaderboard": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "duck rating": {
+        "value": "Duck XP Level : %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "duck badge level": {
+        "value": "Duck Power : %s / 5",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "tag__eotlearlysupport": {
+        "value": "Early Supporter of End of the Line Community Update",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "unlimited quantity hidden": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "duckstreaks active": {
+        "value": "Duckstreaks Active",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "panic_attack": {
+        "value": "Hold fire to load up to 4 shells",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "panic_attack_negative": {
+        "value": "Weapon spread increases as health decreases",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "auto fires full clip penalty": {
+        "value": "Attrib_AutoFiresFullClipNegative",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "auto fires when full": {
+        "value": "Attrib_AutoFiresWhenFull",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "force weapon switch": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "weapon_uses_stattrak_module": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is_operation_pass": {
+        "type": "boolean",
+        "original": true,
+        "hidden": true
+    },
+    "weapon_stattrak_module_scale": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "set_item_texture_wear": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "cloak_consume_on_feign_death_activate": {
+        "value": "%s% cloak meter when Feign Death is activated",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "stickybomb_charge_damage_increase": {
+        "value": "Up to +%s% damage based on charge",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "NoCloakWhenCloaked": {
+        "value": "No cloak meter from ammo boxes when invisible",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "ReducedCloakFromAmmo": {
+        "value": "%s% cloak meter from ammo boxes",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "elevate to unusual if applicable": {
+        "value": "Attrib_ElevateQuality",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "weapon_allow_inspect": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "metal_pickup_decreased": {
+        "value": "%s% less metal from pickups and dispensers",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "lose hype on take damage": {
+        "value": "Boost reduced when hit",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "healing received penalty": {
+        "value": "%s% less healing from all sources",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "crit_vs_burning_FLARES_DISPLAY_ONLY": {
+        "value": "100% critical hit vs burning players",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "speed_boost_on_kill": {
+        "value": "Gain a speed boost on kill",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "speed_boost_on_hit": {
+        "value": "On Hit: Gain a speed boost",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "spunup_damage_resistance": {
+        "value": "%s% damage resistance when below 50% health and spun up",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "ubercharge overheal rate penalty": {
+        "value": "%s% ÜberCharge rate on Overhealed patients",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "reduced_healing_from_medics": {
+        "value": "%s% less healing from Medic sources",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "health on radius damage": {
+        "value": "On Hit: Gain up to +%s health per attack",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "style changes on strange level": {
+        "type": "integer",
+        "hidden": true
+    },
+    "cannot restore": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "hide crate series number": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "has team color paintkit": {
+        "value": "Team Colored Decorated Weapon",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "cosmetic_allow_inspect": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "hat only unusual effect": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "items traded in for": {
+        "value": "Items Traded in : %s",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "texture_wear_default": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "taunt only unusual effect": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "deactive date": {
+        "type": "string",
+        "display_as": "date",
+        "original": true,
+        "hidden": true
+    },
+    "is giger counter": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "hide_strange_prefix": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "always_transmit_so": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "allow_halloween_offering": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "cannot_transmute": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "single wep holster time increased": {
+        "value": "This weapon holsters %s% slower",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "single wep deploy time increased": {
+        "value": "This weapon deploys %s% slower",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "charge time decreased": {
+        "value": "%s sec decrease in charge duration",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "dmg penalty vs buildings": {
+        "value": "%s% damage penalty vs buildings",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "charge impact damage decreased": {
+        "value": "%s% decrease in charge impact damage",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "non economy": {
+        "value": "Not Tradable, Marketable, Usable in Crafting, or Gift Wrappable",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "charge meter on hit": {
+        "value": "Melee hits refill %s% of your charge meter.",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "minicrit_boost_when_charged": {
+        "value": "Secondary fire when charged grants mini-crits for %s seconds.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "minicrit_boost_charge_rate": {
+        "value": "Dealing damage fills charge meter.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "is_a_sword": {
+        "value": "This Weapon has a large melee range and\n\ndeploys and holsters slower",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "ammo gives charge": {
+        "value": "Ammo boxes collected also give Charge",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "extinguish restores health": {
+        "value": "Extinguishing teammates restores %s health",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "extinguish reduces cooldown": {
+        "value": "Extinguishing teammates reduces cooldown by %s%",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "cannot giftwrap": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "tool needs giftwrap": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "fuse bonus": {
+        "value": "%s% fuse time on grenades",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "move speed bonus shield required": {
+        "value": "+%s% faster move speed on wearer (shield required)",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "damage bonus bullet vs sentry target": {
+        "value": "%s% increased damage to your sentry's target",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod teleporter cost": {
+        "value": "%s% metal cost when constructing or upgrading teleporters",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "damage blast push": {
+        "value": "Attrib_DamageBlastPush",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "move speed bonus resource level": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "hype on damage": {
+        "value": "On Hit: Builds Hype",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "dmg taken from fire reduced on active": {
+        "value": "+%s% fire damage resistance while deployed",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "damage bonus vs burning": {
+        "value": "%s% damage bonus vs burning players",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "min_viewmodel_offset": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "dmg pierces resists absorbs": {
+        "value": "Attacks pierce damage resistance effects and bonuses",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "energy buff dmg taken multiplier": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "lose revenge crits on death DISPLAY ONLY": {
+        "value": "Revenge crits are lost on death",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "patient overheal penalty": {
+        "value": "%s% maximum overheal on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "item_meter_charge_rate": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mult_spread_scale_first_shot": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "unusualifier_attribute_template_name": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "tool_target_item_icon_offset": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "add_head_on_kill": {
+        "value": "Collect the organs of your victims",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mult_spread_scales_consecutive": {
+        "value": "Successive shots become less accurate",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "fixed_shot_pattern": {
+        "value": "Fires a wide, fixed shot pattern",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "mod_cloak_no_regen_from_items": {
+        "value": "Attrib_NoCloakFromAmmo",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "ubercharge_preserved_on_spawn_max": {
+        "value": "Collect the organs of people you hit",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod_air_control_blast_jump": {
+        "value": "%s% increased air control when blast jumping.",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "spunup_push_force_immunity": {
+        "value": "Immune to push force from damage and airblast when spun up",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mod_mark_attacker_for_death": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "use_model_cache_icon": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mod_disguise_consumes_cloak": {
+        "value": "Normal disguises require (and consume) a full cloak meter",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "inspect_viewmodel_offset": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is_passive_weapon": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "no_jump": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "no_duck": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "no_attack": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "airblast_destroy_projectile": {
+        "value": "Attrib_AirblastDestroyProjectile",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "airblast_pushback_disabled": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "airblast_pushback_no_stun": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "airblast_pushback_no_viewpunch": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "airblast_deflect_projectiles_disabled": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "airblast_put_out_teammate_disabled": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "afterburn duration penalty": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "afterburn duration bonus": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "aoe_deflection": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "mult_end_flame_size": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "airblast_give_teammate_speed_boost": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "airblast_turn_projectile_to_ammo": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "paintkit_proto_def_index": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "taunt_attr_player_invis_percent": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "redirected_flame_size_mult": {
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "flame_reflect_on_collision": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "flame_spread_degree": {
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "holster_anim_time": {
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "flame_gravity": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame_ignore_player_velocity": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame_drag": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame_speed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "grenades1_resupply_denied": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "grenades2_resupply_denied": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "grenades3_resupply_denied": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "item_meter_resupply_denied": {
+        "value": "Spawning and resupply do not affect the Gas meter",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "mult_player_movespeed_active": {
+        "value": "+%s% faster move speed on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "mult_dmgtaken_active": {
+        "value": "%s% damage vulnerability on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "mult_patient_overheal_penalty_active": {
+        "value": "%s% maximum overheal on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "mult_health_fromhealers_penalty_active": {
+        "value": "%s% health from healers on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "mod_maxhealth_drain_rate": {
+        "value": "Maximum health is drained while item is active",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "item_meter_charge_type": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "max_flame_reflection_count": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame_reflection_add_life_time": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "reflected_flame_dmg_reduction": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "flame_lifetime": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame_random_life_time_offset": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "flame_up_speed": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "custom_paintkit_seed_lo": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "custom_paintkit_seed_hi": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "crit_dmg_falloff": {
+        "value": "Critical damage is affected by range",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "crits_become_minicrits": {
+        "value": "Minicrits whenever it would normally crit",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "falling_impact_radius_pushback": {
+        "value": "Push enemies back when you land (force and radius based on velocity)",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "falling_impact_radius_stun": {
+        "value": "Stun enemies when you land",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "thermal_thruster_air_launch": {
+        "value": "Able to re-launch while already in-flight",
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "thermal_thruster": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "mult_item_meter_charge_rate": {
+        "value": "%s% faster recharge rate",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 0,
+        "original": true
+    },
+    "explode_on_ignite": {
+        "value": "Ignited enemies explode",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "lunchbox healing decreased": {
+        "value": "%s% healing effect",
+        "type": "float",
+        "display_as": "percentage",
+        "color": -1,
+        "original": true
+    },
+    "speed_boost_on_hit_enemy": {
+        "value": "Gain a speed boost when you hit an enemy player",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "item_meter_starts_empty_DISPLAY_ONLY": {
+        "value": "Gas meter starts empty",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "item_meter_charge_type_3_DISPLAY_ONLY": {
+        "value": "Gas meter builds with damage done and/or time",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "repair health to metal ratio DISPLAY ONLY": {
+        "value": "%s-to-1 health-to-metal ratio when repairing buildings",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "CARD: damage bonus": {
+        "value": "+%s% damage bonus",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "CARD: dmg taken from bullets reduced": {
+        "value": "+%s% bullet damage resistance on wearer",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": 1,
+        "original": true
+    },
+    "CARD: move speed bonus": {
+        "value": "+%s% faster move speed on wearer",
+        "type": "float",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "CARD: health regen": {
+        "value": "+%s health regenerated per second on wearer",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SPELL: set item tint RGB": {
+        "value": "%s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SPELL: set Halloween footstep type": {
+        "value": "%s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SPELL: Halloween voice modulation": {
+        "value": "Voices From Below",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SPELL: Halloween pumpkin explosions": {
+        "value": "Pumpkin Bombs",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SPELL: Halloween green flames": {
+        "value": "Halloween Fire",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "SPELL: Halloween death ghosts": {
+        "value": "Exorcism",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Attack not cancel charge": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "recipe component defined item 1": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 2": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 3": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 4": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 5": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 6": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 7": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 8": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 9": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "recipe component defined item 10": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "start drop date": {
+        "type": "string",
+        "display_as": "date",
+        "color": 0,
+        "original": true
+    },
+    "end drop date": {
+        "type": "string",
+        "display_as": "date",
+        "color": 0,
+        "original": true
+    },
+    "tool target item": {
+        "type": "integer",
+        "display_as": "item_name",
+        "color": "1",
+        "value": "Can be used with: %s"
+    },
+    "killstreak effect": {
+        "value": "Killstreaker: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "killstreak idleeffect": {
+        "value": "Sheen: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "spellbook page attr id": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "Halloween Spellbook Page: Tumidum": {
+        "value": "Pages of Tumidum: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Halloween Spellbook Page: Gratanter": {
+        "value": "Pages of Gratanter: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Halloween Spellbook Page: Audere": {
+        "value": "Pages of Audere: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Halloween Spellbook Page: Congeriae": {
+        "value": "Pages of Congeriae: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "Halloween Spellbook Page: Veteris": {
+        "value": "Pages of Veteris: %s",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "additional halloween response criteria name": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "loot rarity": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "quality text override": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "item name text override": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "killstreak tier": {
+        "value": "Killstreaks Active",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "wide item level": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is australium item": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is marketable": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "allowed in medieval mode": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "blue text": {
+        "type": "string",
+        "value": "%s",
+        "color": "1"
+    },
+    "crit on hard hit": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "series number": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "recipe no partial complete": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "kill refills meter": {
+        "value": "Melee kills refill %s% of your charge meter.",
+        "type": "integer",
+        "display_as": "percentage",
+        "color": 1,
+        "original": true
+    },
+    "random drop line item unusual chance": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "random drop line item unusual list": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "random drop line item 0": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "random drop line item 1": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "random drop line item 2": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "random drop line item 3": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "on taunt attach particle effect": {
+        "value": "★ Unusual Effect: %s",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "loot list name": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "upgrade rate decrease": {
+        "value": "%s% slower upgrade rate",
+        "type": "float",
+        "display_as": "inverted_percentage",
+        "color": -1,
+        "original": true
+    },
+    "can shuffle crate contents": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "random drop line item footer desc": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is commodity": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "voice pitch scale": {
+        "value": "Disables double jump",
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "gunslinger punch combo": {
+        "value": "Third successful punch in a row always crits.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "cannot delete": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "quest loaner id low": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "quest loaner id hi": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "is_festivized": {
+        "value": "Festivized",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "fire particle blue": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "fire particle red": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "fire particle blue crit": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "fire particle red crit": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "meter_label": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "item_meter_damage_for_full_charge": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "airblast cost scale hidden": {
+        "type": "float",
+        "display_as": "percentage",
+        "original": true,
+        "hidden": true
+    },
+    "dragons fury positive properties": {
+        "value": "Deals 300% damage to burning players\n\n+50% re-pressurization rate on hit",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "dragons fury negative properties": {
+        "value": "-50% repressurization rate on Alt-Fire",
+        "type": "integer",
+        "color": -1,
+        "original": true
+    },
+    "dragons fury neutral properties": {
+        "value": "Uses a shared pressure tank for Primary Fire and Alt-Fire.\n\nPrimary Fire: Launches a fast-moving projectile that briefly ignites enemies Alt-Fire: Release a blast of air that pushes enemies and projectiles, and extinguishes teammates that are on fire.",
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "force center wrap": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "attack_minicrits_and_consumes_burning": {
+        "value": "Mini-crits burning targets and extinguishes them. Damage increases based on remaining duration of afterburn.\n\nKilling blows on burning players grant a speed boost.",
+        "type": "integer",
+        "color": 1,
+        "original": true
+    },
+    "item slot criteria 1": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 1": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 2": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 2": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 3": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 3": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 4": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 4": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 5": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 5": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 6": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 6": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 7": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 7": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item slot criteria 8": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "item in slot 8": {
+        "type": "integer",
+        "color": 0,
+        "original": true
+    },
+    "quest earned standard points": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "quest earned bonus points": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    },
+    "item drop wave": {
+        "type": "integer",
+        "original": true,
+        "hidden": true
+    }
+}

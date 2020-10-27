@@ -1,0 +1,83 @@
+{
+    "0": {
+        "name": "Normal",
+        "prefix": "",
+        "color": "#B2B2B2"
+    },
+    "1": {
+        "name": "Genuine",
+        "prefix": "Genuine ",
+        "color": "#4D7455"
+    },
+    "2": {
+        "name": "Rarity 2",
+        "prefix": "",
+        "color": "#B2B2B2"
+    },
+    "3": {
+        "name": "Vintage",
+        "prefix": "Vintage ",
+        "color": "#476291"
+    },
+    "4": {
+        "name": "Rarity 3",
+        "prefix": "",
+        "color": "#B2B2B2"
+    },
+    "5": {
+        "name": "Unusual",
+        "prefix": "Unusual ",
+        "color": "#8650AC"
+    },
+    "6": {
+        "name": "Unique",
+        "prefix": "",
+        "color": "#FFD700",
+        "propername": "1"
+    },
+    "7": {
+        "name": "Community",
+        "prefix": "Community ",
+        "color": "#70B04A"
+    },
+    "8": {
+        "name": "Moonly's Own",
+        "prefix": "Moonly's Own",
+        "color": "#A50F79"
+    },
+    "9": {
+        "name": "Self-Made",
+        "prefix": "Self-Made ",
+        "color": "#70B04A"
+    },
+    "10": {
+        "name": "Customized",
+        "prefix": "",
+        "color": "#B2B2B2"
+    },
+    "11": {
+        "name": "Strange",
+        "prefix": "Strange ",
+        "color": "#CF6A32"
+    },
+    "12": {
+        "name": "Completed",
+        "prefix": "",
+        "color": "#B2B2B2"
+    },
+    "13": {
+        "name": "Haunted",
+        "prefix": "Haunted ",
+        "color": "#38F3AB"
+    },
+    "14": {
+        "name": "Collector's",
+        "prefix": "Collector's ",
+        "color": "#AA0000"
+    },
+    "15": {
+        "name": "Decorated Weapon",
+        "prefix": "",
+        "color": "#FAFAFA"
+    }
+}

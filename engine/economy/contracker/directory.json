@@ -1,0 +1,795 @@
+{
+    "nodes": [{
+        "dir": "./root",
+        "title": "node-main",
+        "type": "tree",
+        "default": true,
+        "background": "{CDN}/assets/images/contracker/cyoa_bg_icon_globe.svg",
+        "icon": "{CDN}/assets/images/contracker/cyoa_bg_icon_globe.svg",
+        "nodes": [{
+                "name": "creators",
+                "title": "node-creators",
+                "dir": "./root/creators",
+                "type": "tree",
+                "background": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                "position": {
+                    "x": "33%",
+                    "y": "50%"
+                },
+                "quests": [{
+                        "title": "creators",
+                        "position": {
+                            "x": "60%",
+                            "y": "45%"
+                        },
+                        "connect": [
+                            "node-creators-official_maps",
+                            "node-creators-community_maps",
+                            "offense",
+                            "defense",
+                            "node-creators-weapons"
+                        ]
+                    }, {
+                        "title": "offense",
+                        "position": {
+                            "x": "45%",
+                            "y": "29%"
+                        },
+                        "required": [
+                            "creators"
+                        ],
+                        "connect": [
+                            "node-creators-offense",
+                            "node-creators-support"
+                        ]
+                    },
+                    {
+                        "title": "defense",
+                        "position": {
+                            "x": "47%",
+                            "y": "65%"
+                        },
+                        "required": [
+                            "creators"
+                        ],
+                        "connect": [
+                            "node-creators-defense",
+                            "node-creators-support"
+                        ]
+                    }
+                ],
+                "nodes": [{
+                        "name": "offense",
+                        "title": "node-creators-offense",
+                        "type": "tree",
+                        "dir": "./root/creators/offense",
+                        "required": [
+                            "offense"
+                        ],
+                        "background": "{CDN}/assets/images/contracker/cyoa_icon_offense.png",
+                        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "position": {
+                            "x": "24%",
+                            "y": "18%"
+                        },
+                        "quests": [{
+                                "title": "scout",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "20%"
+                                },
+                                "connect": [
+                                    "scout_advanced"
+                                ]
+                            },
+                            {
+                                "title": "soldier",
+                                "position": {
+                                    "x": "80%",
+                                    "y": "50%"
+                                },
+                                "connect": [
+                                    "soldier_advanced"
+                                ]
+                            },
+                            {
+                                "title": "pyro",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "80%"
+                                },
+                                "connect": [
+                                    "pyro_advanced"
+                                ]
+                            },
+                            {
+                                "title": "scout_advanced",
+                                "position": {
+                                    "x": "62%",
+                                    "y": "12%"
+                                },
+                                "required": [
+                                    "scout"
+                                ],
+                                "connect": [
+                                    "scout_expert"
+                                ]
+                            },
+                            {
+                                "title": "scout_expert",
+                                "position": {
+                                    "x": "38%",
+                                    "y": "19%"
+                                },
+                                "required": [
+                                    "scout_advanced"
+                                ]
+                            },
+                            {
+                                "title": "soldier_advanced",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "45%"
+                                },
+                                "required": [
+                                    "soldier"
+                                ],
+                                "connect": [
+                                    "soldier_expert"
+                                ]
+                            },
+                            {
+                                "title": "soldier_expert",
+                                "position": {
+                                    "x": "36%",
+                                    "y": "48%"
+                                },
+                                "required": [
+                                    "soldier_advanced"
+                                ]
+                            },
+                            {
+                                "title": "pyro_advanced",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "80%"
+                                },
+                                "required": [
+                                    "pyro"
+                                ],
+                                "connect": [
+                                    "pyro_expert"
+                                ]
+                            },
+                            {
+                                "title": "pyro_expert",
+                                "position": {
+                                    "x": "36%",
+                                    "y": "76%"
+                                },
+                                "required": [
+                                    "pyro_advanced"
+                                ]
+                            }
+                        ],
+                        "nodes": [
+
+                        ]
+                    },
+                    {
+                        "name": "defense",
+                        "title": "node-creators-defense",
+                        "type": "tree",
+                        "dir": "./root/creators/defense",
+                        "background": "{CDN}/assets/images/contracker/cyoa_icon_defense.png",
+                        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "required": [
+                            "defense"
+                        ],
+                        "position": {
+                            "x": "25%",
+                            "y": "78%"
+                        },
+                        "quests": [{
+                                "title": "demoman",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "20%"
+                                },
+                                "connect": [
+                                    "demoman_advanced"
+                                ]
+                            },
+                            {
+                                "title": "heavy",
+                                "position": {
+                                    "x": "80%",
+                                    "y": "50%"
+                                },
+                                "connect": [
+                                    "heavy_advanced"
+                                ]
+                            },
+                            {
+                                "title": "engineer",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "80%"
+                                },
+                                "connect": [
+                                    "engineer_advanced"
+                                ]
+                            },
+                            {
+                                "title": "demoman_advanced",
+                                "position": {
+                                    "x": "62%",
+                                    "y": "12%"
+                                },
+                                "required": [
+                                    "demoman"
+                                ],
+                                "connect": [
+                                    "demoman_expert"
+                                ]
+                            },
+                            {
+                                "title": "heavy_advanced",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "45%"
+                                },
+                                "required": [
+                                    "heavy"
+                                ],
+                                "connect": [
+                                    "heavy_expert"
+                                ]
+                            },
+                            {
+                                "title": "engineer_advanced",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "80%"
+                                },
+                                "required": [
+                                    "engineer"
+                                ],
+                                "connect": [
+                                    "engineer_expert"
+                                ]
+                            },
+                            {
+                                "title": "demoman_expert",
+                                "position": {
+                                    "x": "38%",
+                                    "y": "19%"
+                                },
+                                "required": [
+                                    "demoman_advanced"
+                                ]
+                            },
+                            {
+                                "title": "heavy_expert",
+                                "position": {
+                                    "x": "36%",
+                                    "y": "48%"
+                                },
+                                "required": [
+                                    "heavy_advanced"
+                                ]
+                            },
+                            {
+                                "title": "engineer_expert",
+                                "position": {
+                                    "x": "36%",
+                                    "y": "76%"
+                                },
+                                "required": [
+                                    "engineer_advanced"
+                                ]
+                            }
+                        ],
+                        "nodes": [
+
+                        ]
+                    },
+                    {
+                        "name": "support",
+                        "title": "node-creators-support",
+                        "type": "tree",
+                        "dir": "./root/creators/support",
+                        "background": "{CDN}/assets/images/contracker/cyoa_icon_support.png",
+                        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "required": [
+                            "defense",
+                            "offense"
+                        ],
+                        "position": {
+                            "x": "17%",
+                            "y": "48%"
+                        },
+                        "quests": [{
+                                "title": "medic",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "20%"
+                                },
+                                "connect": [
+                                    "medic_advanced"
+                                ]
+                            },
+                            {
+                                "title": "sniper",
+                                "position": {
+                                    "x": "80%",
+                                    "y": "50%"
+                                },
+                                "connect": [
+                                    "sniper_advanced"
+                                ]
+                            },
+                            {
+                                "title": "spy",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "80%"
+                                },
+                                "connect": [
+                                    "spy_advanced"
+                                ]
+                            },
+                            {
+                                "title": "medic_advanced",
+                                "position": {
+                                    "x": "62%",
+                                    "y": "12%"
+                                },
+                                "required": [
+                                    "medic"
+                                ],
+                                "connect": [
+                                    "medic_expert"
+                                ]
+                            },
+                            {
+                                "title": "sniper_advanced",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "45%"
+                                },
+                                "required": [
+                                    "sniper"
+                                ],
+                                "connect": [
+                                    "sniper_expert"
+                                ]
+                            },
+                            {
+                                "title": "spy_advanced",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "80%"
+                                },
+                                "required": [
+                                    "spy"
+                                ],
+                                "connect": [
+                                    "spy_expert"
+                                ]
+                            },
+                            {
+                                "title": "medic_expert",
+                                "position": {
+                                    "x": "38%",
+                                    "y": "19%"
+                                },
+                                "required": [
+                                    "medic_advanced"
+                                ]
+                            },
+                            {
+                                "title": "sniper_expert",
+                                "position": {
+                                    "x": "36%",
+                                    "y": "48%"
+                                },
+                                "required": [
+                                    "sniper_advanced"
+                                ]
+                            },
+                            {
+                                "title": "spy_expert",
+                                "position": {
+                                    "x": "36%",
+                                    "y": "76%"
+                                },
+                                "required": [
+                                    "spy_advanced"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "weapons",
+                        "type": "tree",
+                        "title": "node-creators-weapons",
+                        "dir": "./root/creators/weapons",
+                        "background": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "required": [
+                            "creators"
+                        ],
+                        "quests": [{
+                            "title": "syringe",
+                            "position": {
+                                "x": "63%",
+                                "y": "35%"
+                            }
+                        }, {
+                            "title": "thumper",
+                            "position": {
+                                "x": "37%",
+                                "y": "35%"
+                            }
+                        }, {
+                            "title": "crate_smasher",
+                            "position": {
+                                "x": "20%",
+                                "y": "25%"
+                            }
+                        }, {
+                            "title": "gamma_gazer",
+                            "position": {
+                                "x": "80%",
+                                "y": "25%"
+                            }
+                        }, {
+                            "title": "bolshevik_bomber",
+                            "position": {
+                                "x": "20%",
+                                "y": "65%"
+                            }
+                        }, {
+                            "title": "carved_cutter",
+                            "position": {
+                                "x": "50%",
+                                "y": "65%"
+                            }
+                        }, {
+                            "title": "wasp_launcher",
+                            "position": {
+                                "x": "80%",
+                                "y": "65%"
+                            }
+                        }],
+                        "icon": "{CDN}/assets/images/contracker/cyoa_crowbar_icon.png",
+                        "position": {
+                            "x": "82%",
+                            "y": "45%"
+                        }
+                    },
+                    {
+                        "name": "official_maps",
+                        "title": "node-creators-official_maps",
+                        "type": "tree",
+                        "dir": "./root/creators/official_maps",
+                        "background": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "required": [
+                            "creators"
+                        ],
+                        "position": {
+                            "x": "78%",
+                            "y": "75%"
+                        },
+                        "quests": [{
+                                "title": "pl_swiftwater",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "17%"
+                                }
+                            },
+                            {
+                                "title": "cp_gorge",
+                                "position": {
+                                    "x": "11%",
+                                    "y": "14%"
+                                }
+                            },
+                            {
+                                "title": "pl_upward",
+                                "position": {
+                                    "x": "43%",
+                                    "y": "16%"
+                                }
+                            },
+                            {
+                                "title": "pl_thundermountain",
+                                "position": {
+                                    "x": "28%",
+                                    "y": "16%"
+                                }
+                            },
+                            {
+                                "title": "koth_lakeside",
+                                "position": {
+                                    "x": "10%",
+                                    "y": "41%"
+                                }
+                            },
+                            {
+                                "title": "cp_sunshine",
+                                "position": {
+                                    "x": "73%",
+                                    "y": "16%"
+                                }
+                            },
+                            {
+                                "title": "pl_borneo",
+                                "position": {
+                                    "x": "29%",
+                                    "y": "42%"
+                                }
+                            },
+                            {
+                                "title": "cp_gullywash",
+                                "position": {
+                                    "x": "48%",
+                                    "y": "41%"
+                                }
+                            },
+                            {
+                                "title": "cp_gravelpit",
+                                "position": {
+                                    "x": "67%",
+                                    "y": "42%"
+                                }
+                            },
+                            {
+                                "title": "cp_mountainlab",
+                                "position": {
+                                    "x": "85%",
+                                    "y": "43%"
+                                }
+                            },
+                            {
+                                "title": "cp_process",
+                                "position": {
+                                    "x": "10%",
+                                    "y": "73%"
+                                }
+                            },
+                            {
+                                "title": "cp_snakewater",
+                                "position": {
+                                    "x": "26%",
+                                    "y": "71%"
+                                }
+                            },
+                            {
+                                "title": "cp_yukon",
+                                "position": {
+                                    "x": "42%",
+                                    "y": "70%"
+                                }
+                            },
+                            {
+                                "title": "koth_king",
+                                "position": {
+                                    "x": "57%",
+                                    "y": "71%"
+                                }
+                            },
+                            {
+                                "title": "plr_bananabay",
+                                "position": {
+                                    "x": "73%",
+                                    "y": "70%"
+                                }
+                            },
+                            {
+                                "title": "plr_nightfall",
+                                "position": {
+                                    "x": "88%",
+                                    "y": "16%"
+                                }
+                            },
+                            {
+                                "title": "plr_pipeline",
+                                "position": {
+                                    "x": "88%",
+                                    "y": "71%"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "community_maps",
+                        "title": "node-creators-community_maps",
+                        "type": "tree",
+                        "dir": "./root/creators/community_maps",
+                        "background": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                        "required": [
+                            "creators"
+                        ],
+                        "position": {
+                            "x": "78%",
+                            "y": "20%"
+                        },
+                        "quests": [{
+                                "title": "koth_slaughter",
+                                "position": {
+                                    "x": "75%",
+                                    "y": "50%"
+                                }
+                            },
+                            {
+                                "title": "koth_spillway",
+                                "position": {
+                                    "x": "27%",
+                                    "y": "50%"
+                                }
+                            },
+                            {
+                                "title": "cp_glassworks",
+                                "position": {
+                                    "x": "35%",
+                                    "y": "79%"
+                                }
+                            },
+                            {
+                                "title": "pl_stranded",
+                                "position": {
+                                    "x": "11%",
+                                    "y": "16%"
+                                }
+                            },
+                            {
+                                "title": "koth_synthetic",
+                                "position": {
+                                    "x": "11%",
+                                    "y": "49%"
+                                }
+                            },
+                            {
+                                "title": "koth_clearcut",
+                                "position": {
+                                    "x": "59%",
+                                    "y": "48%"
+                                }
+                            },
+                            {
+                                "title": "pl_vigil",
+                                "position": {
+                                    "x": "26%",
+                                    "y": "18%"
+                                }
+                            },
+                            {
+                                "title": "pl_fifthcurve",
+                                "position": {
+                                    "x": "73%",
+                                    "y": "17%"
+                                }
+                            },
+                            {
+                                "title": "cp_kalinka",
+                                "position": {
+                                    "x": "18%",
+                                    "y": "79%"
+                                }
+                            },
+                            {
+                                "title": "pl_badwater_pro",
+                                "position": {
+                                    "x": "89%",
+                                    "y": "18%"
+                                }
+                            },
+                            {
+                                "title": "koth_harvestalpine",
+                                "position": {
+                                    "x": "90%",
+                                    "y": "49%"
+                                }
+                            },
+                            {
+                                "title": "koth_product",
+                                "position": {
+                                    "x": "43%",
+                                    "y": "49%"
+                                }
+                            },
+                            {
+                                "title": "pl_barnblitz_pro",
+                                "position": {
+                                    "x": "42%",
+                                    "y": "17%"
+                                }
+                            },
+                            {
+                                "title": "pl_summercoast",
+                                "position": {
+                                    "x": "58%",
+                                    "y": "18%"
+                                }
+                            },
+                            {
+                                "title": "koth_databank",
+                                "position": {
+                                    "x": "52%",
+                                    "y": "79%"
+                                }
+                            },
+                            {
+                                "title": "pl_sludgepit",
+                                "position": {
+                                    "x": "68%",
+                                    "y": "79%"
+                                }
+                            },
+                            {
+                                "title": "cp_rumble",
+                                "position": {
+                                    "x": "83%",
+                                    "y": "79%"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "back_to_fight",
+                "title": "node-back_to_fight",
+                "dir": "./root/back_to_fight",
+                "type": "tree",
+                "pagebg": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+                "position": {
+                    "x": "66%",
+                    "y": "50%"
+                },
+                "quests": [{
+                        "title": "koth_bagel_fall",
+                        "position": {
+                            "x": "15%",
+                            "y": "55%"
+                        }
+                    },
+                    {
+                        "title": "pl_camber",
+                        "position": {
+                            "x": "32%",
+                            "y": "48%"
+                        }
+                    },
+                    {
+                        "title": "pl_cashworks",
+                        "position": {
+                            "x": "50%",
+                            "y": "43%"
+                        }
+                    },
+                    {
+                        "title": "koth_gibson",
+                        "position": {
+                            "x": "68%",
+                            "y": "48%"
+                        }
+                    },
+                    {
+                        "title": "koth_harter",
+                        "position": {
+                            "x": "85%",
+                            "y": "55%"
+                        }
+                    }
+                ],
+                "nodes": []
+            }
+        ]
+    }]
+}

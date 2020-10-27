@@ -1,0 +1,194 @@
+{
+    "1": {
+        "name": "Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL"
+        }]
+    },
+    "2": {
+        "name": "Points Scored",
+        "hooks": [{
+            "event": "LOGIC_SCORE_POINTS"
+        }]
+    },
+    "3": {
+        "name": "Asissts",
+        "hooks": [{
+            "event": "LOGIC_SCORE_POINTS"
+        }]
+    },
+    "4": {
+        "name": "Airborne Enemies Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_AIRBORNE_ENEMY"
+        }]
+    },
+    "5": {
+        "name": "Scouts Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_SCOUT"
+        }]
+    },
+    "6": {
+        "name": "Soldiers Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_SOLDIER"
+        }]
+    },
+    "7": {
+        "name": "Pyros Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_PYRO"
+        }]
+    },
+    "8": {
+        "name": "Demomen Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_DEMOMAN"
+        }]
+    },
+    "9": {
+        "name": "Heavies Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_HEAVY"
+        }]
+    },
+    "10": {
+        "name": "Engineers Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_ENGINEER"
+        }]
+    },
+    "11": {
+        "name": "Medics Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_MEDIC"
+        }]
+    },
+    "12": {
+        "name": "Snipers Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_SNIPER"
+        }]
+    },
+    "13": {
+        "name": "Spies Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLASS_SPY"
+        }]
+    },
+    "14": {
+        "name": "Revenge Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL_REVENGE"
+        }]
+    },
+    "15": {
+        "name": "Domination Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL_DOMINATE"
+        }]
+    },
+    "16": {
+        "name": "Cloaked Spies Killed",
+        "hooks": [{
+            "event": "LOGIC_KILL_CLOAKED_SPY"
+        }]
+    },
+    "17": {
+        "name": "Defender Kills",
+        "hooks": [{
+            "event": "LOGIC_OBJECTIVE_DEFEND"
+        }]
+    },
+    "18": {
+        "name": "Kills While Ubercharged",
+        "hooks": [{
+            "event": "LOGIC_KILL_WHILE_UBERCHARGED"
+        }]
+    },
+    "19": {
+        "name": "Damage Dealt",
+        "hooks": [{
+            "event": "LOGIC_DEAL_DAMAGE"
+        }]
+    },
+    "20": {
+        "name": "Player Hits",
+        "hooks": [{
+            "event": "LOGIC_HIT_PLAYER"
+        }]
+    },
+    "21": {
+        "name": "Allied Healing Done",
+        "hooks": [{
+            "event": "LOGIC_HEALING_TEAMMATES"
+        }]
+    },
+    "22": {
+        "name": "Taunting Player Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL_TAUNTING"
+        }]
+    },
+    "23": {
+        "name": "Medics Killed That Have Full ÜberCharge",
+        "hooks": [{
+            "event": "LOGIC_KILL_UBERED_MEDIC"
+        }]
+    },
+    "24": {
+        "name": "Killstreaks Ended",
+        "hooks": [{
+            "event": "LOGIC_KILL_STREAK_ENDED"
+        }]
+    },
+    "25": {
+        "name": "Not Crit nor MiniCrit Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL_NON_CRITICAL"
+        }]
+    },
+    "26": {
+        "name": "Headshot Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL_HEADSHOT"
+        }]
+    },
+    "27": {
+        "name": "Critical Hits",
+        "hooks": [{
+            "event": "LOGIC_KILL_CRITICAL"
+        }]
+    },
+    "28": {
+        "name": "Gib Kills",
+        "hooks": [{
+            "event": "LOGIC_KILL_GIB"
+        }]
+    },
+    "29": {
+        "name": "Buildings Destroyed",
+        "hooks": [{
+            "event": "LOGIC_KILL_OBJECT"
+        }]
+    },
+    "30": {
+        "name": "Projectiles Reflected",
+        "hooks": [{
+            "event": "LOGIC_REFLECT"
+        }]
+    },
+    "31": {
+        "name": "Kills with a Taunt Attack",
+        "hooks": [{
+            "event": "LOGIC_KILL_WHILE_TAUNTING"
+        }]
+    },
+    "32": {
+        "name": "Souls Collected",
+        "hooks": [{
+            "event": "LOGIC_COLLECT_SOULS"
+        }]
+    }
+}

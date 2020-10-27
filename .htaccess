@@ -1,0 +1,57 @@
+RewriteEngine on
+
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R]
+
+RewriteRule ^(.*).(jpg|png|jpeg)$ engine/util/resizer.php?src=$1.$2 [L,QSA]
+
+RewriteRule ^posts$ index.php?page=posts [L,QSA]
+
+RewriteRule ^$ index.php?page=posts&authors[]=blog [L,QSA]
+RewriteRule ^blog$ index.php?page=posts&authors[]=blog [L,QSA]
+RewriteRule ^updates$ index.php?page=posts&authors[]=updates [L,QSA]
+RewriteRule ^news$ index.php?page=posts&authors[]=news [L,QSA]
+
+RewriteRule ^post/([A-Za-z0-9_]+)/([0-9_]+)$ index.php?page=post&post=$2&author=$1 [L,QSA]
+
+RewriteRule ^s/([A-Za-z0-9]+)$ index.php?page=short&link=$1 [L,QSA]
+RewriteRule ^report/error$ index.php?page=report&type=error [L,QSA]
+RewriteRule ^report/view$ index.php?page=report&type=view [L,QSA]
+
+RewriteRule ^submissions$ index.php?page=submissions [L,QSA]
+RewriteRule ^submission/([0-9]+)$ index.php?page=submission&submission=$1 [L,QSA]
+RewriteRule ^submission/([0-9]+)/edit$ index.php?page=submission_edit&submission=$1 [L,QSA]
+RewriteRule ^submission/create$ index.php?page=submission&action=create [L,QSA]
+
+RewriteRule ^profiles/([A-Za-z0-9_]+)$ index.php?page=profile&profile=$1 [L,QSA]
+RewriteRule ^profiles/([A-Za-z0-9_]+)/inventory$ index.php?page=inventory&profile=$1 [L,QSA]
+
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)$ index.php?page=loadout&class=$1 [L,QSA]
+
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/primary$ index.php?page=item_chooser&class=$1&slot=PRIMARY [L,QSA]
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/secondary$ index.php?page=item_chooser&class=$1&slot=SECONDARY [L,QSA]
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/melee$ index.php?page=item_chooser&class=$1&slot=MELEE [L,QSA]
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/wearable/1$ index.php?page=item_chooser&class=$1&slot=WEAR_1 [L,QSA]
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/wearable/2$ index.php?page=item_chooser&class=$1&slot=WEAR_2 [L,QSA]
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/wearable/3$ index.php?page=item_chooser&class=$1&slot=WEAR_3 [L,QSA]
+RewriteRule ^loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/action$ index.php?page=item_chooser&class=$1&slot=ACTION [L,QSA]
+RewriteRule ^loadout/(spy|engineer)/pda$ index.php?page=item_chooser&class=$1&slot=PDA [L,QSA]
+
+RewriteRule ^items/use/([0-9]+)$ index.php?page=item_use&item=$1 [L,QSA]
+RewriteRule ^items/use/([0-9]+)/([0-9]+)$ index.php?page=item_use&item=$1&target=$2 [L,QSA]
+RewriteRule ^items/scrap/([0-9]+)$ index.php?page=item_scrap&item=$1 [L,QSA]
+
+RewriteRule ^campaign/([A-Za-z0-9_]+)$ index.php?page=campaign&campaign=$1 [L,QSA]
+
+RewriteRule ^my/inv$ index.php?page=my&my=inv [L,QSA]
+
+RewriteRule ^store$ index.php?page=item_store [L,QSA]
+
+RewriteRule ^l/([a-z_]+)$ index.php?page=language&locale=$1 [L,QSA]
+
+RewriteRule ^api/([A-Za-z0-9_]+\/?)+$ engine/$0.php [L,QSA]
+
+RewriteRule ^([A-Za-z0-9_]+)/([A-Za-z0-9_]+)$ index.php?page=static&name=$1&surname=$2 [L,QSA]
+RewriteRule ^([A-Za-z0-9_]+)$ index.php?page=static&name=$1 [L,QSA]

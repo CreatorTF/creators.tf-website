@@ -1,0 +1,163 @@
+.ws {
+  width: 100%;
+}
+
+.ws-content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ws-side {
+  width: 230px;
+  flex-shrink: 0;
+  padding: 0 0 0 10px;
+}
+
+.ws-header img {
+  width: 100%;
+  margin-top: 0;
+}
+
+.ws-image-slider .glide {
+  padding: 0;
+}
+
+.ws-header {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.ws-tag {
+  margin-top: 3px;
+}
+
+.ws-tags {
+  color: #eee;
+  margin-top: 5px;
+}
+
+.ws-tag-name {
+  color: #999;
+  font-size: 14px;
+}
+
+.ws-block:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ws-steam {
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "TF2 Secondary", sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.ws-steam:hover {
+  filter: brightness(1.1);
+}
+
+.ws-info-container {
+  margin-top: 5px;
+}
+
+.ws-statusbar {
+  width: 100%;
+  min-height: 60px;
+  margin: 4px 0 10px;
+  border-radius: 6px;
+  color: #fff;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+
+.ws-sbar-icon {
+  text-align: center;
+  height: 60px;
+  width: 50px;
+  line-height: 60px;
+  font-size: 35px;
+  flex-shrink: 0;
+}
+
+.ws-sbar-label {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.ws-sbar-help {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.ws-download {
+  background: #211f1d;
+  min-height: 60px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.ws-link-menu {
+  line-height: 22px;
+}
+
+.ws-image-slider {
+  width: 580px;
+  height: 326px;
+}
+
+ul.no-offsets {
+  padding-left: 0;
+  margin: 0;
+}
+
+.ws-feed-nav>li {
+  float: left;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.ws-statusbar.ws-statusbar-small .ws-sbar-icon {
+  font-size: 24px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.ws-statusbar.ws-statusbar-small {
+  min-height: 40px;
+  width: 40px;
+}
+
+.ws-grid-display {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ws-grid-display-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.ws-grid-display, .ws-grid-display-4 {
+  box-sizing: border-box;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.ws-thumb-icon {
+  width: 26px;
+  height: 18px;
+  border-radius: 3px;
+  transition: opacity .2s ease;
+  text-align: center;
+  line-height: 18px;
+  color: #fff;
+  margin-top: 2px;
+  font-weight: bold;
+}

@@ -1,0 +1,40 @@
+rewrite ^/workshop/([0-9]+)$ https://steamcommunity.com/sharedfiles/filedetails/?id=$1 last;
+
+rewrite ^/(.*)/$ /$1 permanent;
+rewrite ^/updates$ /index.php?page=updates last;
+rewrite ^/updates/([0-9]+)$ /index.php?page=updates&offset=$1 last;
+rewrite ^/blog$ /index.php?page=feed last;
+rewrite ^/blog/([0-9]+)$ /index.php?page=blog&offset=$1 last;
+rewrite ^/news$ /index.php?page=news last;
+rewrite ^/news/([0-9]+)$ /index.php?page=news&offset=$1 last;
+rewrite ^/my/inv$ /index.php?page=my&my=inv last;
+
+rewrite ^/s/([A-Za-z0-9]+)$ /index.php?page=short&link=$1 last;
+rewrite ^/report/error$ /index.php?page=report&type=error last;
+rewrite ^/report/view$ /index.php?page=report&type=view last;
+
+rewrite ^/profiles/([A-Za-z0-9_]+)$ /index.php?page=profile&profile=$1 last;
+rewrite ^/profiles/([A-Za-z0-9_]+)/inventory$ /index.php?page=inventory&profile=$1 last;
+
+rewrite ^/(loadout|taunts)/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)$ /index.php?page=$1&class=$2 last;
+rewrite ^/loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/primary$ /index.php?page=item_chooser&class=$1&slot=PRIMARY last;
+rewrite ^/loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/secondary$ /index.php?page=item_chooser&class=$1&slot=SECONDARY last;
+rewrite ^/loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/melee$ /index.php?page=item_chooser&class=$1&slot=MELEE last;
+rewrite ^/loadout/(engineer|spy)/pda$ /index.php?page=item_chooser&class=$1&slot=PDA last;
+rewrite ^/loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/wearable/([1-3])$ /index.php?page=item_chooser&class=$1&slot=WEAR_$2 last;
+rewrite ^/loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/action$ /index.php?page=item_chooser&class=$1&slot=ACTION last;
+rewrite ^/loadout/(scout|soldier|pyro|demo|heavy|engineer|medic|sniper|spy)/taunts/([1-8])$ /index.php?page=item_chooser&class=$1&slot=TAUNT_$2 last;
+
+rewrite ^/items/use/([0-9]+)$ /index.php?page=item_use&item=$1 last;
+rewrite ^/items/use/([0-9]+)/([0-9]+)$ /index.php?page=item_use&item=$1&target=$2 last;
+rewrite ^/items/scrap/([0-9]+)$ /index.php?page=item_scrap&item=$1 last;
+
+rewrite ^/post/([A-Za-z0-9_]+)/([0-9_]+)$ /index.php?page=post&post=$2&author=$1 last;
+
+rewrite ^/store$ /index.php?page=item_store last;
+
+rewrite ^/api/([A-Za-z0-9_]+)$ /engine/api/$1.php last;
+rewrite ^/api/([A-Za-z0-9_]+)/([A-Za-z0-9_]+)$ /engine/api/$1/$2.php last;
+
+rewrite ^/([A-Za-z0-9_]+)$ /index.php?page=static&name=$1&surname last;
+rewrite ^/([A-Za-z0-9_]+)/([A-Za-z0-9_]+)$ /index.php?page=static&name=$1&surname=$2 last;

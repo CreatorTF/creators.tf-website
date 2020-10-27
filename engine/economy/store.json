@@ -1,0 +1,225 @@
+{
+    "Dreadful Dismal Cosmetic Crate": {
+        "new": true,
+        "price": 120
+    },
+    "Doomed Seasonal Cosmetic Crate": {
+        "new": true,
+        "price": 120
+    },
+
+    "Ye Spoiled Breaded Cap": {
+        "new": true,
+        "price": 500
+    },
+    "Amphibeanie": {
+        "new": true,
+        "price": 450
+    },
+    "Spectral Specs": {
+        "new": true,
+        "price": 400
+    },
+    "Uncanny Undertaker": {
+        "new": true,
+        "price": 450
+    },
+    "Keelhaul Kapitan": {
+        "new": true,
+        "price": 500
+    },
+    "Coxswain Coat": {
+        "new": true,
+        "price": 550
+    },
+    "Gallon o' Grog": {
+        "new": true,
+        "price": 450
+    },
+    "Bubonic Bedizen": {
+        "new": true,
+        "price": 450
+    },
+    "Pestilent Profession": {
+        "new": true,
+        "price": 400
+    },
+    "Grave Digger's Goatee": {
+        "new": true,
+        "price": 400
+    },
+    "Brave Boots": {
+        "new": true,
+        "price": 450
+    },
+    "Henshin Helmet": {
+        "new": true,
+        "price": 450
+    },
+    "Savior's Suit": {
+        "new": true,
+        "price": 500
+    },
+    "Co-Leader Cap": {
+        "new": true,
+        "price": 450
+    },
+    "Outbreak Outerwear": {
+        "new": true,
+        "price": 500
+    },
+    "Blood-Soaked Brim": {
+        "new": true,
+        "price": 450
+    },
+    "Nightwalker's Necktie": {
+        "new": true,
+        "price": 500
+    },
+    "Vampire's Vestments": {
+        "new": true,
+        "price": 450
+    },
+
+    "Bombinomicrown": {
+        "new": true,
+        "price": 350
+    },
+    "Pardner's Paws": {
+        "new": true,
+        "price": 400
+    },
+    "Combustible Cranium": {
+        "new": true,
+        "price": 400
+    },
+    "Invisible Igniter": {
+        "new": true,
+        "price": 400
+    },
+    "Stitched Smile": {
+        "new": true,
+        "price": 350
+    },
+    "Batter's Beak": {
+        "new": true,
+        "price": 400
+    },
+    "Dugout Scratchers": {
+        "new": true,
+        "price": 400
+    },
+    "Fielder's Feathers": {
+        "new": true,
+        "price": 400
+    },
+
+    "Back to Fight Keyless Cosmetic Crate": 120,
+    "Madame Hootsabunch": 400,
+    "Hippocratic Growth": 350,
+    "Pyrovision Visors": 400,
+    "Crusty Crasher": 350,
+    "Boston Bling":  450,
+    "Lucky Laces": 350,
+    "Badlands Sunblock": 400,
+    "Lanai Lounger": 450,
+    "Hot Tropic": 400,
+    "Woodland Wear": 450,
+    "Survivor's Kit": 400,
+
+    "Classful Keyless Cosmetic Crate": 120,
+    "About Time": 300,
+    "Googly Aye": 300,
+    "Cyber Cowl": 300,
+    "Buckshot Bandolier": 300,
+    "Sight of Sound": 350,
+    "Comrade Communicator": 350,
+    "Dutiful Do": 350,
+    "Charlatan's Cordobés": 350,
+    "Stealthy Spaniard": 350,
+    "Prime Minister": 350,
+    "Lil Garbage Gaurdians": 350,
+    "Dust-Bowler": 350,
+    "Peak Precision Parka": 400,
+    "Veteran's Vail": 400,
+    "Deathadder": 400,
+    "Foxhound": 400,
+    "Explosive Vacation": 400,
+    "Beater Cop": 450,
+    "Dancer's Dress": 450,
+    "W.A.S.P. Launcher": 120,
+    "Bolshevik Bomber": 120,
+    "Carved Cutter": 120,
+
+    "Carry-on Kitty": 350,
+
+    "Hazardous Environments Keyless Crate": 120,
+    "Free Mane": 300,
+    "Hardhat Hazmat": 450,
+    "Specialist": 350,
+    "Ridiculous Tie": 300,
+    "Family Doctor": 300,
+    "Benefactor's Bowl": 350,
+    "Breadcrab": 400,
+    "Crate Smasher": 120,
+    "Thumper": 120,
+    "Hypodermic Injector": 120,
+    "Gamma Gazer": 120,
+
+    "New Beginning Keyless Cosmetic Crate": 120,
+    "Thrift Store Couture": 450,
+    "Eiffel Towering Pillar of Berets": 400,
+    "Pocket Pork": 300,
+    "Flame Kindler": 450,
+    "Wok Helmet": 450,
+    "Usual": 400,
+    "Tiny Supplier": 400,
+    "Crazy Noisy Bizarre Pomp": 300,
+    "Der Friedensarbeiter": 450,
+    "Shady Business": 300,
+
+    "Self-Made Smissmas Keyless Cosmetic Crate": 120,
+    "Gravel Blooded Mercenary": 450,
+    "Bigger Mann on Campus": 450,
+    "Cadaver's Coat": 400,
+    "Comet Costume": 400,
+    "Undercover Usurper": 300,
+    "Antifreeze Ulster": 450,
+    "Present From Pyro": 300,
+    "Seasoned Stetson": 300,
+    "Cold Sweater": 400,
+    "Winter Western": 450,
+
+    "A Color Similar to Slate": 350,
+    "A Deep Commitment to Purple": 350,
+    "A Distinctive Lack of Hue": 350,
+    "A Mann's Mint": 350,
+    "After Eight": 350,
+    "Aged Moustache Grey": 350,
+    "An Extraordinary Abundance of Tinge": 350,
+    "Australium Gold": 350,
+    "Color No. 216-190-216": 350,
+    "Dark Salmon Injustice": 350,
+    "Drably Olive": 350,
+    "Indubitably Green": 350,
+    "Mann Co. Orange": 350,
+    "Muskelmannbraun": 350,
+    "Noble Hatter's Violet": 350,
+    "Peculiarly Drab Tincture": 350,
+    "Pink as Hell": 350,
+    "Radigan Conagher Brown": 350,
+    "The Bitter Taste of Defeat and Lime": 350,
+    "The Color of a Gentlemann's Business Pants": 350,
+    "Ye Olde Rustic Colour": 350,
+    "Zepheniah's Greed": 350,
+    "An Air of Debonair": 350,
+    "Balaclavas Are Forever": 350,
+    "Cream Spirit": 350,
+    "Operator's Overalls": 350,
+    "Team Spirit": 350,
+    "The Value of Teamwork": 350,
+    "Waterlogged Lab Coat": 350,
+
+    "Backpack Expander": 1499,
+    "Strangifier": 2499
+}

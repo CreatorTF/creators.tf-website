@@ -1,0 +1,5546 @@
+{
+    "-1": {
+        "name": "No Override",
+        "image": "{CDN}/assets/images/inventory/items/item_nothing.png"
+    },
+    "1": {
+        "name": "Self-Made Smissmas Keyless Cosmetic Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the Self-Made Smissmas Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_dec2019_crate.png",
+        "collection_reference": "Winter2019Cosmetics_collection",
+        "additional_collection_references": {
+            "strangifier": 2
+        },
+        "tool_type": "collection_drop",
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Crate, Self-Made Smissmas Collection"
+        }]
+    },
+    "2": {
+        "name": "Gravel Blooded Mercenary",
+        "type": "cosmetic",
+        "description": "The sustenance of life is on the battlefield.",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/all_class/gravel_blooded_mercenaries/gravel_blooded_mercenaries_style_1_%s.mdl",
+        "item_index": 30309,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_gravel_blooded.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1,
+            "pyro": 1,
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Ertz™, Nüke and Vipes"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Pyro, Engineer, Paintable, Self-Made Smissmas Cosmetic Collection."
+        }, {
+            "name": "submission workshop link",
+            "value": "1751886960"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/gravel_blooded_mercenaries.glb",
+            "skeleton": "gravel_blooded_mercenaries",
+            "models": null,
+            "disables": null,
+            "colourMask": [{
+                    "key": "gravel_blooded_mercenaries_style_2",
+                    "value": "cosmetics/gravel_blooded_mercenaries_style_2_mask.png"
+                },
+                {
+                    "key": "gravel_blooded_mercenaries_style_2_1",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "3": {
+        "name": "Bigger Mann on Campus",
+        "type": "cosmetic",
+        "description": "We fight like men. In parking lot. After school.",
+        "equip_region": "shirt",
+        "propername": 1,
+        "world_model": "models/community/player/items/heavy/bigger_mann_on_campus/bigger_mann_on_campus.mdl",
+        "item_index": 777,
+        "image": "{CDN}/assets/images/inventory/items/heavy/item_heavy_bigger_mann.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Big Bob, Yikes and DJB2401"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Heavy, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1922905763"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/bigger_mann_on_campus.glb",
+            "skeleton": "bigger_mann_on_campusqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": [{
+                    "key": "bigger_mann_on_campus",
+                    "value": "cosmetics/Heavy/bigger_mann_on_campus_mask.png"
+                },
+                {
+                    "key": "bigger_mann_on_campus_1",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "4": {
+        "name": "Cadaver's Coat",
+        "type": "cosmetic",
+        "description": "For that fancy dinner with your special someone, who you also happen to be operating on.",
+        "equip_region": "shirt",
+        "propername": 1,
+        "world_model": "models/community/player/items/medic/cadavers_coat/cadavers_coat.mdl",
+        "item_index": 982,
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_cadavers_coat.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Gadget, Vipes, Rotzlöffel and Extra Ram"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Medic, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1179841369"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/cadavers_coat.glb",
+            "skeleton": "cadavers_coatqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": "cosmetics/Medic/cadavers_coat_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "5": {
+        "name": "Comet Costume",
+        "type": "cosmetic",
+        "equip_region": "shirt",
+        "propername": 1,
+        "description": "I came here to bonk you.",
+        "world_model": "models/community/player/items/scout/comet_costume/comet_costume.mdl",
+        "item_index": 30076,
+        "image": "{CDN}/assets/images/inventory/items/scout/item_scout_comet_costume.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Ertz™ and Vipes"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1880436303"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/comet_costume.glb",
+            "skeleton": "comet_costumeqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "6": {
+        "name": "Undercover Usurper",
+        "type": "cosmetic",
+        "description": "When you wear this wonderful wig and set of shades, it's saying to the other team: «I'm totally dedicated to not dying.»",
+        "equip_region": "whole_head",
+        "propername": 1,
+        "world_model": "models/community/player/items/scout/undercover_usurper/undercover_usurper.mdl",
+        "item_index": 453,
+        "image": "{CDN}/assets/images/inventory/items/scout/item_scout_undercover_usurper.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Ertz™ and Vipes"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1880440053"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/undercover_usurper.glb",
+            "skeleton": "undercover_usurperqc_skeleton",
+            "models": null,
+            "disables": [
+                "HAT",
+                "HEADPHONES_S"
+            ],
+            "colourMask": "cosmetics/Scout/undercover_usurper_colorMask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "7": {
+        "name": "Antifreeze Ulster",
+        "type": "cosmetic",
+        "description": "The people's coat. Fitted with the finest faux fur, it will give you warmth in the winter... in exchange for a horrible summer.",
+        "equip_region": "shirt",
+        "propername": 1,
+        "world_model": "models/community/player/items/pyro/antifreeze_ulster/antifreeze_ulster.mdl",
+        "item_index": 30169,
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_antifreeze_ulster.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Diarrhea, Ertz™, Pie_Savvy and Vipes"
+        }, {
+            "name": "submission workshop link",
+            "value": "1587132096"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Pyro, Self-Made Smissmas Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/antifreeze_ulster.glb",
+            "skeleton": "antifreeze_ulsterqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": [{
+                    "key": "antifreeze_ulster",
+                    "value": "IGNORE_COLOR_TINT"
+                },
+                {
+                    "key": "antifreeze_ulster_1",
+                    "value": "cosmetics/Pyro/antifreeze_ulster_1_mask.png"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "8": {
+        "name": "Present From Pyro",
+        "type": "cosmetic",
+        "description": "What's in the box?!",
+        "equip_region": "pyro_head_replacement",
+        "propername": 1,
+        "world_model": "models/community/player/items/pyro/present_from_pyro/present_from_pyro.mdl",
+        "item_index": 335,
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_present_from_pyro.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Strno8, TheLazerSofa and DJB2401"
+        }, {
+            "name": "submission workshop link",
+            "value": "1926049875"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Pyro, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/present_from_pyro.glb",
+            "skeleton": "present_from_pyroqc_skeleton",
+            "models": null,
+            "disables": [
+                "HEAD"
+            ],
+            "colourMask": "cosmetics/Pyro/present_from_pyro_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "9": {
+        "name": "Seasoned Stetson",
+        "type": "cosmetic",
+        "description": "Travelling through snow capped mountains in a wagon ain't easy without this thick leather hat.",
+        "equip_region": "hat",
+        "propername": 1,
+        "world_model": "models/community/player/items/engineer/seasoned_stetson/seasoned_stetson.mdl",
+        "item_index": 322,
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_seasoned_stetson.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Strno8 and DJB2401"
+        }, {
+            "name": "submission workshop link",
+            "value": "1918466942"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Engineer, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/seasoned_stetson.glb",
+            "skeleton": "seasoned_stetsonqc_skeleton",
+            "models": null,
+            "disables": [
+                "HAT"
+            ],
+            "colourMask": "cosmetics/{class}/engie_winter_hat_colourmask.jpg",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "10": {
+        "name": "Cold Sweater",
+        "type": "cosmetic",
+        "description": "Prepare yourself for any outing! Mountains? No problem. Skydiving? Easy. Precise medical operations? Good enough.",
+        "equip_region": "shirt",
+        "propername": 1,
+        "world_model": "models/community/player/items/medic/cold_sweater/cold_sweater.mdl",
+        "item_index": 982,
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_cold_sweater.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Strno8 and Hotrod McCoolgal"
+        }, {
+            "name": "submission workshop link",
+            "value": "1587648779"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Medic, Self-Made Smissmas Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/cold_sweater.glb",
+            "skeleton": "cold_sweaterqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "11": {
+        "name": "Winter Western",
+        "type": "cosmetic",
+        "description": "You won't die from no bullet in the back. When I catch you, Spy... You hang!",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/engineer/winter_western/winter_western.mdl",
+        "item_index": 30337,
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_winter_western.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Strno8 and DJB2401"
+        }, {
+            "name": "submission workshop link",
+            "value": "1918471942"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Engineer, Paintable, Self-Made Smissmas Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/winter western.glb",
+            "skeleton": "winter_westernqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": "cosmetics/Engineer/winter_western_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "12": {
+        "name": "Crate Smasher",
+        "description": "A near-perfect replica of a certain crowbar. If only you could climb through vents...",
+        "type": "weapon",
+        "image": "{CDN}/assets/images/inventory/items/all_class/weapon_allclass_crowbar.png",
+        "item_class": "tf_weapon_saxxy",
+        "item_index": 1123,
+        "world_model": "models/weapons/c_models/c_crowbar/c_crowbar.mdl",
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 2,
+            "soldier": 2,
+            "pyro": 2,
+            "demo": 2,
+            "heavy": 2,
+            "engineer": 2,
+            "sniper": 2,
+            "medic": 2
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Loyen"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Melee, Scout, Soldier, Pyro, Demoman, Heavy, Engineer, Medic, Sniper, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "152814592"
+        }],
+        "preview": {
+            "path": "weapons/crate_smasher.glb",
+            "type": "melee",
+            "skeletonName": "cratesmasherqc_skeleton",
+            "classIDs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "centerPos": [
+                0,
+                2,
+                0
+            ],
+            "rotationFix": [
+                2.0420352248333655,
+                0,
+                0
+            ],
+            "animationOverride": [
+                "", "", "", "", "", "melee_allclass.glb", "", "", ""
+            ]
+        }
+    },
+    "13": {
+        "name": "New Beginning Keyless Cosmetic Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the New Beginning Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_jan2020_crate.png",
+        "collection_reference": "Vanilla2020Cosmetics_collection",
+        "additional_collection_references": {
+            "strangifier": 2
+        },
+        "tool_type": "collection_drop",
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Sniper, New Beginning Collection"
+        }]
+    },
+    "14": {
+        "name": "Thrift Store Couture",
+        "type": "cosmetic",
+        "description": "Do you have any idea how hard it is to find a custom Italian suit in the Badlands?",
+        "equip_region": "shirt",
+        "propername": 1,
+        "world_model": "models/community/player/items/spy/thrift_store_couture/thrift_store_couture.mdl",
+        "item_index": 782,
+        "image": "{CDN}/assets/images/inventory/items/spy/item_spy_thrift_store_couture.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Barno, DJB2401 and Kaymon95"
+        }, {
+            "name": "submission workshop link",
+            "value": "1697655530"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Spy, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/spy_suit_couture.glb",
+            "skeleton": "suit_couture_skeleton",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "suit_couture1",
+                    "value": "/cosmetics/Spy/suit_couture1_colorMask.jpg"
+                },
+                {
+                    "key": "suit_couture1_1",
+                    "value": "cosmetics/Spy/suit_couture1_1_colorMask.jpg"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "15": {
+        "name": "Eiffel Towering Pillar of Berets",
+        "type": "cosmetic",
+        "description": "It's customary in France to take a single beret from any man you defeat in single combat and wear as many as you are able to show how French you are.",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/spy/eiffel_towering_pillar_of_berets/eiffel_towering_pillar_of_berets.mdl",
+        "item_index": 55,
+        "image": "{CDN}/assets/images/inventory/items/spy/item_spy_eiffel_towering_pillar_of_berets.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Barno"
+        }, {
+            "name": "submission workshop link",
+            "value": "1572485208"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Spy, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/eiffel_towering_pillar_of_berets.glb",
+            "skeleton": "c_beretstack",
+            "models": null,
+            "disables": null,
+            "colourMask": "cosmetics/Spy/beretstack_colorMask.jpg",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "16": {
+        "name": "Pocket Pork",
+        "type": "cosmetic",
+        "description": "Is there really anything better you could place in that oversized pocket of yours?",
+        "equip_region": "pocket engineer_pocket",
+        "propername": 1,
+        "world_model": "models/community/player/items/engineer/pocket_pork/pocket_pork.mdl",
+        "item_index": 386,
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_pocket_pork.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Muhai, SodaHunter, Grambee and Kodachrome"
+        }, {
+            "name": "submission workshop link",
+            "value": "1288478931"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Engineer, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/pocket pork.glb",
+            "skeleton": "bacon_high_lod",
+            "models": null,
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "17": {
+        "name": "Flame Kindler",
+        "type": "cosmetic",
+        "description": "Don't let this little devil trick you with his appearance. One wrong look at him and he'll be bringing the pro-PAIN (and pro-pain accessories.)",
+        "equip_region": "backpack",
+        "propername": 1,
+        "world_model": "models/community/player/items/pyro/flame_kindler/flame_kindler.mdl",
+        "item_index": 596,
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_flame_kindler.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Strno8 / Patrezak, Pie_Savvy, Rev and Hotrod McCoolgal"
+        }, {
+            "name": "submission workshop link",
+            "value": "1459165491"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Pyro, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/flame kindler.glb",
+            "skeleton": "jul13_furious_fryupqc_skeleton",
+            "models": null,
+            "disables": [
+                "BACKPACK_P"
+            ],
+            "colourMask": "cosmetics/Pyro/flame_kindler_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "18": {
+        "name": "Wok Helmet",
+        "type": "cosmetic",
+        "description": "Pyro wanted to make the stir fry this time. He tried his best.",
+        "equip_region": "hat",
+        "propername": 1,
+        "world_model": "models/community/player/items/pyro/wok_helmet/wok_helmet.mdl",
+        "item_index": 51,
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_wok_helmet.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Rikusyo"
+        }, {
+            "name": "submission workshop link",
+            "value": "1379647630"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Pyro, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/wok.glb",
+            "skeleton": "WokHelmet",
+            "models": [
+                "WokHelmetShape"
+            ],
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "19": {
+        "name": "Usual",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "These repurposed cases are now the most luxury of hats available. One man's trash is another man's tophat!",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/all_class/usual_locked_style/usual_locked_style_%s.mdl",
+        "item_index": 263,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_usual_locked_style.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "The 64th Gamer"
+        }, {
+            "name": "submission workshop link",
+            "value": "1994238128"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Sniper, Soldier, Demoman, Medic, Heavy, Pyro, Spy, Engineer, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/usual_locked.glb",
+            "skeleton": "usual_locked",
+            "models": null,
+            "disables": [
+                "HAT"
+            ],
+            "colourMask": [{
+                    "key": "usual_locked_style",
+                    "value": "cosmetics/usual_locked_style_mask.jpg"
+                },
+                {
+                    "key": "usual_locked_style_1",
+                    "value": "cosmetics/usual_locked_style_1_mask.jpg"
+                }
+            ],
+            "additive": true,
+            "centerPos": [
+                0,
+                80,
+                0
+            ],
+            "rotFix": true
+        }
+    },
+    "20": {
+        "name": "Tiny Supplier",
+        "type": "cosmetic",
+        "description": "You want a mini-Dispenser? You got one. We can't all be winners.",
+        "equip_region": "left_shoulder",
+        "world_model": "models/community/player/items/engineer/tiny_supplier/tiny_supplier.mdl",
+        "item_index": 30341,
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_tiny_supplier.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Aspilate"
+        }, {
+            "name": "submission workshop link",
+            "value": "1656600594"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Engineer, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/tiny supplier.glb",
+            "skeleton": "kubbab",
+            "models": null,
+            "disables": null,
+            "colourMask": "cosmetics/Engineer/tiny_supplier_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "21": {
+        "name": "Crazy Noisy Bizarre Pomp",
+        "type": "cosmetic",
+        "description": "These are great days to get such a wacky haircut. The ladies might chase you for it!",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/scout/crazy_noisy_bizarre_pomp/crazy_noisy_bizarre_pomp.mdl",
+        "item_index": 107,
+        "image": "{CDN}/assets/images/inventory/items/scout/item_scout_crazy_noisy_bizarre_pomp.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Yikes, drew and DJB2401"
+        }, {
+            "name": "submission workshop link",
+            "value": "1695886162"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/bizzarre pomp.glb",
+            "skeleton": "pomp",
+            "models": [
+                "pombShape"
+            ],
+            "disables": [
+                "HAT",
+                "HEADPHONES_S"
+            ],
+            "colourMask": "cosmetics/Scout/josuke_mask.jpg",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "22": {
+        "name": "Der Friedensarbeiter",
+        "type": "cosmetic",
+        "description": "No, this isn't the time for your world of total pacifism.",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/medic/der_friedensarbeiter/der_friedensarbeiter.mdl",
+        "item_index": 30171,
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_der_friedensarbeiter.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes and Ertz™"
+        }, {
+            "name": "submission workshop link",
+            "value": "1518845113"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Medic, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/der_friedensarbeiter.glb",
+            "skeleton": "der_friedensarbeiterqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": "cosmetics/Medic/medic_general_coat_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "23": {
+        "name": "Shady Business",
+        "type": "cosmetic",
+        "description": "Remember to look someone straight in the eyes when doing business.",
+        "equip_region": "hat",
+        "propername": 1,
+        "world_model": "models/community/player/items/heavy/shady_business_uptown_style/shady_business_uptown_style.mdl",
+        "item_index": 427,
+        "image": "{CDN}/assets/images/inventory/items/heavy/item_heavy_shady_business_uptown_style.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Strno8 / Patrezak and Tabby"
+        }, {
+            "name": "submission workshop link",
+            "value": "1739548011"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Heavy, Paintable, New Beginning Cosmetic Collection"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/shady business.glb",
+            "skeleton": "heavy_shady_business_skeleton",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/Heavy/shady_business_uptown_style_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "24": {
+        "name": "Map Stamp - Snowlodge",
+        "description": "A Control Point Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/cp_snowlodge.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "phi"
+        }]
+    },
+    "25": {
+        "name": "Map Stamp - Stoneyridge",
+        "description": "A Control Point Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/cp_stoneyridge.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "UEAKCrash, Blanche Devereaux, xzzy, and Hey You"
+        }]
+    },
+    "26": {
+        "name": "Map Stamp - Snowfort",
+        "description": "A Capture the Flag Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/ctf_snowfort.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "GooBaLL60"
+        }]
+    },
+    "27": {
+        "name": "Map Stamp - White Winter",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_whitewinter.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "RuFFlee"
+        }]
+    },
+    "28": {
+        "name": "Map Stamp - Hightower Snowy",
+        "description": "A Payload Race Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/plr_hightowersnowy.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "Pugik"
+        }]
+    },
+    "29": {
+        "name": "Map Stamp - Stranded",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_stranded.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "ICS"
+        }]
+    },
+    "30": {
+        "name": "Map Stamp - BaleOfHay",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_baleofhay.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "RuFFlee"
+        }]
+    },
+    "31": {
+        "name": "Map Stamp - Synthetic",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_synthetic.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "hutty, Gadget, Ducksink, Squeezit, and MegapiemanPHD"
+        }]
+    },
+    "32": {
+        "name": "Map Stamp - ClearCut",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_clearcut.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "SturmTea"
+        }]
+    },
+    "33": {
+        "name": "Map Stamp - Isotope",
+        "description": "A Special Delivery Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/ctf_isotope.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "Sandwhip"
+        }]
+    },
+    "34": {
+        "name": "Map Stamp - Kalinka",
+        "description": "A Control Point Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/cp_kalinka.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "NeoDement, Jusa, Exactol, and Square"
+        }]
+    },
+    "35": {
+        "name": "Map Stamp - Vigil",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_vigil.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "AsG_Alligator, Frevia, MaccyF, Yotts, and theatreTECHIE"
+        }]
+    },
+    "36": {
+        "name": "Map Stamp - Fifthcurve",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_fifthcurve.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "ICS"
+        }]
+    },
+    "37": {
+        "name": "Free Mane",
+        "type": "cosmetic",
+        "description": "Who needs a helmet when you look this handsome?",
+        "equip_region": "whole_head",
+        "propername": 1,
+        "world_model": "models/community/player/items/engineer/hightech_haircut/hightech_haircut.mdl",
+        "item_index": 30592,
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_free_mann.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "NeoDement, Harry, Nuts ft. 6ix9ine"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Engineer, Paintable, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1156600783"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/hightech_haircut.glb",
+            "skeleton": "hightech_haircut_skel",
+            "models": null,
+            "disables": [
+                "HAT"
+            ],
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "38": {
+        "name": "Hardhat Hazmat",
+        "type": "cosmetic",
+        "description": "Re-engineered for comfort and utility.",
+        "equip_region": "shirt pants",
+        "propername": 1,
+        "world_model": "models/community/player/items/engineer/safe_scientist/safe_scientist.mdl",
+        "item_index": 30655,
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_hardhat_hazmat.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "NeoDement, Harry, Nuts ft. 6ix9ine"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Engineer, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1156602666"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/Safe Scientist.glb",
+            "skeleton": "safescientist_skel",
+            "models": null,
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "39": {
+        "name": "Specialist",
+        "type": "cosmetic",
+        "description": "My God, what are you doing?",
+        "equip_region": "glasses",
+        "propername": 1,
+        "world_model": "models/community/player/items/medic/scientist_head_3/scientist_head_3.mdl",
+        "item_index": 30792,
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_specialist.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "GetGrenade, Greg"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Medic, Paintable, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "315641863"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/scientist head.glb",
+            "skeleton": "scientist_head",
+            "models": null,
+            "disables": null,
+            "colourMask": [{
+                    "key": "scientist_head_3",
+                    "value": "cosmetics/Medic/scientist_head_3_mask.png"
+                },
+                {
+                    "key": "scientist_head_3_1",
+                    "value": "cosmetics/Medic/scientist_head_3_1_mask.png"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "40": {
+        "name": "Ridiculous Tie",
+        "type": "cosmetic",
+        "description": "Why do we have to wear them?",
+        "equip_region": "shirt",
+        "propername": 1,
+        "world_model": "models/community/player/items/medic/ridiculous_tie/ridiculous_tie.mdl",
+        "item_index": 30595,
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_ridiculous_tie.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "GetGrenade, Greg"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Medic, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "315642986"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/ridiculous_tie.glb",
+            "skeleton": "medic_scientist_shirt_skel",
+            "models": null,
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "41": {
+        "name": "Family Doctor",
+        "type": "cosmetic",
+        "description": "Fancy pants and a pair of shiny boots! Fascinating!",
+        "equip_region": "pants",
+        "propername": 1,
+        "world_model": "models/community/player/items/medic/family_doctor/family_doctor.mdl",
+        "item_index": 30229,
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_family_doctor.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "GetGrenade, Greg"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Medic, Paintable, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "315644057"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/family doctor.glb",
+            "skeleton": "family_doctorqc_skeleton",
+            "models": null,
+            "disables": null,
+            "colourMask": "cosmetics/Medic/family_doctor_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": true
+        }
+    },
+    "42": {
+        "name": "Hazardous Environments Keyless Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the Hazardous Environments Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_apr2020_crate.png",
+        "collection_reference": "HalfLifeCosmetics_collection",
+        "tool_type": "collection_drop",
+        "additional_collection_references": {
+            "strangifier": 2
+        },
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Crate, Hazardous Environments Collection"
+        }]
+    },
+    "43": {
+        "name": "Benefactor's Bowl",
+        "type": "cosmetic",
+        "description": "Attention all ground Pyros, judgement waiver is now in effect.",
+        "equip_region": "pyro_head_replacement",
+        "propername": 0,
+        "world_model": "models/community/player/items/pyro/benefactors_bowl/benefactors_bowl.mdl",
+        "item_index": 30538,
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_benefactors_bowl.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "doggoh"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Pyro, Paintable, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1928035575"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/benefactors_bowl.glb",
+            "skeleton": "combine",
+            "models": null,
+            "disables": [
+                "HEAD"
+            ],
+            "colourMask": [{
+                    "key": "benefactors_bowl",
+                    "value": "cosmetics/Pyro/benefactors_bowl_mask.png"
+                },
+                {
+                    "key": "benefactors_bowl_1",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "44": {
+        "name": "Tainted Tome",
+        "type": "cosmetic",
+        "description": "The Tainted Tome grants access to the Halloween missions each year. You can level up the Tome by collecting souls. Usage of the book may cause memory loss, terror-filled pants, and hate for cheese.",
+        "strange_level_data": "GeneralEater_SoulCollecter",
+        "slot": "ACTION",
+        "item_index": 5869,
+        "attributes": [{
+            "name": "strange eater",
+            "value": 32
+        }, {
+            "name": "style changes on strange level",
+            "value": true
+        }, {
+            "name": "item campaign name",
+            "value": "halloween"
+        }, {
+            "name": "wearable voice pack",
+            "value": 1
+        }, {
+            "name": "is_operation_pass",
+            "value": true
+        }],
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "visuals": {
+            "styles": {
+                "0": {
+                    "image": "{CDN}/assets/images/inventory/items/action/tome_gravel.png",
+                    "world_model": "models/community/player/items/all_class/tainted_tome/tainted_tome_gravel.mdl"
+                },
+                "1": {
+                    "image": "{CDN}/assets/images/inventory/items/action/tome_bronze.png",
+                    "world_model": "models/community/player/items/all_class/tainted_tome/tainted_tome_bronze.mdl"
+                },
+                "2": {
+                    "image": "{CDN}/assets/images/inventory/items/action/tome_silver.png",
+                    "world_model": "models/community/player/items/all_class/tainted_tome/tainted_tome_silver.mdl"
+                },
+                "3": {
+                    "image": "{CDN}/assets/images/inventory/items/action/tome_golden.png",
+                    "world_model": "models/community/player/items/all_class/tainted_tome/tainted_tome_gold.mdl"
+                }
+            }
+        }
+    },
+    "45": {
+        "name": "Map Stamp - Slaughter",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_slaughter.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "void~, Juniper and Diva Dan"
+        }]
+    },
+    "46": {
+        "name": "Map Stamp - Spillway",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_spillway.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "pont, ASG, E-Arkham, Seba, Urban and Yrrzy"
+        }]
+    },
+    "47": {
+        "name": "Map Stamp - Glassworks",
+        "description": "A Control Point Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/cp_glassworks.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "UEAKCrash and Freyja"
+        }]
+    },
+    "48": {
+        "name": "Carry-on Kitty",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "Some kitties meow, this one roars.",
+        "equip_region": "belt_misc",
+        "world_model": "models/community/player/items/all_class/carryon_kitty/carryon_kitty_%s.mdl",
+        "item_index": 30103,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_pocket_kitty_v2.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1,
+            "soldier": 1,
+            "pyro": 1,
+            "demo": 1,
+            "heavy": 1,
+            "engineer": 1,
+            "medic": 1,
+            "sniper": 1,
+            "spy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "BlueWingedTiger, ShorK, DoshMobile, Moonly Days and Redshibe"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Sniper, Soldier, Demoman, Medic, Heavy, Pyro, Spy, Engineer, Team Fabulous 2 Reanimated Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "2155627991"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/carryon_kitty.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "49": {},
+    "50": {
+        "name": "Classful Keyless Cosmetic Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the Classful Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_jul2020_crate.png",
+        "collection_reference": "July2020Cosmetics_collection",
+        "additional_collection_references": {
+            "strangifier": 2
+        },
+        "tool_type": "collection_drop",
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Crate, Classful Collection"
+        }]
+    },
+    "51": {
+        "name": "About Time",
+        "type": "cosmetic",
+        "description": "Have you ever needed to check what time it is in New Zealand, Australia, and the US? Now you can!",
+        "equip_region": "arm_tatoos",
+        "world_model": "models/community/player/items/sniper/about_time/about_time.mdl",
+        "item_index": 815,
+        "image": "{CDN}/assets/images/inventory/items/sniper/item_about_time.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "sniper": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "santumerino"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Sniper, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1542155328"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/about_time.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": null,
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "52": {
+        "name": "Buckshot Bandolier",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "An extra strength, reinforced leather bandolier that may or may not be disguised vodka shots.",
+        "equip_region": "heavy_bullets",
+        "world_model": "models/community/player/items/heavy/jul13_bagdolier/jul13_bagdolier.mdl",
+        "item_index": 30108,
+        "image": "{CDN}/assets/images/inventory/items/heavy/item_buckshot_bandolier.png",
+        "capabilities": {
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Strno8, Mayor Rev and Pie_Savvy"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Heavy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1930082280"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/jul13_bagdolier.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/buckshot_bandolier_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "53": {
+        "name": "Sight of Sound",
+        "type": "cosmetic",
+        "description": "So you can see the sound of missing shots, and hear yourself die!",
+        "equip_region": "glasses",
+        "world_model": "models/community/player/items/soldier/sight_of_sound/sight_of_sound.mdl",
+        "item_index": 30085,
+        "image": "{CDN}/assets/images/inventory/items/soldier/item_sight_of_sound.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Ashur"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Soldier, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1207592640"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/sight_of_sound.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "54": {
+        "name": "Beater Cop",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "Official Merch, based on the 1971 Saxxy awarded movie Maul Plart, Supermarket Supercop!",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/heavy/beater_cop/beater_cop.mdl",
+        "item_index": 30138,
+        "image": "{CDN}/assets/images/inventory/items/heavy/item_beater_cop.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZeeba, Tabby, Mark Unread and jaggi"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Heavy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1928021276"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/beater_cop.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/beater_cop_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "55": {
+        "name": "Comrade Communicator",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "Official Merch, based on the 1971 Saxxy awarded movie Maul Plart, Supermarket Supercop!",
+        "equip_region": "heavy_hip",
+        "world_model": "models/community/player/items/heavy/comrade_communicator/comrade_communicator.mdl",
+        "item_index": 643,
+        "image": "{CDN}/assets/images/inventory/items/heavy/item_comrade_communicator.png",
+        "capabilities": {
+            "can_strangify": true,
+            "paintable": true,
+            "team_paintable": true
+        },
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZeeba, Tabby, Mark Unread and jaggi"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Heavy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1928019787"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/comrade_communicator.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "comrade_communicator",
+                    "value": "cosmetics/comrade_communicator_mask.png"
+                },
+                {
+                    "key": "comrade_communicator_1",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "56": {
+        "name": "Dutiful Do",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "Official Merch, based on the 1971 Saxxy awarded movie Maul Plart, Supermarket Supercop!",
+        "equip_region": "beard hat",
+        "world_model": "models/community/player/items/heavy/dutiful_do/dutiful_do.mdl",
+        "item_index": 30960,
+        "image": "{CDN}/assets/images/inventory/items/heavy/item_dutiful_do.png",
+        "capabilities": {
+            "can_strangify": true,
+            "paintable": true,
+            "team_paintable": true
+        },
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZeeba, Tabby, Mark Unread and jaggi"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Heavy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1928024044"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/dutiful_do.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/dutiful_do_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "57": {
+        "name": "Charlatan's Cordobés",
+        "propername": 1,
+        "type": "cosmetic",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/all_class/charlatans_cordobs/charlatans_cordobs_%s.mdl",
+        "item_index": 538,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_charlatans_cordobs.png",
+        "capabilities": {
+            "can_strangify": true,
+            "paintable": true,
+            "team_paintable": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Big Bob and Duckdog"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Sniper, Soldier, Demoman, Medic, Heavy, Pyro, Spy, Engineer, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1928024044"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/charlatans_cordobs.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": "cosmetics/charlatans_cordobs_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "58": {
+        "name": "Dancer's Dress",
+        "propername": 1,
+        "type": "cosmetic",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/all_class/dancers_dress/dancers_dress_%s.mdl",
+        "item_index": 30550,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_dancers_dress.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "sniper": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Big Bob and Duckdog"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Sniper, Spy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "818830852"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/dancers_dress.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "dancers_dress_1",
+                    "value": "cosmetics/dancers_dress_1_mask.png"
+                },
+                {
+                    "key": "dancers_dress",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "59": {
+        "name": "Stealthy Spaniard",
+        "propername": 1,
+        "type": "cosmetic",
+        "equip_region": "scout_pants",
+        "world_model": "models/community/player/items/all_class/stealthy_spaniard/stealthy_spaniard_%s.mdl",
+        "item_index": 30068,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_stealthy_spaniard.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "sniper": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Big Bob and Duckdog"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Sniper, Spy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "818842780"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/stealthy_spaniard.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/stealthy_spaniard_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "60": {
+        "name": "Prime Minister",
+        "description": "And we’ll fight them with the butt ends of broken scrumpy bottles because that's bloody well all we've got!",
+        "propername": 1,
+        "type": "cosmetic",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/demo/the_prime_minister/the_prime_minister.mdl",
+        "item_index": 146,
+        "image": "{CDN}/assets/images/inventory/items/demo/item_the_prime_minister.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "demo": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "blueNES and Gadget"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Demoman, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "645936997"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/the_prime_minister.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/churchill_hat_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "61": {
+        "name": "Veteran's Vail",
+        "description": "Classic Sniper Hat/Beard for Sniper",
+        "type": "cosmetic",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/sniper/veterans_vail/veterans_vail.mdl",
+        "item_index": 31010,
+        "image": "{CDN}/assets/images/inventory/items/sniper/item_veterans_vail.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "sniper": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZeeba, Wolfenstein, Muhai and Bonk Nickeltoon"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Sniper, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "2149737141"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/veterans_vail.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": "cosmetics/veterans_vail_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "62": {
+        "name": "Peak Precision Parka",
+        "description": "Classic Sniper Coat for Sniper!",
+        "type": "cosmetic",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/sniper/peak_precision_parka/peak_precision_parka.mdl",
+        "item_index": 30310,
+        "image": "{CDN}/assets/images/inventory/items/sniper/item_peak_precision_parka.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "sniper": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZeeba, Wolfenstein, Muhai and Bonk Nickeltoon"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Sniper, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "2149733160"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/peak_precision_parka.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/peak_precision_parka_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "63": {
+        "name": "Lil Garbage Gaurdians",
+        "description": "And then he herded them into his pockets, and then he PET THE CRAP OUT OF EVERY SINGLE ONE!",
+        "type": "cosmetic",
+        "equip_region": "soldier_pocket",
+        "world_model": "models/community/player/items/soldier/lil_garbage_gaurdians/lil_garbage_gaurdians.mdl",
+        "item_index": 392,
+        "image": "{CDN}/assets/images/inventory/items/soldier/item_lil_garbage_gaurdians.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "jaggi, Tabby and TheFORBIDDENFruit"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Soldier, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "2007388837"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/lil_garbage_gaurdians.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "lil_garbage_gaurdians_1",
+                    "value": "IGNORE_COLOR_TINT"
+                },
+                {
+                    "key": "lil_garbage_gaurdians",
+                    "value": "cosmetics/lil_garbage_gaurdians_mask.png"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "64": {
+        "name": "Dust-Bowler",
+        "type": "cosmetic",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/all_class/dustbowler_style_1_v2/dustbowler_style_1_%s.mdl",
+        "item_index": 139,
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_dustbowler_style_1.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "TheFORBIDDENFruit, TheLazerSofa and Tabby"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Scout, Sniper, Soldier, Demoman, Medic, Heavy, Pyro, Spy, Engineer, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "2135517227"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/dustbowler_style_1.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT", "HEADPHONES_S"],
+            "colourMask": [{
+                    "key": "dustbowler_style_1",
+                    "value": "cosmetics/dustbowler_style_1_mask.png"
+                },
+                {
+                    "key": "dustbowler_style_1_1",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "65": {
+        "name": "Googly Aye",
+        "description": "I had my good eye on you the whole time",
+        "type": "cosmetic",
+        "equip_region": "glasses",
+        "world_model": "models/community/player/items/demo/googly_aye/googly_aye.mdl",
+        "item_index": 30010,
+        "image": "{CDN}/assets/images/inventory/items/demo/item_googly_aye.png",
+        "capabilities": {
+            "paintable": true,
+            "team_paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "demo": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Baby Oni, Square, Dilly and TheFORBIDDENFruit"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Demoman, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1486682782"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/googly_aye.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "googly_aye_1",
+                    "value": "cosmetics/googly_aye_1_mask.png"
+                },
+                {
+                    "key": "googly_aye",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "66": {
+        "name": "Cyber Cowl",
+        "type": "cosmetic",
+        "equip_region": "head_skin shirt hat",
+        "world_model": "models/community/player/items/spy/cyber_cowl/cyber_cowl.mdl",
+        "item_index": 30651,
+        "image": "{CDN}/assets/images/inventory/items/spy/item_cyber_cowl.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "drew, Sky, and DJB2401"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Spy, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1936048139"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/cyber_cowl.glb",
+            "skeleton": "cyber_cowlqc_skeleton",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "67": {
+        "name": "Deathadder",
+        "description": "Death comes.",
+        "type": "cosmetic",
+        "equip_region": "face",
+        "world_model": "models/community/player/items/spy/deathadder/deathadder.mdl",
+        "item_index": 1030,
+        "image": "{CDN}/assets/images/inventory/items/spy/item_deathadder.png",
+        "capabilities": {
+            "can_strangify": true,
+            "paintable": true,
+            "team_paintable": true
+        },
+        "used_by_classes": {
+            "spy": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "drew, Sky, and DJB2401"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Spy, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1936048840"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/deathadder.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "deathadder",
+                    "value": "cosmetics/deathadder_mask.png"
+                },
+                {
+                    "key": "deathadder_1",
+                    "value": "cosmetics/deathadder_1_mask.png"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "68": {
+        "name": "Foxhound",
+        "propername": 1,
+        "description": "It’s easy to forget what a sin is in the middle of a battlefield.",
+        "type": "cosmetic",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/soldier/foxhound_style/foxhound_style.mdl",
+        "item_index": 99,
+        "image": "{CDN}/assets/images/inventory/items/soldier/item_the_foxhound.png",
+        "capabilities": {
+            "can_strangify": true,
+            "paintable": true,
+            "team_paintable": true
+        },
+        "used_by_classes": {
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "drew and Mayor Rev"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Soldier, Paintable, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1904438807"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/foxhound_style.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": [{
+                    "key": "foxhound_style",
+                    "value": "IGNORE_COLOR_TINT"
+                },
+                {
+                    "key": "foxhound_style_1",
+                    "value": "cosmetics/foxhound_style_1_mask.png"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "69": {
+        "name": "Explosive Vacation",
+        "description": "Take a load off and this shirt with you when you go on your next vacation because even mercenaries need a holiday!",
+        "type": "cosmetic",
+        "equip_region": "demo_arms",
+        "world_model": "models/community/player/items/demo/explosive_vacation/explosive_vacation.mdl",
+        "item_index": 30366,
+        "image": "{CDN}/assets/images/inventory/items/demo/item_explosive_vacation.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "demo": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Big Bob, Tabby, Dilly and TheFORBIDDENFruit"
+        }, {
+            "name": "tags",
+            "value": "Unique, Cosmetic, Demoman, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "1425503124"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/explosive_vacation.glb",
+            "skeleton": "explosive_vacationqc_skeleton",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "70": {
+        "name": "Map Stamp - Databank",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_databank.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "iiboharz"
+        }]
+    },
+    "71": {
+        "name": "Map Stamp - Rumble",
+        "description": "A Control Point Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/cp_rumble.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "ICS, sean, Marmalade Tim, Sheltr and Hakk1tus"
+        }]
+    },
+    "72": {
+        "name": "Map Stamp - Sludgepit",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_sludgepit.png",
+        "attributes": [{
+            "name": "credits map",
+            "value": "AsG_Alligator and Prosciutto"
+        }]
+    },
+    "73": {
+        "name": "Survivor's Kit",
+        "type": "cosmetic",
+        "description": "Keep this by your side it might save your rear.",
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_survivors_kit.png",
+        "world_model": "models/community/player/items/all_class/survivors_kit/survivors_kit_%s.mdl",
+        "item_index": 30366,
+        "equip_region": "belt_misc",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "TheFORBIDDENFruit"
+        }, {
+            "name": "submission workshop link",
+            "value": "2190651988"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/survivors_kit.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/survivors_kit_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "74": {
+        "name": "Madame Hootsabunch",
+        "type": "cosmetic",
+        "description": "You dont have to feel lonely this Smissmas.",
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_madame_hootsabunch.png",
+        "world_model": "models/community/player/items/all_class/madame_hootsabunch/madame_hootsabunch_%s.mdl",
+        "item_index": 30881,
+        "equip_region": "left_shoulder",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "GetGrendate"
+        }, {
+            "name": "submission workshop link",
+            "value": "1872335207"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/madame_hootsabunch.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/madame_hootsabunch_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "75": {
+        "name": "Hippocratic Growth",
+        "type": "cosmetic",
+        "description": "A chiseled beard is Mann's best medicine.",
+        "image": "{CDN}/assets/images/inventory/items/medic/item_medic_hippocratic_growth.png",
+        "world_model": "models/community/player/items/medic/hippocratic_growth/hippocratic_growth.mdl",
+        "item_index": 30186,
+        "equip_region": "beard",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Harry and NeoDement"
+        }, {
+            "name": "submission workshop link",
+            "value": "1675670252"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/hippocratic_growth.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/hippocratic_growth_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "76": {
+        "name": "Pyrovision Visors",
+        "type": "cosmetic",
+        "description": "Are you sick and tired of uncomfortable rubber goggles that only give you a small glimpse of the true Pyroland? Try these new high-tech 180-degree viewfinders that makes the 9 purchase totally worth it.",
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_allclass_pyrovision_visors.png",
+        "world_model": "models/community/player/items/all_class/pyrovision_visors/pyrovision_visors_%s.mdl",
+        "item_index": 744,
+        "equip_region": "glasses",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "The 64th Gamer"
+        }, {
+            "name": "submission workshop link",
+            "value": "2127521764"
+        }, {
+            "name": "vision opt in flags",
+            "value": 1
+        }, {
+            "name": "pyrovision opt in DISPLAY ONLY",
+            "value": 1
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/pyrovision_visors.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT", "HEADPHONES_S"],
+            "colourMask": "cosmetics/pyrovision_visors_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "77": {
+        "name": "Back to Fight Keyless Cosmetic Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the Back to Fight Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_aug2020_crate.png",
+        "collection_reference": "August2020Cosmetics_collection",
+        "additional_collection_references": {
+            "strangifier": 2,
+            "paint_brushes": 2,
+            "backpack_expander": 2
+        },
+        "tool_type": "collection_drop",
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Crate, Back to Fight Collection"
+        }]
+    },
+    "78": {
+        "name": "Crusty Crasher",
+        "type": "cosmetic",
+        "description": "WE ARE READY!",
+        "image": "{CDN}/assets/images/inventory/items/all_class/item_crusty_crasher.png",
+        "world_model": "models/community/player/items/all_class/2019_crusty_crasher/2019_crusty_crasher_%s.mdl",
+        "item_index": 106,
+        "equip_region": "hat",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": 1,
+            "demo": 1,
+            "heavy": 1,
+            "pyro": 1,
+            "engineer": 1,
+            "scout": 1,
+            "sniper": 1,
+            "medic": 1,
+            "soldier": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "TheLazerSofa, Mark Unread, Overlord Lettuce, Feksil"
+        }, {
+            "name": "submission workshop link",
+            "value": "1871503711"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/2019_crusty_crasher.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT", "HEADPHONES_S"],
+            "colourMask": "cosmetics/2019_crusty_crasher_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "79": {
+        "name": "Boston Bling",
+        "type": "cosmetic",
+        "description": "Pop your collar and stick it to 'em.",
+        "image": "{CDN}/assets/images/inventory/items/scout/item_scout_boston_bling.png",
+        "world_model": "models/community/player/items/scout/boston_bling/boston_bling.mdl",
+        "item_index": 722,
+        "equip_region": "scout_shirt",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "DivaDan, void~, iiboharz"
+        }, {
+            "name": "submission workshop link",
+            "value": "1526971515"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/boston_bling.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["DOGTAGS_S"],
+            "colourMask": [{
+                    "key": "boston_bling",
+                    "value": "IGNORE_COLOR_TINT"
+                },
+                {
+                    "key": "boston_bling_1",
+                    "value": "cosmetics/boston_bling_1_mask.png"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "80": {
+        "name": "Lucky Laces",
+        "propername": 1,
+        "type": "cosmetic",
+        "description": "With a sock tan to boot!",
+        "image": "{CDN}/assets/images/inventory/items/scout/item_lucky_laces.png",
+        "world_model": "models/community/player/items/scout/lucky_laces/lucky_laces.mdl",
+        "item_index": 1032,
+        "equip_region": "shoes_socks",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "DivaDan, void~, iiboharz"
+        }, {
+            "name": "submission workshop link",
+            "value": "1526989739"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/lucky_laces.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["SHOES_SOCKS_S"],
+            "colourMask": "cosmetics/lucky_laces_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "81": {
+        "name": "Badlands Sunblock",
+        "type": "cosmetic",
+        "description": "Block out the sun with style.",
+        "image": "{CDN}/assets/images/inventory/items/sniper/item_badlands_sunblock.png",
+        "world_model": "models/community/player/items/sniper/badlands_sunblock/badlands_sunblock.mdl",
+        "item_index": 30648,
+        "equip_region": "whole_head",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "sniper": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "OverPovered, Dilly and TheFORBIDDENFruit"
+        }, {
+            "name": "submission workshop link",
+            "value": "1421884825"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/badlands_sunblock.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": "cosmetics/badlands_sunblock_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "82": {
+        "name": "Lanai Lounger",
+        "type": "cosmetic",
+        "description": "Be loud and be proud without the alcohol with this Hawaiian classic.",
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_lanai_lounger.png",
+        "world_model": "models/community/player/items/pyro/lanai_lounger/lanai_lounger.mdl",
+        "item_index": 30092,
+        "equip_region": "shirt",
+        "capabilities": {
+            "team_paintable": 1,
+            "paintable": 1,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Patrezak and Hotrod McCoolgal"
+        }, {
+            "name": "submission workshop link",
+            "value": "2112838864"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/lanai_lounger.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/lanai_lounger_mai_tai_style_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "83": {
+        "name": "Hot Tropic",
+        "type": "cosmetic",
+        "description": "Prevent sunburn this summer with this lovely little hat and UV blocking shades!",
+        "image": "{CDN}/assets/images/inventory/items/pyro/item_pyro_hot_tropic.png",
+        "world_model": "models/community/player/items/pyro/hot_tropic/hot_tropic.mdl",
+        "item_index": 51,
+        "equip_region": "hat",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Pie_Savvy, Patrezak and Hotrod McCoolgal"
+        }, {
+            "name": "submission workshop link",
+            "value": "2112816896"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/hot_tropic.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [{
+                    "key": "hot_tropic_well_shaded_style",
+                    "value": "cosmetics/hot_tropic_well_shaded_style_mask.png"
+                },
+                {
+                    "key": "hot_tropic_well_shaded_style_1",
+                    "value": "IGNORE_COLOR_TINT"
+                }
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "84": {
+        "name": "Woodland Wear",
+        "type": "cosmetic",
+        "description": "If you really want to emphasis how hard your enemies are hitting the ground, you need only wear this filthy flannel.",
+        "image": "{CDN}/assets/images/inventory/items/engineer/item_engineer_woodland_wear.png",
+        "world_model": "models/community/player/items/engineer/woodland_wear/woodland_wear.mdl",
+        "item_index": 30590,
+        "equip_region": "shirt",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "OverPovered, Tabby and TheFORBIDDENFruit"
+        }, {
+            "name": "submission workshop link",
+            "value": "1518189108"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/woodland_wear.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "85": {
+        "name": "Map Stamp - Harter",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_harter.png",
+        "capabilities": {},
+        "attributes": [{
+            "name": "credits map",
+            "value": "Kit Carson"
+        }]
+    },
+    "86": {
+        "name": "Map Stamp - Bagel",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_bagel.png",
+        "capabilities": {},
+        "attributes": [{
+            "name": "credits map",
+            "value": "void~, massive fursona thighs, Yrrzy and Freyja"
+        }]
+    },
+    "87": {
+        "name": "Map Stamp - Camber",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_camber.png",
+        "capabilities": {},
+        "attributes": [{
+            "name": "credits map",
+            "value": "bakscratch"
+        }]
+    },
+    "88": {
+        "name": "Map Stamp - Gibson",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_gibson.png",
+        "capabilities": {},
+        "attributes": [{
+            "name": "credits map",
+            "value": "Prosciutto"
+        }]
+    },
+    "89": {
+        "name": "Map Stamp - Cashworks",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_cashworks.png",
+        "capabilities": {},
+        "attributes": [{
+            "name": "credits map",
+            "value": "eerieone"
+        }]
+    },
+    "90": {
+        "name": "Dreadful Dismal Cosmetic Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the Frightening Plunder Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_hwn2020_2_crate.png",
+        "collection_reference": "Halloween2020Unrestricted_collection",
+        "additional_collection_references": {
+            "strangifier": 2,
+            "paint_brushes": 2,
+            "backpack_expander": 2
+        },
+        "tool_type": "collection_drop",
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Crate"
+        }]
+    },
+    "91": {
+        "name": "Doomed Seasonal Cosmetic Crate",
+        "type": "tool",
+        "description": "Contains a community-made item from the Frightening Plunder Collection.",
+        "image": "{CDN}/assets/images/inventory/items/tools/creators_halloween2020_crate_restricted_512.png",
+        "collection_reference": "Halloween2020Restricted_collection",
+        "additional_collection_references": {
+            "strangifier": 2,
+            "paint_brushes": 2,
+            "backpack_expander": 2
+        },
+        "tool_type": "collection_drop",
+        "attributes": [{
+            "name": "lootbox no decoder",
+            "value": 1
+        }, {
+            "name": "lootbox strange chance",
+            "value": 15
+        }, {
+            "name": "tags",
+            "value": "Unique, Crate"
+        }]
+    },
+    "92": {
+        "name": "Bombinomicrown",
+        "propername": true,
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/demo/bombinomicon_hat/bombinomicon_hat.mdl",
+        "item_index": 261,
+        "image": "{CDN}/assets/images/inventory/items/demo/bombonomicon_hat.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "demo": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Coolchou Zhao"
+        }, {
+            "name": "submission workshop link",
+            "value": "2212101148"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/bombinomicon_hat.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/bombinomicon_hat_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "93": {
+        "name": "Pardner's Paws",
+        "type": "cosmetic",
+        "description": "Genuine guard dog brand limbs for you to play twinsies with your pet pug.",
+        "equip_region": "feet",
+        "world_model": "models/community/player/items/engineer/pardners_paws/pardners_paws.mdl",
+        "item_index": 30409,
+        "image": "{CDN}/assets/images/inventory/items/engineer/parder_paws.png",
+        "used_by_classes": {
+            "engineer": true
+        },
+        "capabilities": {
+            "can_strangify": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Muhai, Pr0p3r_ and Corvalho"
+        }, {
+            "name": "submission workshop link",
+            "value": "1879653006"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/pardners_paws.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "94": {
+        "name": "Combustible Cranium",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "pyro_head_replacement",
+        "world_model": "models/community/player/items/pyro/combustible_cranium/combustible_cranium.mdl",
+        "item_index": 335,
+        "image": "{CDN}/assets/images/inventory/items/pyro/combustible_cranium.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "drew, OverPovered, FruitPunch Bong Water, Blastel"
+        }, {
+            "name": "submission workshop link",
+            "value": "1860584287"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/combustible_cranium.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HEAD"],
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "95": {
+        "name": "Invisible Igniter",
+        "type": "cosmetic",
+        "description": "Be honest, it's incredible how you can...\n... SEE RIGHT THROUGH HIM!!!",
+        "equip_region": "pyro_head_replacement",
+        "world_model": "models/community/player/items/pyro/invisible_igniter/invisible_igniter.mdl",
+        "item_index": 335,
+        "image": "{CDN}/assets/images/inventory/items/pyro/invisible_igniter.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "DOLCE & BANANA, blueNES, YeetGod, Valentine"
+        }, {
+            "name": "submission workshop link",
+            "value": "1877195733"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/invisible_igniter.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HEAD"],
+            "colourMask": [
+                {"key":"invisible_igniter", "value": "cosmetics/invisible_igniter_mask.png"},
+                {"key":"invisible_igniter_1", "value": "IGNORE_COLOR_TINT"}
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "96": {
+        "name": "Stitched Smile",
+        "type": "cosmetic",
+        "description": "How about I stitch a smile into your face?",
+        "equip_region": "pyro_head_replacement",
+        "world_model": "models/community/player/items/pyro/stitched_smile/stitched_smile.mdl",
+        "item_index": 335,
+        "image": "{CDN}/assets/images/inventory/items/pyro/stitched_smile.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "pyro": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes"
+        }, {
+            "name": "submission workshop link",
+            "value": "536765401"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/stitched_smile.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HEAD"],
+            "colourMask": "cosmetics/stitched_smile_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "97": {
+        "name": "Batter's Beak",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "whole_head",
+        "world_model": "models/community/player/items/scout/batters_beak/batters_beak.mdl",
+        "item_index": 30767,
+        "image": "{CDN}/assets/images/inventory/items/scout/batters_beak.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Bonk Nickeltoon, Muha, Corvalho"
+        }, {
+            "name": "submission workshop link",
+            "value": "1874045396"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/batters_beak.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HEAD", "HAT", "HEADPHONES_S"],
+            "colourMask": "cosmetics/batters_beak_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "98": {
+        "name": "Dugout Scratchers",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "feet pants",
+        "world_model": "models/community/player/items/scout/dugout_scratchers/dugout_scratchers.mdl",
+        "item_index": 1016,
+        "image": "{CDN}/assets/images/inventory/items/scout/dugout_scratchers.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Bonk Nickeltoon, Muhai, Corvalho"
+        }, {
+            "name": "submission workshop link",
+            "value": "1874031072"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/dugout_scratchers.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["SHOES_SOCKS_S"],
+            "colourMask": "cosmetics/dugout_scratchers_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "99": {
+        "name": "Fielder's Feathers",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "arms",
+        "world_model": "models/community/player/items/scout/fielders_feathers/fielders_feathers.mdl",
+        "item_index": 827,
+        "image": "{CDN}/assets/images/inventory/items/scout/fielders_feathers.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Bonk Nickeltoon, Muhai, Corvalho"
+        }, {
+            "name": "submission workshop link",
+            "value": "1874040744"
+        }, {
+            "name": "holiday restricted",
+            "value": 3
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/fielders_feathers.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "100": {
+        "name": "Ye Spoiled Breaded Cap",
+        "type": "cosmetic",
+        "description": "This specimen of mutated bread is unique for the fact that it is shaped like a hat!",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/all_class/2020_breadcap/2020_breadcap_%s.mdl",
+        "item_index": 261,
+        "image": "{CDN}/assets/images/inventory/items/all_class/2020_breadcap.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true,
+            "soldier": true,
+            "pyro": true,
+            "demo": true,
+            "heavy": true,
+            "engineer": true,
+            "medic": true,
+            "sniper": true,
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Mark Unread, Phe, Spectral Chuck, Bonk Nickeltoon"
+        }, {
+            "name": "submission workshop link",
+            "value": "2228503273"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/2020_breadcap.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": "cosmetics/2020_breadcap_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "101": {
+        "name": "Amphibeanie",
+        "type": "cosmetic",
+        "description": "Is it paintable? Yes! Is it for every class? Of course! Does it help you breathe underwater...? Man, you axolot of questions...",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/all_class/amphibeanie/amphibeanie_%s.mdl",
+        "item_index": 261,
+        "image": "{CDN}/assets/images/inventory/items/all_class/amphibeanie.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true,
+            "soldier": true,
+            "pyro": true,
+            "demo": true,
+            "heavy": true,
+            "engineer": true,
+            "medic": true,
+            "sniper": true,
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "MagicRike, Diva Dan"
+        }, {
+            "name": "submission workshop link",
+            "value": "2233098645"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/amphibeanie.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT", "HEADPHONES_S"],
+            "colourMask": "cosmetics/amphibeanie_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "102": {
+        "name": "Spectral Specs",
+        "type": "cosmetic",
+        "description": "This specimen of mutated bread is unique for the fact that it is shaped like a hat!",
+        "equip_region": "glasses",
+        "world_model": "models/community/player/items/all_class/spectral_specs/spectral_specs_%s.mdl",
+        "item_index": 522,
+        "image": "{CDN}/assets/images/inventory/items/all_class/spectral_specs.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true,
+            "soldier": true,
+            "pyro": true,
+            "demo": true,
+            "heavy": true,
+            "engineer": true,
+            "medic": true,
+            "sniper": true,
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Phe, Spectral Chuck, bakscratch"
+        }, {
+            "name": "submission workshop link",
+            "value": "2224551644"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/spectral_specs.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false,
+            "alphaMask": "cosmetics/spectral_specs_mask.jpg"
+        }
+    },
+    "103": {
+        "name": "Uncanny Undertaker",
+        "type": "cosmetic",
+        "description": "This specimen of mutated bread is unique for the fact that it is shaped like a hat!",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/all_class/uncanny_undertaker/uncanny_undertaker_%s.mdl",
+        "item_index": 261,
+        "image": "{CDN}/assets/images/inventory/items/all_class/uncanny_undertaker.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true,
+            "soldier": true,
+            "pyro": true,
+            "demo": true,
+            "heavy": true,
+            "engineer": true,
+            "medic": true,
+            "sniper": true,
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Gadget, Extra Ram, Rotzlöffel"
+        }, {
+            "name": "submission workshop link",
+            "value": "1154353698"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/uncanny_undertaker.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT", "HEADPHONES_S"],
+            "colourMask": [
+                {"key": "uncanny_undertaker", "value": "cosmetics/uncanny_undertaker_mask.png"},
+                {"key": "uncanny_undertaker_1", "value": "IGNORE_COLOR_TINT"}
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "104": {
+        "name": "Coxswain Coat",
+        "type": "cosmetic",
+        "description": "Ye are glad to be dead, RIGHT?",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/heavy/coxswain_coat/coxswain_coat.mdl",
+        "item_index": 30342,
+        "image": "{CDN}/assets/images/inventory/items/heavy/coxswain_coat.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "DJB2401, Strno8, Pie_Savvy"
+        }, {
+            "name": "submission workshop link",
+            "value": "2231498411"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/coxswain_coat.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [
+                {"key": "coxswain_coat", "value": "cosmetics/coxswain_coat_mask.png"},
+                {"key": "coxswain_coat_1", "value": "IGNORE_COLOR_TINT"}
+            ],
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "105": {
+        "name": "Gallon o' Grog",
+        "type": "cosmetic",
+        "description": "Made with secret mixture that contains one or more of the following:\nKerosene, Propylene Glycol, Artificial Sweeteners, Sulfuric Acid, Rum, Acetone, Battery Acid, red dye#2, SCUMM, Axle grease and/or pepperoni.",
+        "equip_region": "back",
+        "world_model": "models/community/player/items/heavy/gallon_o_grog/gallon_o_grog.mdl",
+        "item_index": 30199,
+        "image": "{CDN}/assets/images/inventory/items/heavy/gallon_o_grog.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "DJB2401, Strno8, Pie_Savvy"
+        }, {
+            "name": "submission workshop link",
+            "value": "2231486988"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/gallon_o_grog.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/gallon_o_grog_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "106": {
+        "name": "Keelhaul Kapitan",
+        "type": "cosmetic",
+        "description": "Never pay more than 20 bucks for a hat.",
+        "equip_region": "hat beard",
+        "world_model": "models/community/player/items/heavy/keelhaul_kapitan/keelhaul_kapitan.mdl",
+        "item_index": 30165,
+        "image": "{CDN}/assets/images/inventory/items/heavy/keelhaul_kapitan.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "heavy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "DJB2401, Strno8, Pie_Savvy"
+        }, {
+            "name": "submission workshop link",
+            "value": "2231492122"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/keelhaul_kapitan.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [
+                {"key": "keelhaul_kapitan_1", "value": "cosmetics/keelhaul_kapitan_1_mask.png"},
+                {"key": "keelhaul_kapitan", "value": "IGNORE_COLOR_TINT"}
+            ],
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "107": {
+        "name": "Bubonic Bedizen",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/medic/bubonic_bedizen_no_hood/bubonic_bedizen_no_hood.mdl",
+        "item_index": 982,
+        "image": "{CDN}/assets/images/inventory/items/medic/bubonic_bedizen_no_hood.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz"
+        }, {
+            "name": "submission workshop link",
+            "value": "1535259259"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/bubonic_bedizen_no_hood.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/bubonic_bedizen_no_hood_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "108": {
+        "name": "Grave Digger's Goatee",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "beard",
+        "world_model": "models/community/player/items/medic/grave_diggers_goatee/grave_diggers_goatee.mdl",
+        "item_index": 657,
+        "image": "{CDN}/assets/images/inventory/items/medic/grave_diggers_goatee.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Gadget, Rotzlöffel, Extra Ram"
+        }, {
+            "name": "submission workshop link",
+            "value": "1179840001"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/grave_diggers_goatee.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/grave_diggers_goatee_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "109": {
+        "name": "Pestilent Profession",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/medic/pestilent_profession/pestilent_profession.mdl",
+        "item_index": 50,
+        "image": "{CDN}/assets/images/inventory/items/medic/pestilent_profession.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "medic": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz"
+        }, {
+            "name": "submission workshop link",
+            "value": "1534997454"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/pestilent_profession.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/pestilent_profession_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "110": {
+        "name": "Brave Boots",
+        "type": "cosmetic",
+        "description": "With these sweet kicks, you too can be a vigilante!",
+        "equip_region": "feet arms",
+        "world_model": "models/community/player/items/scout/brave_boots/brave_boots.mdl",
+        "item_index": 1016,
+        "image": "{CDN}/assets/images/inventory/items/scout/brave_boots.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZee-BAT, Apoc Hedgie, Vipes, Hotrod McCoolgal, Big Bob, Catbrain, blueNES"
+        }, {
+            "name": "submission workshop link",
+            "value": "869550954"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/brave_boots.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["SHOES_SOCKS_S"],
+            "colourMask": "cosmetics/brave_boots_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "111": {
+        "name": "Henshin Helmet",
+        "type": "cosmetic",
+        "description": "Protect both your head and your identity with this heavily modified motocycle helmet!",
+        "equip_region": "whole_head",
+        "world_model": "models/community/player/items/scout/henshin_helmet/henshin_helmet.mdl",
+        "item_index": 107,
+        "image": "{CDN}/assets/images/inventory/items/scout/henshin_helmet.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZee-BAT, Apoc Hedgie, Vipes, Hotrod McCoolgal, Big Bob, Catbrain, blueNES"
+        }, {
+            "name": "submission workshop link",
+            "value": "869547953"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/henshin_helmet.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HEADPHONES_S", "HAT", "HEAD"],
+            "colourMask": "cosmetics/henshin_helmet_mask.png",
+            "additive": true,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "112": {
+        "name": "Savior's Suit",
+        "type": "cosmetic",
+        "description": "This flashy one peice suit isn't only for your protection, it's also snazzy as well.",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/scout/saviors_suit/saviors_suit.mdl",
+        "item_index": 827,
+        "image": "{CDN}/assets/images/inventory/items/scout/saviors_suit.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "scout": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "JZee-BAT, Apoc Hedgie, Vipes, Hotrod McCoolgal, Big Bob, Catbrain, blueNES"
+        }, {
+            "name": "submission workshop link",
+            "value": "869549732"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/saviors_suit.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HEADPHONES_S"],
+            "colourMask": "cosmetics/saviors_suit_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "113": {
+        "name": "Co-Leader Cap",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/sniper/coleader_cap_style1/coleader_cap_style1.mdl",
+        "item_index": 314,
+        "image": "{CDN}/assets/images/inventory/items/sniper/coleader_cap_style1.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "sniper": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz"
+        }, {
+            "name": "submission workshop link",
+            "value": "2220782313"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/coleader_cap_style1.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": ["HAT"],
+            "colourMask": "cosmetics/coleader_cap_style1_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "114": {
+        "name": "Outbreak Outerwear",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/sniper/outbreak_outerwear/outbreak_outerwear.mdl",
+        "item_index": 30310,
+        "image": "{CDN}/assets/images/inventory/items/sniper/outbreak_outerwear.png",
+        "capabilities": {
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "sniper": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz"
+        }, {
+            "name": "submission workshop link",
+            "value": "2220780594"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/outbreak_outerwear.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "115": {
+        "name": "Blood-Soaked Brim",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "hat",
+        "world_model": "models/community/player/items/spy/bloodsoaked_brim_paintable_band/bloodsoaked_brim_paintable_band.mdl",
+        "item_index": 55,
+        "image": "{CDN}/assets/images/inventory/items/spy/bloodsoaked_brim_paintable_band.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz, Count Kibbleknight"
+        }, {
+            "name": "submission workshop link",
+            "value": "1873369002"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/bloodsoaked_brim_paintable_band.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": [
+                {"key":"bloodsoaked_brim_paintable_band", "value": "cosmetics/bloodsoaked_brim_paintable_band_mask.png"},
+                {"key":"bloodsoaked_brim_paintable_band_1", "value": "IGNORE_COLOR_TINT"}
+            ],
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "116": {
+        "name": "Nightwalker's Necktie",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "arms",
+        "world_model": "models/community/player/items/spy/nightwalkers_necktie/nightwalkers_necktie.mdl",
+        "item_index": 483,
+        "image": "{CDN}/assets/images/inventory/items/spy/nightwalkers_necktie.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz, Count Kibbleknight"
+        }, {
+            "name": "submission workshop link",
+            "value": "1873368354"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/nightwalkers_necktie.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/nightwalkers_necktie_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "117": {
+        "name": "Vampire's Vestments",
+        "type": "cosmetic",
+        "description": "",
+        "equip_region": "shirt",
+        "world_model": "models/community/player/items/spy/vampires_vestments/vampires_vestments.mdl",
+        "item_index": 560,
+        "image": "{CDN}/assets/images/inventory/items/spy/vampires_vestments.png",
+        "capabilities": {
+            "team_paintable": true,
+            "paintable": true,
+            "can_strangify": true
+        },
+        "used_by_classes": {
+            "spy": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "Vipes, Ertz, Count Kibbleknight"
+        }, {
+            "name": "submission workshop link",
+            "value": "1873367590"
+        }],
+        "preview": {
+            "path": "cosmetics/{class}/vampires_vestments.glb",
+            "skeleton": "",
+            "models": [
+                ""
+            ],
+            "disables": null,
+            "colourMask": "cosmetics/vampires_vestments_mask.png",
+            "additive": false,
+            "centerPos": null,
+            "rotFix": false
+        }
+    },
+    "118": {
+        "name": "Map Stamp - Hauntson",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_hauntson.png",
+        "attributes": [
+            {
+                "name": "credits map",
+                "value": "Prosciutto, YM, Exactol, Diva Dan, Void, boomsta, Vapour-shark, Dr.Face, UGLYdumpling, Equinoxo, ASG_Alligator, DatGmann, Tumby, Evil knevil, NassimO, DeRoseJ and Rexy"
+            }
+        ]
+    },
+    "119": {
+        "name": "Map Stamp - Scarab",
+        "description": "A Player Destruction Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pd_scarab.png",
+        "attributes": [
+            {
+                "name": "credits map",
+                "value": "Sandwhip, Freyja, Yrrzy, EmNudge, Lo-fi Longcat, 14Bit, Lazersofa and Maid of Heart"
+            }
+        ]
+    },
+    "120": {
+        "name": "Map Stamp - Spellway",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_spellway.png",
+        "attributes": [
+            {
+                "name": "credits map",
+                "value": "pont, iiboharz and Yrrzy"
+            }
+        ]
+    },
+    "121": {
+        "name": "Map Stamp - Sinthetic",
+        "description": "A King of the Hill Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/koth_sinthetic.png",
+        "attributes": [
+            {
+                "name": "credits map",
+                "value": "MegapiemanPHD, FGD5, hutty, DatGmann, Blaholtzen, Frying Dutchman, pont and Mic"
+            }
+        ]
+    },
+    "122": {
+        "name": "Map Stamp - Terror",
+        "description": "A Payload Map",
+        "image": "{CDN}/assets/images/inventory/items/tools/mapstamps/pl_terror.png",
+        "attributes": [
+            {
+                "name": "credits map",
+                "value": "ICS"
+            }
+        ]
+    },
+    "501": {
+        "name": "A Color Similar to Slate",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 3100495
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 3100495
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/a_color_similar_to_slate.png"
+    },
+    "502": {
+        "name": "A Deep Commitment to Purple",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 8208497
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 8208497
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/a_deep_commitment_to_purple.png"
+    },
+    "503": {
+        "name": "A Distinctive Lack of Hue",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 1315860
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 1315860
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/a_distinctive_lack_of_hue.png"
+    },
+    "504": {
+        "name": "A Mann's Mint",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 12377523
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 12377523
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/a_manns_mint.png"
+    },
+    "505": {
+        "name": "After Eight",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 2960676
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 2960676
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/after_eight.png"
+    },
+    "506": {
+        "name": "Aged Moustache Grey",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 8289918
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 8289918
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/aged_moustache_gray.png"
+    },
+    "507": {
+        "name": "An Extraordinary Abundance of Tinge",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 15132390
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 15132390
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/an_extraordinary_abundance_of_tinge.png"
+    },
+    "508": {
+        "name": "Australium Gold",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 15185211
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 15185211
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/australium_gold.png"
+    },
+    "509": {
+        "name": "Color No. 216-190-216",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 14204632
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 14204632
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/color_no_216190216.png"
+    },
+    "510": {
+        "name": "Dark Salmon Injustice",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 15308410
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 15308410
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/dark_salmon_injustice.png"
+    },
+    "511": {
+        "name": "Drably Olive",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 8421376
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 8421376
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/drably_olive.png"
+    },
+    "512": {
+        "name": "Indubitably Green",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 7511618
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 7511618
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/indubitably_green.png"
+    },
+    "513": {
+        "name": "Mann Co. Orange",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 13595446
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 13595446
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/mann_co_orange.png"
+    },
+    "514": {
+        "name": "Muskelmannbraun",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 10843461
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 10843461
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/muskelmannbraun.png"
+    },
+    "515": {
+        "name": "Noble Hatter's Violet",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 5322826
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 5322826
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/noble_hatters_violet.png"
+    },
+    "516": {
+        "name": "Peculiarly Drab Tincture",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 12955537
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 12955537
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/peculiarly_drab_tincture.png"
+    },
+    "517": {
+        "name": "Pink as Hell",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 16738740
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 16738740
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/pink_as_hell.png"
+    },
+    "518": {
+        "name": "Radigan Conagher Brown",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 6901050
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 6901050
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/radigan_conagher_brown.png"
+    },
+    "519": {
+        "name": "The Bitter Taste of Defeat and Lime",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 3329330
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 3329330
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/the_bitter_taste_of_defeat_and_lime.png"
+    },
+    "520": {
+        "name": "The Color of a Gentlemann's Business Pants",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 15787660
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 15787660
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/the_color_of_a_gentlemanns_business_pants.png"
+    },
+    "521": {
+        "name": "Ye Olde Rustic Colour",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 8154199
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 8154199
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/ye_olde_rustic_color.png"
+    },
+    "522": {
+        "name": "Zepheniah's Greed",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 4345659
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 4345659
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/zepheniahs_greed.png"
+    },
+    "523": {
+        "name": "An Air of Debonair",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 6637376
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 2636109
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/an_air_of_debonair.png"
+    },
+    "524": {
+        "name": "Balaclavas Are Forever",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 3874595
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 1581885
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/balaclavas_are_forever.png"
+    },
+    "525": {
+        "name": "Cream Spirit",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 12807213
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 12091445
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/cream_spirit.png"
+    },
+    "526": {
+        "name": "Operator's Overalls",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 4732984
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 3686984
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/operators_overalls.png"
+    },
+    "527": {
+        "name": "Team Spirit",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 12073019
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 5801378
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/team_spirit.png"
+    },
+    "528": {
+        "name": "The Value of Teamwork",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 8400928
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 2452877
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/the_value_of_teamwork.png"
+    },
+    "529": {
+        "name": "Waterlogged Lab Coat",
+        "type": "tool",
+        "apply_attributes": [{
+            "name": "set item tint RGB",
+            "value": 11049612
+        }, {
+            "name": "set item tint RGB 2",
+            "value": 8626083
+        }],
+        "tool_type": "item_modifier",
+        "usage_capabilities": {
+            "team_paintable": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "description": "Used to paint other items.",
+        "image": "{CDN}/assets/images/inventory/items/tools/paintbrushes/waterlogged_lab_coat.png"
+    },
+    "530": {
+        "name": "Strangifier",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "strangify",
+        "usage_capabilities": {
+            "can_strangify": true
+        },
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }, {
+            "name": "tool_target_item_icon_offset",
+            "value": "45% 60%, 28%"
+        }],
+        "description": "Used to add strange qualities to specific items. If target item is Unique quality, it will be upgraded to Strange quality.",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_strangifier_base.png"
+    },
+    "531": {
+        "name": "Strange Part: Airborne Enemies Killed",
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_airborne_enemies_killed.png",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 4
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        }
+    },
+    "532": {
+        "name": "Strange Part: Scouts Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 5
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_scouts_killed.png"
+    },
+    "533": {
+        "name": "Strange Part: Soldiers Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 6
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_soldiers_killed.png"
+    },
+    "534": {
+        "name": "Strange Part: Pyros Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 7
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_pyros_killed.png"
+    },
+    "535": {
+        "name": "Strange Part: Demomen Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 8
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_demomen_killed.png"
+    },
+    "536": {
+        "name": "Strange Part: Heavies Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 9
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_heavies_killed.png"
+    },
+    "537": {
+        "name": "Strange Part: Engineers Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 10
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_engineers_killed.png"
+    },
+    "538": {
+        "name": "Strange Part: Medics Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 11
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_medics_killed.png"
+    },
+    "539": {
+        "name": "Strange Part: Snipers Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 12
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_snipers_killed.png"
+    },
+    "540": {
+        "name": "Strange Part: Spies Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 13
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_spies_killed.png"
+    },
+    "541": {
+        "name": "Strange Part: Revenge Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 14
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_revenge_kills.png"
+    },
+    "542": {
+        "name": "Strange Part: Domination Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 15
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_domination_kills.png"
+    },
+    "543": {
+        "name": "Strange Part: Cloaked Spies Killed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 16
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_cloaked_spies_killed.png"
+    },
+    "544": {
+        "name": "Strange Part: Defender Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 17
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_defender_kills.png"
+    },
+    "545": {
+        "name": "Strange Part: Kills While Übercharged",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 18
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_kills_during_ubercharged.png"
+    },
+    "546": {
+        "name": "Strange Part: Damage Dealt",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 19
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_damage_dealt.png"
+    },
+    "546": {
+        "name": "Strange Part: Player Hits",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 20
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_player_hits.png"
+    },
+    "547": {
+        "name": "Strange Part: Allied Healing Done",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 21
+            }
+        ],
+        "usage_capabilities": {
+            "can_heal": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_allied_healing.png"
+    },
+    "548": {
+        "name": "Strange Part: Taunting Player Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 22
+            }
+        ],
+        "usage_capabilities": {
+            "can_heal": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_taunting_kills.png"
+    },
+    "548": {
+        "name": "Strange Part: Taunting Player Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 23
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_taunting_kills.png"
+    },
+    "549": {
+        "name": "Strange Part: Medics Killed That Have Full ÜberCharge",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 23
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_medics_with_ubercharge.png"
+    },
+    "550": {
+        "name": "Strange Part: Medics Killed That Have Full ÜberCharge",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 24
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_medics_with_ubercharge.png"
+    },
+    "551": {
+        "name": "Strange Part: Killstreaks Ended",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 25
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_killstreaks_ended.png"
+    },
+    "552": {
+        "name": "Strange Part: Not Crit nor MiniCrit Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 26
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_non_crit_kill.png"
+    },
+    "553": {
+        "name": "Strange Part: Headshot Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 27
+            }
+        ],
+        "usage_capabilities": {
+            "can_headshot": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_headshots_kills.png"
+    },
+    "554": {
+        "name": "Strange Part: Critical Hits",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 28
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_critical_kills.png"
+    },
+    "555": {
+        "name": "Strange Part: Gib Kills",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 29
+            }
+        ],
+        "usage_capabilities": {
+            "can_gib": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_gib_kill.png"
+    },
+    "556": {
+        "name": "Strange Part: Buildings Destroyed",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 30
+            }
+        ],
+        "usage_capabilities": {
+            "can_destroy_buildings": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_buildings_destroyed.png"
+    },
+    "557": {
+        "name": "Strange Part: Projectiles Reflected",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 31
+            }
+        ],
+        "usage_capabilities": {
+            "can_deal_damage": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_projectiles_reflected.png"
+    },
+    "558": {
+        "name": "Strange Part: Kills with a Taunt Attack",
+        "type": "tool",
+        "tool_type": "item_modifier",
+        "tool_action": "add_strange_part",
+        "attributes": [{
+                "name": "limited quantity item",
+                "value": 1
+            },
+            {
+                "name": "strange part new counter ID",
+                "value": 32
+            }
+        ],
+        "usage_capabilities": {
+            "can_taunt_kill": 1
+        },
+        "description": "Adding this Strange Part to a Strange-quality weapon will enable it to track an additional new statistic!",
+        "image": "{CDN}/assets/images/inventory/items/tools/strange_parts/part_taunt_kills.png"
+    },
+    "559": {
+        "name": "Backpack Expander",
+        "type": "tool",
+        "tool_type": "backpack_expander",
+        "attributes": [{
+            "name": "limited quantity item",
+            "value": 1
+        }],
+        "sounds": {
+            "drag_pickup": "{CDN}/assets/sounds/ui/pickup/item_bag_pickup.wav",
+            "drag_drop": "{CDN}/assets/sounds/ui/pickup/item_bag_drop.wav"
+        },
+        "description": "Adds 2 extra pages to your Creators.TF Inventory! (25 pages maximum)!",
+        "image": "{CDN}/assets/images/inventory/items/tools/item_tool_backpack.png"
+    },
+    "1001": {
+        "name": "Thumper",
+        "type": "weapon",
+        "propername": 1,
+        "item_class": "tf_weapon_shotgun",
+        "item_index": 1153,
+        "world_model": "models/weapons/c_models/c_rapidfire/c_rapidfire.mdl",
+        "image": "{CDN}/assets/images/inventory/items/all_class/weapon_allclass_rapidfire.png",
+        "used_by_classes": {
+            "soldier": 1,
+            "pyro": 1,
+            "heavy": 1,
+            "engineer": 0
+        },
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": true,
+            "can_destroy_buildings": true
+        },
+        "weapon_clip": 8,
+        "weapon_ammo": 48,
+        "attributes": [{
+            "name": "damage bonus",
+            "value": 2.1
+        }, {
+            "name": "clip size bonus",
+            "value": 1.3
+        }, {
+            "name": "weapon maxammo bonus",
+            "value": 1.5
+        }, {
+            "name": "weapon spread bonus",
+            "value": 0.7
+        }, {
+            "name": "fire rate penalty",
+            "value": 1.2
+        }, {
+            "name": "bullets per shot penalty",
+            "value": 0.5
+        }, {
+            "name": "Reload time increased",
+            "value": 1.13
+        }, {
+            "name": "single wep deploy time increased",
+            "value": 1.15
+        }, {
+            "name": "credits",
+            "value": "Sparkwire and Svdl"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Primary, Secondary, Soldier, Pyro, Heavy, Engineer, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "731"
+        }],
+        "preview": {
+            "per_class": 1,
+            "engineer": {
+                "path": "weapons/Rapidfire.glb",
+                "type": "primary",
+                "skeletonName": "c_rapidfireqc_skeleton",
+                "classIDs": [
+                    5
+                ],
+                "centerPos": [
+                    0,
+                    0,
+                    15
+                ]
+            },
+            "heavy": {
+                "path": "weapons/Rapidfire.glb",
+                "type": "secondary",
+                "skeletonName": "c_rapidfireqc_skeleton",
+                "classIDs": [
+                    1,
+                    2,
+                    4
+                ],
+                "centerPos": [
+                    0,
+                    0,
+                    15
+                ]
+            },
+            "soldier": {
+                "path": "weapons/Rapidfire.glb",
+                "type": "secondary",
+                "skeletonName": "c_rapidfireqc_skeleton",
+                "classIDs": [
+                    1,
+                    2,
+                    4
+                ],
+                "centerPos": [
+                    0,
+                    0,
+                    15
+                ]
+            },
+            "pyro": {
+                "path": "weapons/Rapidfire.glb",
+                "type": "secondary",
+                "skeletonName": "c_rapidfireqc_skeleton",
+                "classIDs": [
+                    1,
+                    2,
+                    4
+                ],
+                "centerPos": [
+                    0,
+                    0,
+                    15
+                ]
+            }
+        }
+    },
+    "1002": {
+        "name": "Hypodermic Injector",
+        "description": "Hold still, this will only sting for a moment.",
+        "type": "weapon",
+        "item_class": "tf_weapon_bonesaw",
+        "item_index": 37,
+        "world_model": "models/weapons/c_models/c_hypodermic_injector/c_hypodermic_injector.mdl",
+        "image": "{CDN}/assets/images/inventory/items/medic/item_weapon_hypodemic_injector.png",
+        "used_by_classes": {
+            "medic": 2
+        },
+        "attributes": [{
+            "name": "syringe blood mode",
+            "value": 1
+        }, {
+            "name": "syringe blood mode capacity",
+            "value": 450
+        }, {
+            "name": "syringe blood mode heal",
+            "value": 120
+        }, {
+            "name": "syringe blood mode uber",
+            "value": "2.5"
+        }, {
+            "name": "melee range multiplier",
+            "value": "1.7"
+        }, {
+            "name": "fire rate penalty",
+            "value": "1.2"
+        }, {
+            "name": "damage penalty",
+            "value": "0.75"
+        }, {
+            "name": "credits",
+            "value": "Zoey"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Melee, Medic, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "433097312"
+        }],
+        "item_class": "tf_weapon_bonesaw",
+        "item_index": 37,
+        "world_model": "models/weapons/c_models/c_hypodermic_injector/c_hypodermic_injector.mdl",
+        "used_by_classes": {
+            "medic": 2
+        },
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": true,
+            "can_destroy_buildings": true
+        },
+        "image": "/cdn/assets/images/inventory/items/medic/item_weapon_hypodemic_injector.png",
+        "preview": {
+            "path": "weapons/hypodermic_injector.glb",
+            "type": "melee",
+            "skeletonName": "c_hypodermic_injectorqc_skeleton",
+            "classIDs": [
+                6
+            ]
+        }
+    },
+    "1003": {
+        "name": "Gamma Gazer",
+        "description": "Packs a mean dose of extra-hertz.",
+        "propername": 1,
+        "type": "weapon",
+        "item_class": "tf_weapon_pistol",
+        "item_index": 30666,
+        "world_model": "models/weapons/c_models/c_gamma_gazer/c_gamma_gazer.mdl",
+        "image": "{CDN}/assets/images/inventory/items/engineer/weapon_engineer_gamma_gazer.png",
+        "used_by_classes": {
+            "engineer": 1
+        },
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": true,
+            "can_destroy_buildings": true
+        },
+        "weapon_clip": 6,
+        "weapon_ammo": 48,
+        "attributes": [{
+            "name": "damage applies to sappers",
+            "value": 1
+        }, {
+            "name": "fixed damage against sappers",
+            "value": 34
+        }, {
+            "name": "damage bonus",
+            "value": 1.3
+        }, {
+            "name": "weapon spread bonus",
+            "value": 0.3
+        }, {
+            "name": "fire rate penalty",
+            "value": 2.25
+        }, {
+            "name": "clip size penalty",
+            "value": 0.5
+        }, {
+            "name": "maxammo secondary reduced",
+            "value": 0.24
+        }, {
+            "name": "engineer building teleporting pickup",
+            "value": 50
+        }, {
+            "name": "mark for death on building pickup",
+            "value": 1
+        }, {
+            "name": "credits",
+            "value": "Gadget, FiveEyes"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Secondary, Engineer, Hazardous Environments Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "229535075"
+        }],
+        "preview": {
+            "path": "weapons/gamma_gazer.glb",
+            "type": "secondary",
+            "skeletonName": "c_gamma_gazerqc_skeleton",
+            "classIDs": [
+                5
+            ]
+        }
+    },
+    "1004": {
+        "name": "Carved Cutter",
+        "propername": 1,
+        "type": "weapon",
+        "item_class": "tf_weapon_knife",
+        "item_index": 461,
+        "world_model": "models/weapons/c_models/c_carvedcutter/c_carvedcutter.mdl",
+        "image": "{CDN}/assets/images/inventory/items/spy/weapon_spy_carved_cutter.png",
+        "used_by_classes": {
+            "spy": 2
+        },
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": true,
+            "can_destroy_buildings": true
+        },
+        "attributes": [{
+            "name": "credits",
+            "value": "robsan and Kirillian"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Melee, Spy, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "671834359"
+        }],
+        "preview": {
+            "path": "weapons/c_carvedcutter.glb",
+            "type": "melee",
+            "skeletonName": "c_carvedcutterqc_skeleton",
+            "classIDs": [
+                8
+            ]
+        }
+    },
+    "1005": {
+        "name": "Bolshevik Bomber",
+        "description": "This thing could kill an elephant and whatever is in a 10ft radius of said elephant.",
+        "propername": 1,
+        "type": "weapon",
+        "item_class": "tf_weapon_shotgun",
+        "item_index": 425,
+        "weapon_clip": 4,
+        "world_model": "models/weapons/c_models/c_the_bolshevik_bomber/c_the_bolshevik_bomber.mdl",
+        "image": "{CDN}/assets/images/inventory/items/heavy/weapon_heavy_the_bolshevik_bomber.png",
+        "used_by_classes": {
+            "heavy": 1
+        },
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": true,
+            "can_destroy_buildings": true
+        },
+        "attributes": [{
+            "name": "blue text",
+            "value": "Enemies splat on kill"
+        }, {
+            "name": "crit on hard hit",
+            "value": 1
+        }, {
+            "name": "damage bonus",
+            "value": 1.3
+        }, {
+            "name": "fire rate penalty",
+            "value": 1.2
+        }, {
+            "name": "single wep deploy time increased",
+            "value": 1.2
+        }, {
+            "name": "clip size penalty",
+            "value": 0.75
+        }, {
+            "name": "credits",
+            "value": "FiveEyes, Metaru, Square and Sir Kibbleknight"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Secondary, Heavy, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "508837899"
+        }],
+        "preview": {
+            "path": "weapons/c_the_bolshevik_bomber.glb",
+            "type": "secondary",
+            "skeletonName": "c_the_bolshevik_bomberqc_skeleton",
+            "classIDs": [
+                4
+            ]
+        }
+    },
+    "1006": {
+        "name": "W.A.S.P. Launcher",
+        "propername": 1,
+        "type": "weapon",
+        "item_class": "tf_weapon_rocketlauncher",
+        "item_index": 414,
+        "world_model": "models/weapons/c_models/c_wasp_launcher/c_wasp_launcher.mdl",
+        "image": "{CDN}/assets/images/inventory/items/soldier/weapon_soldier_law_launcher.png",
+        "used_by_classes": {
+            "soldier": 0
+        },
+        "capabilities": {
+            "can_strangify": true,
+            "can_deal_damage": true,
+            "can_destroy_buildings": true
+        },
+        "attributes": [{
+            "name": "damage penalty",
+            "value": 0.9
+        }, {
+            "name": "Projectile speed decreased",
+            "value": 0.8
+        }, {
+            "name": "Blast radius increased",
+            "value": 1.2
+        }, {
+            "name": "credits",
+            "value": "Gadget, Sims_doc, Vipes and Judgement Kazzy"
+        }, {
+            "name": "tags",
+            "value": "Unique, Weapon, Primary, Soldier, Classful Collection"
+        }, {
+            "name": "submission workshop link",
+            "value": "885515341"
+        }],
+        "preview": {
+            "path": "weapons/c_wasp_launcher.glb",
+            "type": "primary",
+            "skeletonName": "c_wasp_launcherqc_skeleton",
+            "classIDs": [
+                1
+            ]
+        }
+    }
+}

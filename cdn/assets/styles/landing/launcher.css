@@ -1,0 +1,260 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+}
+
+@media only screen and (max-width: 950px) {
+    .col-lg {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .section {
+        width: 90%;
+    }
+}
+
+::selection {
+    background: #111;
+}
+
+.biggericon {
+    font-size: 25px;
+    color: #FFF;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+#githublabel {
+    background-image: url(/cdn/assets/images/tf_pages/launcher/githublabel.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.2s;
+}
+
+#githublabel:hover {
+    filter: invert(1);
+}
+
+#container01 {
+    width: 100%;
+    height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container01img {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background-image: url(/cdn/assets/images/tf_pages/hazardousenvironments/creatorstf_hzrdsenv_street_wallpaperpreview.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -9;
+    filter: blur(3px);
+    opacity: 0.7;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 90%;
+    font-family: Roboto Black, Arial, sans-serif;
+    font-size: 80px;
+    color: #EEE;
+    text-shadow: 0px 0px 20px rgba(20,20,20,1);
+    text-align: center;
+}
+
+#boxOfButtons {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    font-family: Roboto Thin, Arial, sans-serif;
+    font-size: 19px;
+    color: #E6E6E6;
+    background-color: rgba(0,0,0,0.7);
+    border-color: #B35215;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    outline: 0;
+    z-index: 0;
+    user-select: none;
+}
+
+.button:before {
+    content: "";
+    background-color: #B35215;
+    position: absolute;
+    width: 0%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -31px;
+    transition: 0.15s;
+    z-index: -1;
+    transform: skewX(-35deg);
+}
+
+.button:hover:before {
+    width: 150%;
+}
+
+.button a:hover {
+    color: #E6E6E6;
+}
+
+#supportedversion {
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+#supportedversion p {
+    color: #EEE;
+    font-size: 18px;
+    font-family: Roboto Thin, Arial, sans-serif;
+    text-shadow: 0px 0px 3px rgba(0,0,0,1);
+    text-align: center;
+}
+
+#supportedversion i {
+    position: relative;
+    top: 3px;
+}
+
+.section {
+    /* background-color: #333; */
+    background: radial-gradient(ellipse at top left, #333, #222);
+    margin: 0px auto 30px auto;
+    padding: 0px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+.fadee {
+    background: linear-gradient(90deg, transparent 5%, #323232 50%, transparent 95%);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.sectionTitle {
+    font-size: 50px;
+    font-family: Roboto Bold, Arial, sans-serif;
+    color: #EEE;
+    line-height: 60px;
+}
+
+.sectionDesc {
+    font-size: 18px;
+    font-family: Roboto Thin, Arial, sans-serif;
+    color: #EEE;
+    line-height: 25px;
+}
+
+.faqBox {
+    width: 100%;
+    margin: 0px auto 25px auto;
+    text-align: center;
+}
+
+.faqBox:last-child {
+    margin-bottom: 0px;
+}
+
+.faqQ {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 33px;
+    font-family: Roboto Bold, Arial, sans-serif;
+    color: #FFF;
+}
+
+.faqA {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 22px;
+    font-family: Roboto Thin, Arial, sans-serif;
+    color: #CCC;
+}
+
+a { color: #FFF; transition: 0.2s; }
+/* color: #007BFF; */
+a:hover { color: cyan; text-decoration: none; }
+
+.textRight { text-align: right; }
+.textCenter { text-align: center; }
+
+hr { margin: 5px 0px; }
+
+/* background: linear-gradient(90deg, transparent 5%, #323232 50%, transparent 95%); */
+.separator {
+    margin: 5px 0px;
+    height: 1px;
+}
+.separator.l { background: linear-gradient(270deg, transparent 10%, #505050 50%); }
+.separator.r { background: linear-gradient(90deg, transparent 10%, #505050 50%); }
+
+[tooltip] {
+    position: relative;
+}
+
+[tooltip]:after {
+    content: attr(tooltip);
+    background-color: #111;
+    border-radius: 5px;
+    color: #CCC;
+    font-family: Roboto Thin, Arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    padding: 5px;
+    bottom: -2em;
+    left: 20%;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px rgba(50,50,50,0.5);
+    z-index: 9999999;
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+[tooltip]:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+#footer {
+    margin: 0px auto 25px auto;
+    font-family: Roboto Thin, Arial, sans-serif;
+    font-size: 15px;
+    color: #DDD;
+    line-height: 18px;
+}
+
+#footer img {
+    margin-right: 10px;
+}

@@ -1,0 +1,217 @@
+{
+    "GeneralEater_DamageDealers": {
+        "default_for_type": "weapon",
+        "0": {
+            "item_prefix": "Strange"
+        },
+        "10": {
+            "item_prefix": "Unremarkable"
+        },
+        "25": {
+            "item_prefix": "Scarcely Lethal"
+        },
+        "45": {
+            "item_prefix": "Mildly Menacing"
+        },
+        "70": {
+            "item_prefix": "Somewhat Threatening"
+        },
+        "100": {
+            "item_prefix": "Uncharitable"
+        },
+        "135": {
+            "item_prefix": "Notably Dangerous"
+        },
+        "175": {
+            "item_prefix": "Sufficiently Lethal"
+        },
+        "225": {
+            "item_prefix": "Truly Feared"
+        },
+        "275": {
+            "item_prefix": "Spectacularly Lethal"
+        },
+        "350": {
+            "item_prefix": "Gore-Spattered"
+        },
+        "500": {
+            "item_prefix": "Wicked Nasty"
+        },
+        "750": {
+            "item_prefix": "Positively Inhumane"
+        },
+        "999": {
+            "item_prefix": "Totally Ordinary"
+        },
+        "1000": {
+            "item_prefix": "Face-Melting"
+        },
+        "1500": {
+            "item_prefix": "Rage-Inducing"
+        },
+        "2500": {
+            "item_prefix": "Server-Clearing"
+        },
+        "5000": {
+            "item_prefix": "Epic"
+        },
+        "7500": {
+            "item_prefix": "Legendary"
+        },
+        "7500": {
+            "item_prefix": "Australian"
+        },
+        "8500": {
+            "item_prefix": "Hale's Own"
+        }
+    },
+    "GeneralEater_Cosmetics": {
+        "default_for_type": "cosmetic",
+        "0": {
+            "item_prefix": "Strange"
+        },
+        "15": {
+            "item_prefix": "Ragged"
+        },
+        "30": {
+            "item_prefix": "Tacky"
+        },
+        "50": {
+            "item_prefix": "Secondhand"
+        },
+        "75": {
+            "item_prefix": "Odious"
+        },
+        "100": {
+            "item_prefix": "Garish"
+        },
+        "135": {
+            "item_prefix": "Comfortable"
+        },
+        "175": {
+            "item_prefix": "Dapper"
+        },
+        "250": {
+            "item_prefix": "Sharp"
+        },
+        "375": {
+            "item_prefix": "Fancy"
+        },
+        "500": {
+            "item_prefix": "Fancy Shmancy"
+        },
+        "725": {
+            "item_prefix": "Fashionable"
+        },
+        "1000": {
+            "item_prefix": "Glamorous"
+        },
+        "1500": {
+            "item_prefix": "Posh"
+        },
+        "2000": {
+            "item_prefix": "Fabulous"
+        },
+        "2750": {
+            "item_prefix": "Stunning"
+        },
+        "4000": {
+            "item_prefix": "Epic"
+        },
+        "5500": {
+            "item_prefix": "Legendary"
+        },
+        "7500": {
+            "item_prefix": "Australian"
+        },
+        "10000": {
+            "item_prefix": "Mann Co. Select"
+        },
+        "15000": {
+            "item_prefix": "Mannceaux Signature Collection"
+        }
+    },
+    "GeneralEater_SoulCollecter": {
+        "0": {
+            "item_prefix": "Starving"
+        },
+        "40": {
+            "item_prefix": "Craving"
+        },
+        "100": {
+            "item_prefix": "Covetting"
+        },
+        "190": {
+            "item_prefix": "Lusting"
+        },
+        "320": {
+            "item_prefix": "Yearning"
+        },
+        "500": {
+            "item_prefix": "Numb"
+        },
+        "740": {
+            "item_prefix": "Stunned"
+        },
+        "1050": {
+            "item_prefix": "Dazed"
+        },
+        "1440": {
+            "item_prefix": "Fogged"
+        },
+        "1900": {
+            "item_prefix": "Insensible",
+            "item_style": 1
+        },
+        "2400": {
+            "item_prefix": "Ecstatic"
+        },
+        "2900": {
+            "item_prefix": "Delirious"
+        },
+        "3400": {
+            "item_prefix": "Elated"
+        },
+        "3900": {
+            "item_prefix": "Proud"
+        },
+        "4400": {
+            "item_prefix": "Euphoric"
+        },
+        "4900": {
+            "item_prefix": "Vigorous"
+        },
+        "5400": {
+            "item_prefix": "Fearsome"
+        },
+        "5900": {
+            "item_prefix": "Ferocious",
+            "item_style": 2
+        },
+        "6400": {
+            "item_prefix": "Sturdy"
+        },
+        "6900": {
+            "item_prefix": "Stout"
+        },
+        "7400": {
+            "item_prefix": "Astounding"
+        },
+        "7900": {
+            "item_prefix": "Mighty"
+        },
+        "8400": {
+            "item_prefix": "Epic"
+        },
+        "8900": {
+            "item_prefix": "Breathtaking"
+        },
+        "9400": {
+            "item_prefix": "New-Zealander"
+        },
+        "9900": {
+            "item_prefix": "Jane Doe’s Own",
+            "item_style": 3
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<?php
+$_CFG = [
+  /*
+  * Any changes you want to see in the config file...
+  * For example, if you want to change MYSQL connection info you enter this:
+  * ↓ ↓ ↓
+
+  "database" => [
+    "hostname" => "123.456.789.012",
+    "username" => "username",
+    "password" => "password",
+    "database" => "database"
+  ],
+  "website" => [
+    "cookie_domain" => "your.local.creators.tf.website.domain.here"
+  ]
+
+  * ↑ ↑ ↑
+  */
+];
+
+$Core->config = array_merge_recursive_ex($Core->config, $_CFG)
+?>

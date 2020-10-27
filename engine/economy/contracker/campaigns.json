@@ -1,0 +1,184 @@
+[{
+    "name": "Scream Fortress",
+    "title": "halloween",
+    "quests": [
+        "cp_gorge_event",
+        "cp_manor_event",
+        "koth_harvest_event",
+        "horseman",
+        "monoculus",
+        "merasmus",
+        "koth_lakeside_event",
+        "koth_viaduct_event",
+        "plr_hightower_event",
+        "sd_doomsday_event",
+        "koth_hauntson_event",
+        "koth_spillway_event",
+        "koth_synthetic_event",
+        "pd_scarab",
+        "pl_terror_event"
+
+    ],
+    "start_time": "2020-10-23 00:00:00",
+    "end_time": "2020-11-15 23:00:00",
+
+    "hooks": [{
+        "event": "LOGIC_COLLECT_SOULS"
+    }],
+
+    "campaign_items": [{
+        "item": "Tainted Tome",
+        "quality": 6,
+        "sync_strange_parts": [0]
+    }],
+
+    "levels": [{
+            "points": 40,
+            "reward": {
+                "type": "item",
+                "item": "Dreadful Dismal Cosmetic Crate"
+            }
+        }, {
+            "points": 100,
+            "reward": {
+                "type": "currency",
+                "amount": 200
+            }
+        }, {
+            "points": 190
+        }, {
+            "points": 320,
+            "reward": {
+                "type": "item",
+                "item": "Grave Digger's Goatee"
+            }
+        }, {
+            "points": 500,
+            "reward": {
+                "type": "item",
+                "item": "Pestilent Profession"
+            }
+        }, {
+            "points": 740,
+            "reward": {
+                "type": "item",
+                "item": "Doomed Seasonal Cosmetic Crate"
+            }
+        }, {
+            "points": 1050,
+            "reward": {
+                "type": "item",
+                "item": "Amphibeanie"
+            }
+        }, {
+            "points": 1440,
+            "reward": {
+                "type": "item",
+                "item": "Dreadful Dismal Cosmetic Crate"
+            }
+        }, {
+            "points": 1900,
+            "reward": {
+                "type": "upgrade_item",
+                "item": "Tainted Tome",
+                "name": "Bronze Tainted Tome",
+                "message": "Achievieng this level will upgrade your Tainted Tome to 'Bronze' style.",
+                "image": "{CDN}/assets/images/inventory/items/action/tome_bronze.png"
+            }
+        }, {
+            "points": 2400,
+            "reward": {
+                "type": "currency",
+                "amount": 500
+            }
+        }, {
+            "points": 2900
+        }, {
+            "points": 3400,
+            "reward": {
+                "type": "item",
+                "item": "Invisible Igniter"
+            }
+        }, {
+            "points": 3900,
+            "reward": {
+                "type": "item",
+                "item": "Co-Leader Cap"
+            }
+        }, {
+            "points": 4400,
+            "reward": {
+                "type": "item",
+                "item": "Doomed Seasonal Cosmetic Crate"
+            }
+        }, {
+            "points": 4900,
+            "reward": {
+                "type": "item",
+                "item": "Coxswain Coat"
+            }
+        }, {
+            "points": 5400,
+            "reward": {
+                "type": "item",
+                "item": "Dreadful Dismal Cosmetic Crate"
+            }
+        }, {
+            "points": 5900,
+            "reward": {
+                "type": "upgrade_item",
+                "item": "Tainted Tome",
+                "name": "Silver Tainted Tome",
+                "message": "Achievieng this level will upgrade your Tainted Tome to 'Silver' style.",
+                "image": "{CDN}/assets/images/inventory/items/action/tome_silver.png"
+            }
+        }, {
+            "points": 6400,
+            "reward": {
+                "type": "currency",
+                "amount": 1000
+            }
+        }, {
+            "points": 6900
+        }, {
+            "points": 7400,
+            "reward": {
+                "type": "item",
+                "item": "Combustible Cranium"
+            }
+        }, {
+            "points": 7900,
+            "reward": {
+                "type": "item",
+                "item": "Nightwalker's Necktie"
+            }
+        }, {
+            "points": 8400,
+            "reward": {
+                "type": "item",
+                "item": "Doomed Seasonal Cosmetic Crate"
+            }
+        }, {
+            "points": 8900,
+            "reward": {
+                "type": "item",
+                "item": "Keelhaul Kapitan"
+            }
+        }, {
+            "points": 9400,
+            "reward": {
+                "type": "item",
+                "item": "Dreadful Dismal Cosmetic Crate"
+            }
+        }, {
+            "points": 9900,
+            "reward": {
+                "type": "upgrade_item",
+                "item": "Tainted Tome",
+                "name": "Golden Tainted Tome",
+                "message": "Achievieng this level will upgrade your Tainted Tome to 'Golden' style.",
+                "image": "{CDN}/assets/images/inventory/items/action/tome_golden.png"
+            }
+        }
+    ]
+}]

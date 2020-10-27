@@ -1,0 +1,3740 @@
+{
+    "15": {
+        "name": "Stranded",
+        "title": "pl_stranded",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_classic_stranded.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_stranded"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Stranded",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Stranded",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Stranded",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "16": {
+        "name": "Synthetic",
+        "title": "koth_synthetic",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_classic_synthetic.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_synthetic"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Synthetic",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Synthetic",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Synthetic",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "17": {
+        "name": "ClearCut",
+        "title": "koth_clearcut",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_classic_clearcut.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_clearcut"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on ClearCut",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on ClearCut",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on ClearCut",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "20": {
+        "name": "Creators",
+        "title": "creators",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/node_view_contract_creators_main.jpg",
+        "class": "All Class",
+        "objectives": [{
+            "name": "Assist or kill an enemy on Creators.TF servers",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Dominate a player on Creators.TF servers",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Become the MVP of the round on Creators.TF servers",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 250
+        }]
+    },
+    "21": {
+        "name": "Dustbowl",
+        "title": "cp_dustbowl",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_dustbowl.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_dustbowl"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Dustbowl",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Dustbowl",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Dustbowl",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "22": {
+        "name": "Gorge",
+        "title": "cp_gorge",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_gorge.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_gorge"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Gorge",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Gorge",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Gorge",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "23": {
+        "name": "Steel",
+        "title": "cp_steel",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_steel.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_steel"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Steel",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Steel",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Steel",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "24": {
+        "name": "Upward",
+        "title": "pl_upward",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_upward.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_upward"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Upward",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Upward",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Upward",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "25": {
+        "name": "Badwater Basin",
+        "title": "pl_badwater",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_badwater.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_badwater"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Badwater Basin",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Badwater Basin",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Badwater Basin",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "26": {
+        "name": "Thunder Mountain",
+        "title": "pl_thundermountain",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_thundermountain.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_thundermountain"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Thunder Mountain",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Thunder Mountain",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Thunder Mountain",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "27": {
+        "name": "Harvest",
+        "title": "koth_harvest",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_harvest.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_harvest"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Harvest",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Harvest",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Harvest",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "28": {
+        "name": "Sawmill",
+        "title": "koth_sawmill",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_sawmill.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_sawmill"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Sawmill",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Sawmill",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Sawmill",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "29": {
+        "name": "Viaduct",
+        "title": "koth_viaduct",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_xms_viaduct.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_viaduct"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Viaduct",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Viaduct",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Viaduct",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "30": {
+        "name": "Vigil",
+        "title": "pl_vigil",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_vigil.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_vigil"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Vigil",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Vigil",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Vigil",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "31": {
+        "name": "Fifthcurve",
+        "title": "pl_fifthcurve",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_fifthcurve.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_fifthcurve"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Fifthcurve",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Fifthcurve",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Fifthcurve",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "32": {
+        "name": "Kalinka",
+        "title": "cp_kalinka",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_kalinka.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_kalinka"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Kalinka",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Kalinka",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Kalinka",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "33": {
+        "name": "Crate Smasher",
+        "title": "crate_smasher",
+        "image": "{CDN}/assets/images/contracker/nodes/node_view_contract_citadel.jpg",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "class": "All Class",
+        "restrictions": {
+            "ce_weapon": "Crate Smasher"
+        },
+        "objectives": [{
+            "name": "Get a kill with the Crate Smasher",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Get 3 kills with the Crate Smasher in a single life",
+            "points": 5,
+            "limit": 10,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Get 10 kills with the Crate Smasher in a single life",
+            "points": 10,
+            "limit": 5,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "required_items": [
+            "Crate Smasher"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }, {
+            "type": "item",
+            "index": 12
+        }]
+    },
+    "34": {
+        "name": "Slaughter",
+        "title": "koth_slaughter",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_slaughter.jpg",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_slaughter"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Slaughter",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Slaughter",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Slaughter",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "35": {
+        "name": "Spillway",
+        "title": "koth_spillway",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_spillway.jpg",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_spillway"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Spillway",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Spillway",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Spillway",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "36": {
+        "name": "Glassworks",
+        "title": "cp_glassworks",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_glassworks.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_glassworks"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Glassworks",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Glassworks",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Glassworks",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "37": {
+        "name": "The Gamma Gazer",
+        "title": "gamma_gazer",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/weapons/node_view_contract_gamma_gazer.jpg",
+        "class": "Engineer",
+        "restrictions": {
+            "ce_weapon": "Gamma Gazer"
+        },
+        "objectives": [{
+            "name": "Get a kill with the Gamma Gazer",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Remove a sapper with the Gamma Gazer",
+            "points": 6,
+            "limit": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_OBJECT_SAPPER"
+            }]
+        }, {
+            "name": "Get 5 kills with the Gamma Gazer in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "required_items": [
+            "Gamma Gazer"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }, {
+            "type": "item",
+            "index": 1003
+        }]
+    },
+    "38": {
+        "name": "The Thumper",
+        "title": "thumper",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/weapons/node_view_contract_rapidfire.jpg",
+        "class": "Multi Class",
+        "restrictions": {
+            "ce_weapon": "Thumper"
+        },
+        "objectives": [{
+            "name": "Kill an enemy with the Thumper",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Kill 3 enemies with the Thumper in a single life",
+            "points": 5,
+            "limit": 12,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "type": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Kill 2 enemies with the Thumper without holstering it",
+            "points": 10,
+            "limit": 5,
+            "end": 2,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "type": "reset",
+                "event": "LOGIC_WEAPON_SWITCH"
+            }]
+        }],
+        "required_items": [
+            "Thumper"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }, {
+            "type": "item",
+            "index": 1001
+        }]
+    },
+    "39": {
+        "name": "The Hypodermic Injector",
+        "title": "syringe",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/weapons/node_view_contract_syringe.jpg",
+        "class": "Medic Weapon",
+        "restrictions": {
+            "class": "medic"
+        },
+        "objectives": [{
+            "name": "Heal teammates for 300 HP",
+            "points": 5,
+            "end": 300,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_HEALING_TEAMMATES"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Earn an assist while healing a patient",
+            "points": 10,
+            "limit": 5,
+            "hooks": [{
+                "event": "LOGIC_ASSIST"
+            }]
+        }, {
+            "name": "Charge your teammate with the Hypodermic Injector",
+            "points": 20,
+            "limit": 7,
+            "restrictions": {
+                "ce_weapon": "Hypodermic Injector"
+            },
+            "hooks": [{
+                "event": "LOGIC_HEALING_TEAMMATES"
+            }]
+        }],
+        "required_items": [
+            "Hypodermic Injector"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }, {
+            "type": "item",
+            "index": 1002
+        }]
+    },
+    "40": {
+        "name": "Scout",
+        "title": "scout",
+        "icon": "{CDN}/assets/images/contracker/cyoa_scout_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_scout.jpg",
+        "class": "Scout",
+        "restrictions": {
+            "class": "scout"
+        },
+        "objectives": [{
+            "name": "Score points as Scout",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Capture an objective as Scout",
+            "points": 10,
+            "limit": 6,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE"
+            }]
+        }, {
+            "name": "Dominate a player as Scout",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "41": {
+        "name": "Soldier",
+        "title": "soldier",
+        "icon": "{CDN}/assets/images/contracker/cyoa_soldier_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_soldier.jpg",
+        "class": "Soldier",
+        "restrictions": {
+            "class": "soldier"
+        },
+        "objectives": [{
+            "name": "Score points as Soldier",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Kill while blast jumping as Soldier",
+            "points": 10,
+            "limit": 6,
+            "hooks": [{
+                "event": "LOGIC_KILL_WHILE_AIRBORNE"
+            }]
+        }, {
+            "name": "Dominate a player as Soldier",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "42": {
+        "name": "Pyro",
+        "title": "pyro",
+        "icon": "{CDN}/assets/images/contracker/cyoa_pyro_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_pyro.jpg",
+        "class": "Pyro",
+        "restrictions": {
+            "class": "pyro"
+        },
+        "objectives": [{
+            "name": "Score points as Pyro",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Environment kill as Pyro",
+            "points": 10,
+            "limit": 6,
+            "hooks": [{
+                "event": "LOGIC_KILL_ENVIRONMENTAL"
+            }]
+        }, {
+            "name": "Dominate a player as Pyro",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "43": {
+        "name": "Demoman",
+        "title": "demoman",
+        "icon": "{CDN}/assets/images/contracker/cyoa_demo_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_demo.jpg",
+        "class": "Demoman",
+        "restrictions": {
+            "class": "demoman"
+        },
+        "objectives": [{
+            "name": "Score points as Demoman",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Defend an objective as Demoman",
+            "points": 4,
+            "limit": 15,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_DEFEND"
+            }]
+        }, {
+            "name": "Dominate a player as Demoman",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "44": {
+        "name": "Heavy",
+        "title": "heavy",
+        "icon": "{CDN}/assets/images/contracker/cyoa_heavy_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_heavy.jpg",
+        "class": "Heavy",
+        "restrictions": {
+            "class": "heavy"
+        },
+        "objectives": [{
+            "name": "Score points as Heavy",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Take 1000 damage in a single life as Heavy",
+            "points": 20,
+            "limit": 3,
+            "end": 1000,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_TAKE_DAMAGE"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Dominate a player as Heavy",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "45": {
+        "name": "Engineer",
+        "title": "engineer",
+        "icon": "{CDN}/assets/images/contracker/cyoa_engineer_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_engie.jpg",
+        "class": "Engineer",
+        "restrictions": {
+            "class": "engineer"
+        },
+        "objectives": [{
+            "name": "Score points as Engineer",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Get 3 kills with a single Sentry Gun",
+            "points": 10,
+            "limit": 6,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL_WITH_OBJECT"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_OBJECT_DESTROYED_SENTRY"
+            }]
+        }, {
+            "name": "Dominate a player as Engineer",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "46": {
+        "name": "Medic",
+        "title": "medic",
+        "icon": "{CDN}/assets/images/contracker/cyoa_medic_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_medic.jpg",
+        "class": "Medic",
+        "restrictions": {
+            "class": "medic"
+        },
+        "objectives": [{
+            "name": "Score points as Medic",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Get an assist with an Ubered teammate",
+            "points": 10,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_ASSIST_WHILE_UBERCHARGED"
+            }]
+        }, {
+            "name": "Assist in destroying a sentry while Ubered",
+            "points": 10,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_ASSIST_WHILE_UBERCHARGED_OBJECT_SENTRY"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "47": {
+        "name": "Sniper",
+        "title": "sniper",
+        "icon": "{CDN}/assets/images/contracker/cyoa_sniper_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_sniper.jpg",
+        "class": "Sniper",
+        "restrictions": {
+            "class": "sniper"
+        },
+        "objectives": [{
+            "name": "Score points as Sniper",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Headshot kill as Sniper",
+            "points": 4,
+            "limit": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_HEADSHOT"
+            }]
+        }, {
+            "name": "Dominate a player as Sniper",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "48": {
+        "name": "Spy",
+        "title": "spy",
+        "icon": "{CDN}/assets/images/contracker/cyoa_spy_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_spy.jpg",
+        "class": "Spy",
+        "restrictions": {
+            "class": "spy"
+        },
+        "objectives": [{
+            "name": "Score points as Spy",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Get a Backstab",
+            "points": 6,
+            "limit": 10,
+            "hooks": [{
+                "event": "LOGIC_KILL_BACKSTAB"
+            }]
+        }, {
+            "name": "Dominate a player as Spy",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 350
+        }]
+    },
+    "49": {
+        "name": "Offense",
+        "title": "offense",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/node_view_contract_offense.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "team_role": "OFFENSE"
+        },
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }],
+        "objectives": [{
+            "name": "Get a kill on offense",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Capture an objective",
+            "points": 10,
+            "limit": 6,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE"
+            }]
+        }, {
+            "name": "Dominate another player while on offense",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }]
+    },
+    "50": {
+        "name": "Defense",
+        "title": "defense",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/node_view_contract_defense.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "team_role": "DEFENSE"
+        },
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }],
+        "objectives": [{
+            "name": "Score points on defense",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_SCORE_POINTS"
+            }]
+        }, {
+            "name": "Defend an objective",
+            "points": 3,
+            "limit": 10,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_DEFEND"
+            }]
+        }, {
+            "name": "Win a round on defense",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_WIN"
+            }]
+        }]
+    },
+    "51": {
+        "name": "Product",
+        "title": "koth_product",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_product.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_product"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Product",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Product",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Product",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "52": {
+        "name": "Harvest Alpine",
+        "title": "koth_harvestalpine",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_harvestalpine.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_harvestalpine"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Harvest Alpine",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Harvest Alpine",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Harvest Alpine",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "53": {
+        "name": "Summercoast",
+        "title": "pl_summercoast",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_summercoast.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_summercoast"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Summercoast",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Summercoast",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Summercoast",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "54": {
+        "name": "Barnblitz Pro",
+        "title": "pl_barnblitz_pro",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_barnblitzpro.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_barnblitz_pro"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Barnblitz Pro",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Barnblitz Pro",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Barnblitz Pro",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "55": {
+        "name": "Badwater Pro",
+        "title": "pl_badwater_pro",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_badwaterpro.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_badwater_pro"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Badwater Pro",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Badwater Pro",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Badwater Pro",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "56": {
+        "name": "Borneo",
+        "title": "pl_borneo",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_borneo.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_borneo"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Borneo",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Borneo",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Borneo",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "57": {
+        "name": "Suijin",
+        "title": "koth_suijin",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_suijin.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_suijin"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Suijin",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Suijin",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Suijin",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "58": {
+        "name": "Sunshine",
+        "title": "cp_sunshine",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_sunshine.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_sunshine"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Sunshine",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Sunshine",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Sunshine",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "59": {
+        "name": "Powerhouse",
+        "title": "cp_powerhouse",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_powerhouse.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_powerhouse"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Powerhouse",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Powerhouse",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Powerhouse",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "60": {
+        "name": "Mossrock",
+        "title": "cp_mossrock",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_mossrock.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_mossrock"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Mossrock",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Mossrock",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Mossrock",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "61": {
+        "name": "Mercenary Park",
+        "title": "cp_mercenarypark",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_mercenarypark.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_mercenarypark"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Mercenary Park",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Mercenary Park",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Mercenary Park",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "62": {
+        "name": "Swiftwater",
+        "title": "pl_swiftwater",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_swiftwater.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_swiftwater"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Swiftwater",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Swiftwater",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Swiftwater",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "63": {
+        "name": "Lakeside",
+        "title": "koth_lakeside",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_lakeside.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_lakeside"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Lakeside",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Lakeside",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Lakeside",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "64": {
+        "name": "Databank",
+        "title": "koth_databank",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_databank.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_databank"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Databank",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Databank",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Databank",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "65": {
+        "name": "Sludgepit",
+        "title": "pl_sludgepit",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_sludgepit.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_sludgepit"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Sludgepit",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Sludgepit",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Sludgepit",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "66": {
+        "name": "Rumble",
+        "title": "cp_rumble",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_rumble.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_rumble"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Rumble",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Rumble",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Rumble",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "67": {
+        "name": "The W.A.S.P. Launcher",
+        "title": "wasp_launcher",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/weapons/node_view_contract_wasp_launcher.jpg",
+        "class": "Soldier",
+        "restrictions": {
+            "ce_weapon": "W.A.S.P. Launcher"
+        },
+        "objectives": [{
+            "name": "Get a kill with the W.A.S.P. Launcher",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Get 3 kills with the W.A.S.P. Launcher in a single life",
+            "points": 5,
+            "limit": 20,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Get 5 kills with the W.A.S.P. Launcher in a single life",
+            "points": 10,
+            "limit": 15,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "required_items": [
+            "W.A.S.P. Launcher"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 250
+        }, {
+            "type": "item",
+            "index": 1006
+        }]
+    },
+    "68": {
+        "name": "The Bolshevik Bomber",
+        "title": "bolshevik_bomber",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/weapons/node_view_contract_bolshevik_bomber.jpg",
+        "class": "Heavy",
+        "restrictions": {
+            "ce_weapon": "Bolshevik Bomber"
+        },
+        "objectives": [{
+            "name": "Get a kill with the Bolshevik Bomber",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Get 3 kills with the Bolshevik Bomber in a single life",
+            "points": 5,
+            "limit": 20,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Get 5 kills with the Bolshevik Bomber in a single life",
+            "points": 10,
+            "limit": 15,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "required_items": [
+            "Bolshevik Bomber"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 250
+        }, {
+            "type": "item",
+            "index": 1005
+        }]
+    },
+    "69": {
+        "name": "The Carved Cutter",
+        "title": "carved_cutter",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/weapons/node_view_contract_carved_cutter.jpg",
+        "class": "Spy",
+        "restrictions": {
+            "ce_weapon": "Carved Cutter"
+        },
+        "objectives": [{
+            "name": "Get a kill with the Carved Cutter",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL"
+            }]
+        }, {
+            "name": "Get 3 kills with the Carved Cutter in a single life",
+            "points": 5,
+            "limit": 20,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Get 5 kills with the Carved Cutter in a single life",
+            "points": 10,
+            "limit": 15,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "required_items": [
+            "Carved Cutter"
+        ],
+        "rewards": [{
+            "type": "currency",
+            "amount": 250
+        }, {
+            "type": "item",
+            "index": 1004
+        }]
+    },
+    "70": {
+        "name": "Advanced Scout",
+        "title": "scout_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_scout_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_scout.jpg",
+        "class": "Scout",
+        "restrictions": {
+            "class": "scout"
+        },
+        "objectives": [{
+            "name": "Capture an objective as Scout",
+            "points": 10,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE"
+            }]
+        }, {
+            "name": "Dominate a player as Scout",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Scout in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "71": {
+        "name": "Expert Scout",
+        "title": "scout_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_scout_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_scout.jpg",
+        "class": "Scout",
+        "restrictions": {
+            "class": "scout"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Scout",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Scout in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Scout",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "72": {
+        "name": "Advanced Soldier",
+        "title": "soldier_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_soldier_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_soldier.jpg",
+        "class": "Soldier",
+        "restrictions": {
+            "class": "soldier"
+        },
+        "objectives": [{
+            "name": "Kill while blast jumping as Soldier",
+            "points": 3,
+            "hooks": [{
+                "event": "LOGIC_KILL_WHILE_AIRBORNE"
+            }]
+        }, {
+            "name": "Dominate a player as Soldier",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Soldier in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "73": {
+        "name": "Expert Soldier",
+        "title": "soldier_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_soldier_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_soldier.jpg",
+        "class": "Soldier",
+        "restrictions": {
+            "class": "soldier"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Soldier",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Soldier in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Soldier",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "74": {
+        "name": "Advanced Pyro",
+        "title": "pyro_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_pyro_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_pyro.jpg",
+        "class": "Pyro",
+        "restrictions": {
+            "class": "pyro"
+        },
+        "objectives": [{
+            "name": "Kill with a reflected projectile as a Pyro",
+            "points": 10,
+            "hooks": [{
+                "event": "LOGIC_KILL_WITH_REFLECT"
+            }]
+        }, {
+            "name": "Dominate a player as Pyro",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Pyro in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "75": {
+        "name": "Expert Pyro",
+        "title": "pyro_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_pyro_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_pyro.jpg",
+        "class": "Pyro",
+        "restrictions": {
+            "class": "pyro"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Pyro",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Pyro in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Pyro",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "76": {
+        "name": "Advanced Demoman",
+        "title": "demoman_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_demo_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_demo.jpg",
+        "class": "Demoman",
+        "restrictions": {
+            "class": "demoman"
+        },
+        "objectives": [{
+            "name": "Defend an objective as Demoman",
+            "points": 4,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_DEFEND"
+            }]
+        }, {
+            "name": "Dominate a player as Demoman",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Demoman in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "77": {
+        "name": "Expert Demoman",
+        "title": "demoman_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_demo_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_demo.jpg",
+        "class": "Demoman",
+        "restrictions": {
+            "class": "demoman"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Demoman",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Demoman in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Demoman",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "78": {
+        "name": "Advanced Heavy",
+        "title": "heavy_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_heavy_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_heavy.jpg",
+        "class": "Heavy",
+        "restrictions": {
+            "class": "heavy"
+        },
+        "objectives": [{
+            "name": "Capture or defend an objective as Heavy",
+            "points": 3,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE_OR_DEFEND"
+            }]
+        }, {
+            "name": "Dominate a player as Heavy",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Heavy in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "79": {
+        "name": "Expert Heavy",
+        "title": "heavy_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_heavy_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_heavy.jpg",
+        "class": "Heavy",
+        "restrictions": {
+            "class": "heavy"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Heavy",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Heavy in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Heavy",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "80": {
+        "name": "Advanced Engineer",
+        "title": "engineer_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_engineer_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_engie.jpg",
+        "class": "Engineer",
+        "restrictions": {
+            "class": "engineer"
+        },
+        "objectives": [{
+            "name": "Get 3 kills with a single Sentry Gun",
+            "points": 10,
+            "end": 3,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL_WITH_OBJECT"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_OBJECT_DESTROYED_SENTRY"
+            }]
+        }, {
+            "name": "Dominate a player as Engineer",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Engineer in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "81": {
+        "name": "Expert Engineer",
+        "title": "engineer_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_engineer_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_engie.jpg",
+        "class": "Engineer",
+        "restrictions": {
+            "class": "engineer"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Engineer",
+            "points": 10,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Engineer in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Engineer",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "82": {
+        "name": "Advanced Medic",
+        "title": "medic_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_medic_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_medic.jpg",
+        "class": "Medic",
+        "restrictions": {
+            "class": "medic"
+        },
+        "objectives": [{
+            "name": "Get an assist with an Ubered teammate",
+            "points": 4,
+            "hooks": [{
+                "event": "LOGIC_ASSIST_WHILE_UBERCHARGED"
+            }]
+        }, {
+            "name": "Assist in destroying a sentry while Ubered",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_ASSIST_WHILE_UBERCHARGED_OBJECT_SENTRY"
+            }]
+        }, {
+            "name": "Dominate a player as Medic",
+            "points": 15,
+            "limit": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "83": {
+        "name": "Expert Medic",
+        "title": "medic_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_medic_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_medic.jpg",
+        "class": "Medic",
+        "restrictions": {
+            "class": "medic"
+        },
+        "objectives": [{
+            "name": "Assist in destroying a sentry while Ubered",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_ASSIST_WHILE_UBERCHARGED_OBJECT_SENTRY"
+            }]
+        }, {
+            "name": "Dominate a player as Medic",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Be MVP as Medic",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "84": {
+        "name": "Advanced Sniper",
+        "title": "sniper_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_sniper_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_sniper.jpg",
+        "class": "Sniper",
+        "restrictions": {
+            "class": "sniper"
+        },
+        "objectives": [{
+            "name": "Headshot kill as Sniper",
+            "points": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_HEADSHOT"
+            }]
+        }, {
+            "name": "Dominate a player as Sniper",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Sniper in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "85": {
+        "name": "Expert Sniper",
+        "title": "sniper_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_sniper_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_sniper.jpg",
+        "class": "Sniper",
+        "restrictions": {
+            "class": "sniper"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Sniper",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Sniper in a single life",
+            "points": 10,
+            "limit": 6,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Sniper",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "86": {
+        "name": "Advanced Spy",
+        "title": "spy_advanced",
+        "icon": "{CDN}/assets/images/contracker/cyoa_spy_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_spy.jpg",
+        "class": "Spy",
+        "restrictions": {
+            "class": "spy"
+        },
+        "objectives": [{
+            "name": "Get a Backstab",
+            "points": 6,
+            "hooks": [{
+                "event": "LOGIC_KILL_BACKSTAB"
+            }]
+        }, {
+            "name": "Dominate a player as Spy",
+            "points": 15,
+            "limit": 4,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Spy in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 450
+        }]
+    },
+    "87": {
+        "name": "Expert Spy",
+        "title": "spy_expert",
+        "icon": "{CDN}/assets/images/contracker/cyoa_spy_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/class/node_view_contract_spy.jpg",
+        "class": "Spy",
+        "restrictions": {
+            "class": "spy"
+        },
+        "objectives": [{
+            "name": "Dominate a player as Spy",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_KILL_DOMINATE"
+            }]
+        }, {
+            "name": "Get 5 kills as Spy in a single life",
+            "points": 10,
+            "limit": 3,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_KILL"
+            }, {
+                "action": "reset",
+                "event": "LOGIC_SPAWN"
+            }]
+        }, {
+            "name": "Be MVP as Spy",
+            "points": 30,
+            "limit": 1,
+            "hooks": [{
+                "event": "LOGIC_MVP"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 550
+        }]
+    },
+    "88": {
+        "name": "Gullywash",
+        "title": "cp_gullywash",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_gullywash.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_gullywash"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Gullywash",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Gullywash",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Gullywash",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "89": {
+        "name": "Gravel Pit",
+        "title": "cp_gravelpit",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_gravelpit.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_gravelpit"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Gravel Pit",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Gravel Pit",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Gravel Pit",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "90": {
+        "name": "Mountain Lab",
+        "title": "cp_mountainlab",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_mountainlab.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_mountainlab"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Mountain Lab",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Mountain Lab",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Mountain Lab",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "91": {
+        "name": "Process",
+        "title": "cp_process",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_process.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_process"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Process",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Process",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Process",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "92": {
+        "name": "Snakewater",
+        "title": "cp_snakewater",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_snakewater.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_snakewater"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Snakewater",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Snakewater",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Snakewater",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "93": {
+        "name": "Yukon",
+        "title": "cp_yukon",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_yukon.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "cp_yukon"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Yukon",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Yukon",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Yukon",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "94": {
+        "name": "Kong King",
+        "title": "koth_king",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_kongking.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_king"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Kong King",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Kong King",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Kong King",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "95": {
+        "name": "Banana Bay",
+        "title": "plr_bananabay",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_bananabay.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "plr_bananabay"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Banana Bay",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Banana Bay",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Banana Bay",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "96": {
+        "name": "Nightfall",
+        "title": "plr_nightfall",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_nightfall.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "plr_nightfall"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Nightfall",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Nightfall",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Nightfall",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "97": {
+        "name": "Pipeline",
+        "title": "plr_pipeline",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_pipeline.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "plr_pipeline"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Pipeline",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Pipeline",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Pipeline",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "100": {
+        "name": "Bagel",
+        "title": "koth_bagel_fall",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_bagel.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_bagel_fall"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Bagel",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Bagel",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Bagel",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "101": {
+        "name": "Camber",
+        "title": "pl_camber",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_camber.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "pl_camber"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Camber",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Push the cart on Camber",
+            "points": 2,
+            "limit": 20,
+            "end": 15,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_PAYLOAD_PUSH"
+            }]
+        }, {
+            "name": "Defend the cart on Camber",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "103": {
+        "name": "Gibson",
+        "title": "koth_gibson",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_gibson.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_gibson"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Gibson",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Gibson",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Gibson",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "104": {
+        "name": "Harter",
+        "title": "koth_harter",
+        "icon": "{CDN}/assets/images/contracker/cyoa_classchoice_icon.svg",
+        "image": "{CDN}/assets/images/contracker/nodes/maps/node_view_contract_harter.jpg",
+        "class": "All Class",
+        "restrictions": {
+            "map": "koth_harter"
+        },
+        "objectives": [{
+            "name": "Assist or kill an enemy on Harter",
+            "points": 2,
+            "hooks": [{
+                "event": "LOGIC_KILL_OR_ASSIST"
+            }]
+        }, {
+            "name": "Capture the point on Harter",
+            "points": 5,
+            "limit": 20,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Defend the point on Harter",
+            "points": 10,
+            "limit": 7,
+            "hooks": [{
+                "event": "LOGIC_DEFEND_POINT"
+            }]
+        }],
+        "rewards": [{
+            "type": "currency",
+            "amount": 300
+        }]
+    },
+    "105": {
+        "name": "Carnival of Carnage",
+        "title": "sd_doomsday_event",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_merasmus.png",
+        "postfix": "MP",
+        "restrictions": {
+            "map": "sd_doomsday_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Carnival of Carnage",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Revive a teammate during bumper cars",
+            "points": 2,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_BUMPER_CARS_REVIVE"
+            }]
+        }, {
+            "name": "Collect 5 ducks",
+            "points": 1,
+            "limit": 0,
+            "end": 5,
+            "hooks": [{
+                "action": "increment",
+                "event": "LOGIC_COLLECT_DUCK"
+            }]
+        }, {
+            "name": "Collect a Halloween Pumpkin",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_CRIT_PUMPKIN"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "106": {
+        "name": "Eyeaduct",
+        "title": "koth_viaduct_event",
+        "postfix": "MP",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_monoculus.png",
+        "objectives": [{
+            "name": "Collect souls on Eyeaduct",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Kill a player scared by the ghost",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_STUNNED"
+            }]
+        }, {
+            "name": "Collect a Halloween Pumpkin",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_CRIT_PUMPKIN"
+            }]
+        }, {
+            "name": "Escape from the Purgatory",
+            "points": 10,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_ESCAPE_UNDERWORLD"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "107": {
+        "name": "Ghost Fort",
+        "title": "koth_lakeside_event",
+        "postfix": "MP",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_merasmus.png",
+        "objectives": [{
+            "name": "Collect souls on Ghost Fort",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Collect a Halloween Pumpkin",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_CRIT_PUMPKIN"
+            }]
+        }, {
+            "name": "Capture or Defend an objective on Mann Manor",
+            "points": 7,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE_OR_DEFEND"
+            }]
+        }, {
+            "name": "Escape Skull Island on Ghost Fort",
+            "points": 30,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_ESCAPE_LOOT_ISLAND"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "108": {
+        "name": "Mann Manor",
+        "title": "cp_manor_event",
+        "postfix": "MP",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_horseman.png",
+        "restrictions": {
+            "map": "cp_manor_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Mann Manor",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Capture or Defend an objective on Mann Manor",
+            "points": 7,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE_OR_DEFEND"
+            }]
+        }, {
+            "name": "Tag a player as 'IT' on Mann Manor",
+            "points": 10,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_HHH_TARGET_IT"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "109": {
+        "name": "Harvest Event",
+        "title": "koth_harvest_event",
+        "postfix": "MP",
+        "restrictions": {
+            "map": "koth_harvest_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Harvest Event",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Kill a scared enemy on Harvest Event",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_STUNNED"
+            }]
+        }, {
+            "name": "Collect a Halloween Pumpkin on Harvest Event",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_CRIT_PUMPKIN"
+            }]
+        }, {
+            "name": "Kill with a pumpkin bomb",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_PUMPKIN_BOMB"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "110": {
+        "name": "Helltower",
+        "title": "plr_hightower_event",
+        "postfix": "MP",
+        "restrictions": {
+            "map": "plr_hightower_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Helltower",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Kill a skeleton on Helltower",
+            "points": 2,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_SKELETON_KILL"
+            }]
+        }, {
+            "name": "Kill an enemy in Hell on Helltower",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_IN_HELL"
+            }]
+        }, {
+            "name": "(Advanced) Reach the Bombinomicon in Helltower",
+            "points": 20,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_ESCAPE_HELL"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "111": {
+        "name": "Gorge Event",
+        "title": "cp_gorge_event",
+        "postfix": "MP",
+        "restrictions": {
+            "map": "cp_gorge_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Gorge Event",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Collect a Halloween Pumpkin",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_CRIT_PUMPKIN"
+            }]
+        }, {
+            "name": "Kill with a pumpkin bomb",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_PUMPKIN_BOMB"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "112": {
+        "name": "Merasmus",
+        "title": "merasmus",
+        "postfix": "MP",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_merasmus.png",
+        "restrictions": {
+            "map": "koth_lakeside_event"
+        },
+        "objectives": [{
+            "name": "Stun Merasmus",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_MERASMUS_STUN"
+            }]
+        }, {
+            "name": "Find Merasmus's hiding place",
+            "points": 30,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_MERASMUS_PROP_FOUND"
+            }]
+        }, {
+            "name": "(Advanced) Kill Merasmus",
+            "points": 50,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_MERASMUS_KILL"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "113": {
+        "name": "Monoculus",
+        "title": "monoculus",
+        "postfix": "MP",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_monoculus.png",
+        "restrictions": {
+            "map": "koth_viaduct_event"
+        },
+        "objectives": [{
+            "name": "Stun Monoculus",
+            "points": 15,
+            "hooks": [{
+                "event": "LOGIC_EYEBALL_STUN"
+            }]
+        }, {
+            "name": "(Advanced) Kill Monoculus on Eyeaduct",
+            "points": 40,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_EYEBALL_KILL"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "114": {
+        "name": "Horseless Headless Horsemann",
+        "postfix": "MP",
+        "title": "horseman",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_horseman.png",
+        "objectives": [{
+            "name": "(Advanced) Kill Horseless Headless Horsemann",
+            "points": 100,
+            "hooks": [{
+                "event": "LOGIC_HHH_KILL"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "115": {
+        "name": "Hauntson",
+        "postfix": "MP",
+        "title": "koth_hauntson_event",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_bombinomicon.png",
+        "restrictions": {
+            "map": "koth_hauntson_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Hauntson",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Kill an enemy with magic on Hauntson",
+            "points": 4,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_MAGIC"
+            }]
+        }, {
+            "name": "Kill with a pumpkin bomb on Hauntson",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_PUMPKIN_BOMB"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "116": {
+        "name": "Scarab",
+        "postfix": "MP",
+        "title": "pd_scarab",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_scarab.png",
+        "restrictions": {
+            "map": "pd_scarab"
+        },
+        "objectives": [{
+            "name": "Collect souls on Scarab",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Collect haunted souls on Scarab",
+            "points": 2,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_PICKUP_FLAG"
+            }]
+        }, {
+            "name": "Kill enemy team leader on Scarab",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_LEADER"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "117": {
+        "name": "Spellway",
+        "postfix": "MP",
+        "title": "koth_spillway_event",
+        "image": "{CDN}/assets/images/tf_campaign/halloween/quests/contracts_papers_tesla.png",
+        "restrictions": {
+            "map": "koth_spillway_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Spellway",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Capture or Defend an objective on Spellway",
+            "points": 7,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE_OR_DEFEND"
+            }]
+        }, {
+            "name": "Kill with a pumpkin bomb on Spellway",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_PUMPKIN_BOMB"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "118": {
+        "name": "Sinthetic",
+        "postfix": "MP",
+        "title": "koth_synthetic_event",
+        "restrictions": {
+            "map": "koth_synthetic_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Sinthetic",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Capture or Defend an objective on Sinthetic",
+            "points": 7,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_OBJECTIVE_CAPTURE_OR_DEFEND"
+            }]
+        }, {
+            "name": "Kill with a pumpkin bomb on Sinthetic",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_PUMPKIN_BOMB"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    },
+    "119": {
+        "name": "Terror",
+        "postfix": "MP",
+        "title": "pl_terror_event",
+        "restrictions": {
+            "map": "pl_terror_event"
+        },
+        "objectives": [{
+            "name": "Collect souls on Terror",
+            "points": 1,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_SOULS"
+            }]
+        }, {
+            "name": "Capture or defend an objective on Terror",
+            "points": 7,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_CAPTURE_POINT"
+            }]
+        }, {
+            "name": "Collect a Halloween Pumpkin",
+            "points": 3,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_COLLECT_CRIT_PUMPKIN"
+            }]
+        }, {
+            "name": "Kill with a pumpkin bomb on Terror",
+            "points": 5,
+            "limit": 0,
+            "hooks": [{
+                "event": "LOGIC_KILL_PUMPKIN_BOMB"
+            }]
+        }],
+        "rewards": [{
+            "type": "campaign_points",
+            "campaign": "halloween",
+            "amount": 250
+        }]
+    }
+}

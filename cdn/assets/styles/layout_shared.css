@@ -1,0 +1,56 @@
+.ws-info {
+  background: #1a1917;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.nav-primary-hor {
+  list-style: none;
+  height: inherit;
+  cursor: pointer;
+}
+
+.nav-primary-hor:last-child {
+  margin-bottom: 0;
+}
+
+.nav-primary-hor:first-child {
+  margin-top: 0;
+}
+
+.nav-primary-hor ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.nav-primary-hor li {
+  color: #777777;
+  display: inline-block;
+  padding: 0 10px;
+  transition: color .2s ease;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-primary-hor li:hover:not(.active) {
+  color: #bbb;
+}
+
+.input-height, .input-height *{
+  line-height: 37px;
+  height: 37px;
+}
+
+.input-height, .input-height * {
+  line-height: 37px;
+  height: 37px;
+}
+
+.noradius {
+    border-radius: 0;
+}

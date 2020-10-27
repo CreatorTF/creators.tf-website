@@ -1,0 +1,22 @@
+.vscode
+
+# Ignore all minified files, we're minifiyng them on production
+*.min.*
+
+# This file is a "Site Disabled" flag
+/WEB_DISABLED
+
+# This file is unique to each developer that is editing the site
+/dev.config.php
+
+# Robots file
+/robots.txt
+
+/[0-9]*
+
+# Prevent duplicate/ not needed files being commited.
+cdn/assets/glbs/cosmetics/*/pocket_kitty.glb
+cdn/assets/glbs/cosmetics/*/usual_locked_style.glb
+cdn/assets/glbs/cosmetics/*/gravel_blooded_mercenaries_style_2.glb
+cdn/assets/glbs/cosmetics/Pyro/present_from.glb
+cdn/assets/glbs/cosmetics/*/medical_substitute.glb
