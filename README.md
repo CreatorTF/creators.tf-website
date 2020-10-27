@@ -1,2 +1,2 @@
 # creators.tf-website
-The code that powers the website on https://creators.tf
+This is a copy of the live website repo, including the item economy logic, from the 25th of October, 2020.
